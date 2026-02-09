@@ -43,3 +43,13 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
+
+this is just text
+
+::: {#assignment-1}
+<p><iframe width="100%" height="800" src="https://docs.google.com/document/d/1fqvFFV5XeH3AiVmMkwijXvOiO78G-ASnnm16e_2jPmw/preview?pli=1"></iframe></p>
+
+caption
+:::
+
+Another good idea is to create a discord webhook that connects to the quarto listings or RSS feed? in combo with the extension that lets you schedule pages?

@@ -1,0 +1,19 @@
+---
+title: Week 1 Overview
+format: html
+---
+
+Info for Week 1
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.DataFrame({'Animal': ['Capybara', 'Cat', 'Wombat'], 'Weight': [20, 50, 80]})
+
+# Overwrite df with the sorted version
+df = df.sort_values('Weight', ascending=False)
+
+plt.bar(x=df['Animal'], height=df['Weight'])
+plt.show()
+
+```

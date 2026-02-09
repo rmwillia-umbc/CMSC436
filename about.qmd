@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-About this site
+This is an alpha test of trying to rely less on blackboard because it infuriates me. Seriously the rage I feel when interacting with BB is beyond compare.

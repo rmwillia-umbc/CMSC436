@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Phase 0: Individual Project Pitch – Data Visualization (CMSC 436 and 636) with Dr.&nbsp;Williams</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Data Visualization (CMSC 436 and 636) with Dr.&nbsp;Williams</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ai-use-policy-for-this-assignment" id="toc-ai-use-policy-for-this-assignment" class="nav-link active" data-scroll-target="#ai-use-policy-for-this-assignment">AI Use Policy for this Assignment</a></li>
+  <li><a href="#assignment-objectives" id="toc-assignment-objectives" class="nav-link" data-scroll-target="#assignment-objectives">Assignment Objectives</a></li>
+  <li><a href="#developing-your-pitch" id="toc-developing-your-pitch" class="nav-link" data-scroll-target="#developing-your-pitch">Developing Your Pitch</a>
+  <ul class="collapse">
+  <li><a href="#identify-the-domain-subject-area" id="toc-identify-the-domain-subject-area" class="nav-link" data-scroll-target="#identify-the-domain-subject-area">1. Identify the domain (subject area)</a></li>
+  <li><a href="#describe-a-target-user-of-your-vis" id="toc-describe-a-target-user-of-your-vis" class="nav-link" data-scroll-target="#describe-a-target-user-of-your-vis">2. Describe a target user of your vis</a></li>
+  <li><a href="#describe-the-main-tasks" id="toc-describe-the-main-tasks" class="nav-link" data-scroll-target="#describe-the-main-tasks">3. Describe the main <strong>task(s)</strong></a></li>
+  <li><a href="#identify-one-or-more-datasets" id="toc-identify-one-or-more-datasets" class="nav-link" data-scroll-target="#identify-one-or-more-datasets">4. Identify one or more datasets</a></li>
+  <li><a href="#find-link-and-briefly-describe-related-work" id="toc-find-link-and-briefly-describe-related-work" class="nav-link" data-scroll-target="#find-link-and-briefly-describe-related-work">5. Find, link, and briefly describe related work</a></li>
+  </ul></li>
+  <li><a href="#posting-your-pitch" id="toc-posting-your-pitch" class="nav-link" data-scroll-target="#posting-your-pitch">Posting Your Pitch</a>
+  <ul class="collapse">
+  <li><a href="#perusing-classmates-pitches" id="toc-perusing-classmates-pitches" class="nav-link" data-scroll-target="#perusing-classmates-pitches">Perusing Classmates’ Pitches</a></li>
+  </ul></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a>
+  <ul class="collapse">
+  <li><a href="#originality-checks" id="toc-originality-checks" class="nav-link" data-scroll-target="#originality-checks">Originality Checks</a></li>
+  <li><a href="#rubric" id="toc-rubric" class="nav-link" data-scroll-target="#rubric">Rubric</a></li>
+  </ul></li>
+  <li><a href="#faqs" id="toc-faqs" class="nav-link" data-scroll-target="#faqs">FAQ’s</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Phase 0: Individual Project Pitch</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Due Date: 2/16/26</p>
+<section id="ai-use-policy-for-this-assignment" class="level1">
+<h1>AI Use Policy for this Assignment</h1>
+<div style="font-size: 0.8rem;">
+<table class="table-striped table-bordered faq-callout caption-top table">
+<caption>AI Policy for Individual Project Pitch</caption>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 30%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Ok or nah?</th>
+<th style="text-align: left;">For what?</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><button class="btn btn-success rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.75rem; "> can use </button></td>
+<td style="text-align: left;"><strong>Initial data scouting</strong></td>
+<td style="text-align: left;">✅ “I am interested in bird migration; where can I find public .csv datasets for this?”</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><button class="btn btn-danger rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.75rem; "> don’t use </button></td>
+<td style="text-align: left;"><strong>Verifying data quality or availability</strong></td>
+<td style="text-align: left;">❌ Asking AI “Is this link active?” or “Is this data good?” AI often hallucinates working links. <strong>You MUST</strong> follow the link yourself, ensure the file is readable, and verify the documentation is valid.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><button class="btn btn-danger rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.75rem; "> don’t use </button></td>
+<td style="text-align: left;"><strong>Generating ideas, domains, tasks, or related work summaries</strong></td>
+<td style="text-align: left;">❌ <strong>Idea Gen:</strong> “Give me 5 ideas for a data vis project.”<br> ❌ <strong>Related Work:</strong> “Summarize these three papers for me so I can put them in my pitch.”<br> ❌<strong>Using AI to “polish” your pitch:</strong> I want your specific thoughts, not generic “ad-copy” sounding text!</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><button class="btn btn-danger rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.75rem; "> don’t use </button></td>
+<td style="text-align: left;"><strong>Writing any part of your self- intro</strong></td>
+<td style="text-align: left;">I’d like to hear about your interests first-hand. Personality is encouraged! Grammar and spelling do <strong>NOT</strong> count, so please do not use Grammarly or AI to “clean up” your voice.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Note: AI use is never required.<br>
+Note: If you do choose to use AI, please disclose it and include a link to the chat.</p>
+</section>
+<section id="assignment-objectives" class="level1">
+<h1>Assignment Objectives</h1>
+<p>When starting projects, any idea is a good idea. Let’s get some started! You can start from a dataset and then develop questions OR you can start with domain+questions and then go find/collect the relevant data. It’s fine if you feel lukewarm about your idea, you’ll decide together as a group which idea to go with, and a bad idea can strengthen conviction about good ideas 🙂.</p>
+<!-- If you’re having trouble thinking of interesting data to use, I’ve collected a few [here](https://data.world/join/eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ2ZXJiIjoicmVxdWVzdF90b19qb2luIiwiYm9keSI6eyJyZXNvdXJjZSI6Imdyb3VwOmRhdGF2aXN1bWJjL21lbWJlcnMiLCJyZXF1ZXN0aWQiOiJEYXRhIFZpcyBVTUJDIiwiZGlzcGxheU5hbWUiOiJEYXRhIFZpcyBVTUJDIn0sInZlcnNpb24iOjF9.60BR66qki7gc0wJDNRXz5dye-TjSePxRDk-BStQdTj0Q_FNGnAdvv6JWxWk9vKzvQNxi9aQyEH-J57ucRTMrPg). Note you’ll need to make an account, then click this link again to join the project.  -->
+</section>
+<section id="developing-your-pitch" class="level1">
+<h1>Developing Your Pitch</h1>
+<section id="identify-the-domain-subject-area" class="level2">
+<h2 class="anchored" data-anchor-id="identify-the-domain-subject-area">1. Identify the domain (subject area)</h2>
+<p>Use an appropriate amount of specificity.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>✅ Good examples of domains
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Explainable AI</li>
+<li>Healthcare economics</li>
+<li>Social network analysis</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>❌Bad examples of domains
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Machine Learning (too broad)</li>
+<li>Minor 7th dominant cords in Bach symphonies (too specific)</li>
+<li>Data visualization (too meta)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="describe-a-target-user-of-your-vis" class="level2">
+<h2 class="anchored" data-anchor-id="describe-a-target-user-of-your-vis">2. Describe a target user of your vis</h2>
+<p>Use objective observables to describe them that relate to the <strong>task</strong> (check Chapter 3).</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>✅ Good examples of users
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Consumer with a fitness tracker</li>
+<li>A potential voter<br>
+</li>
+<li>Venture capitalist</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>❌ Bad examples of users
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Myself and/or my friends</li>
+<li>Someone that doesn’t understand the data</li>
+<li>The professor grading this vis</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="describe-the-main-tasks" class="level2">
+<h2 class="anchored" data-anchor-id="describe-the-main-tasks">3. Describe the main <strong>task(s)</strong></h2>
+<p>These could be action/target pairs or analysis question(s) the user of your vis would need to do (check Chapter 3).</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>✅ Good examples of tasks
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Determine how object size affects semantic segmentation boundaries</li>
+<li>Cluster Goodreads users based on book genre and recommendations</li>
+<li>Explore the narrative structure of popular Manga</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>❌ Bad examples of tasks
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>To understand the data</li>
+<li>To learn about Chemistry</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="identify-one-or-more-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="identify-one-or-more-datasets">4. Identify one or more datasets</h2>
+<p>These can be exemplars; you are not locked in. Make sure the dataset is available, documented, and of good quality.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>✅ Good examples of datasets
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XEKOWQ">Bird Migration Data</a> (data was used for a published paper, documentation exists, readable .csv format)</li>
+<li><a href="https://www.cityscapes-dataset.com/">Cityscapes Dataset</a> (benchmark dataset used for many CV/AI/ML papers, lots of code available on internet to process)</li>
+<li><a href="https://archive.ics.uci.edu/dataset/53/iris">Iris Dataset</a> (another canonical dataset, straight from an academic lab)</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>❌ Bad examples of datasets
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>We will scrape Instagram (you probably won’t have time, data will be messy)</li>
+<li>We will collect a survey about people’s habits (designing a good survey is super tricky, takes time)</li>
+<li>We will request Twitter/X API developer access to collect Tweets (again, no time)</li>
+<li>Anything like this: <a href="https://r.mtdv.me/articles/vital-tips">test.csv</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="find-link-and-briefly-describe-related-work" class="level2">
+<h2 class="anchored" data-anchor-id="find-link-and-briefly-describe-related-work">5. Find, link, and briefly describe related work</h2>
+<p>These should be a few related visualizations you’ve come across while looking into this area. You may want to consider how might a different kind of visualization reveal new insights?</p>
+<p>Related work can be “related” by being similar in the What-Why-How framework (Chapter 1,2,3) in any of these ways:</p>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Ways that related work can be related
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Same/similar domain</li>
+<li>Same/similar dataset type/semantics (Chapter 2)</li>
+<li>Similar tasks &amp; target user (Chapter 3)</li>
+<li>Similar vis type/idiom (Chapter 5, Chapter 7, Chapter 8, Chapter 9)</li>
+<li>Similar interaction mechanisms (Chapter 11-14)</li>
+</ul>
+</div>
+</div>
+<p>You can use any visual you find on the internet or in print, but you must be able to trace it back to the original source and cite it.</p>
+</section>
+</section>
+<section id="posting-your-pitch" class="level1">
+<h1>Posting Your Pitch</h1>
+<p>Post your pitch (450 words <strong>maximum</strong>) in the #project-pitches Discord channel.</p>
+<ol type="1">
+<li>Give your pitch an informative title<br>
+</li>
+<li>Very briefly introduce yourself + any info you’d like to share about yourself<br>
+</li>
+<li>Add a compelling (and related) image that will make people want to click on it to read more. This could be from the site/journal paper where you got the dataset, some of the related works you found, a sketch you drew, a <strong><em>relevant</em></strong> meme, etc.<br>
+</li>
+<li>Summarize your idea that results from completing steps 1-5 above (domain, users, tasks, related work, data). Include links to examples, data, papers, etc.</li>
+<li>Select a relevant tag, or if none fit well, ask me to add a new one!</li>
+</ol>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtYAAADwCAYAAAAkeiPEAAAoO0lEQVR4Xu3d/Y8c1b3n8fu/hBAIYA/GT/gJ2wx+wjgGDBgMBoMBPwDGGAxcHIKBLA5xDIThyUnuNeKuQ+Jwc3EuWW9YngIhwYE4yq4lJK8iRdpopZuVdpF2b35L7Xyr+nRXfc6pPtU93TPdNW9LL7n71KmHc6qr5jNnTnf/3TlfnZEAAAAAmJi/0wIAAAAAnSNYAwAAAD1AsAYAAAB6gGANAAAA9ADBGgAAAOgBgjUAAADQAx0F6/NnXJRceNF8AAAAoFYs52r27VSlYH3ueTO9nQMAAAB1Y7lXs3BV0WA9Y2S2t0MAAACgriz/aiauom2w1p0AAAAA08HIrHleNo4pDdaMVAMAAGA663TkOhismVMNAAAAdDbnOhisdYMAAADAdKVZuYwXrPlIPQAAAKBF83IZL1jrhgAAAIDprOp0EII1AAAA0MaMkTleiA4hWAMAAEwTI7PmpqOvXz77vORLZ51TO9Yua5+1U9s+EVU/eo9gDQAAUHM24qohdDqwdmtfdEszcwjBGgAAoMY0bE5H2ifd0MwcQrAGAACooZnTdJS6jPWH9lEnNDOHEKwBAABqSIMlJjZyrZk5hGANAABQMxoo0aJ9VZVm5pBJC9Z79u5Lxl7+x9SOe+73lgMAAGDipusbFavq9g2NmplD+hqsn3jqO8lbv/igrYPPvuitBwAAgO5okIRP+6wKzcwhfQvWbxw/4YXodnR9AAAAdE5DJHzaZ1VoZg7pebDuNFDn2bq6PQAAAFRjX46iIRI+6yftuxjNzCE9DdYXL1zmheVOrVl7lbddAAAAxNX1GxV7zfpJ+y5GM3NIT4O1huRu6XYBAAAQpwES5bTvYjQzh/QsWGs4dtqNYtvo9BvH/7NXbnT7Vez+1sHkqQp2X2P1VzWf63bKuPq3XeYvAwAAmGoaHlFO+y5GM3NIX4O1WxYK1/kpH7rMLB9d7e0jpqNgvfyO5vNFsp3Zl6xP9u5/1Ns+wRoAAAwyDY8op30Xo5k5pCfB+skDh7xgrOH5B6++HiwPhW7z/Vd/6O0n5oZd9yf35LggvG9PsfyG1Vn97V//VvLUgScL27jqPhfA93vbJ1gDAIBBpuER5bTvYjQzh/QkWGsozst/0oeF6HyotvCs9fN0P53qJggTrAEAwLDS8Ihy2ncxmplD+h6sNVw7sVA9GcHaLdfnanlke2u27vPW2bx6obc/AACAftLwiHLadzGamUMmJVhrSC6bOqJ0P50qC8K6XJ+r9sF6qVff2bzU3ycAAEC/aHhEOe27GM3MIZMSrO2TP3Sd/JzrMrpOp8JB2F/uni9acmlywwMuGD+ZPjdaP7+9nU9mZfu2Xt4su+a+p5rb0H0CAAD0i4ZHlNO+i9HMHNL3YK1zqnXOtdafymBtOptjvS4r++bu0rpaDgAA0C8aHlFO+y5GM3NIT4J12dQODdWh8rJwbSPaup9O+UE4vDxf1lGwvmx7s6yMbgMAAKBfNDyinPZdjGbmkJ4Ea6PB2LhlofDcj8+xVl4QLlmeLyNYAwCAYaXhEeW072I0M4f0LFiXjVr/04/+xStzbFqIlpmxV/7R2343vCBcsjxf1lGwbpZ9y6sLAAAw2TQ8opz2XYxm5pCeBWujAblbut1uhYJwaHm+7Iq7vhUsz9fffW2rzL158fEHNufqLkwet/2u8PcJAADQLxoeUU77LkYzc0hPg3Voyken8lNEJqqbYH3h0tua5Y77uD0Ly83y+65vrFP+cXvetgEAAPpIw+MwcBlw1Zp13rJ+0r6L0cwc0tNgbWxutIblqnoZqidmYbJ7X/aReXt33VZYds3O7Mtg9t6yrlA+umF78vg3szD98N57krmzdZsAAAD9peFxGBCsK7DPrtbg3I6uDwAAgM5oeJwM19+4JXl27HtRup5DsK6o7A2NeQeffclbDwAAAJ3T8NhvmuvKHP6H/1hYb+XqdU2uzm237yyU6756TfsuRjNzSF+DNQAAACaPhsd+0vDczgMPP9rxurq/XtO+i9HMHEKwBgAAqAkNj/1yw423ekG4nedeKE4F0eUhus9e076L0cwcQrAGAACoCQ2P/WJBWYNwjG7DccuZYw0AAICBoeGxX0LB+huPH2gu/8mb/pcA6jYcgjUAAAAGjobHfgkFa62jy0N18vUI1gAAABgYGh77pdtgrW9inEradzGamUMI1gAAADWh4bFfYsH6/AtmectD9aaS9l2MZuYQgjUAAEBNaHjsl1Cw7tSceQu97U4m7bsYzcwhBGsAAICa0PDYL70I1o59K+MDDz2aHP6Hf/I+lq+ftO9iNDOH1C5Y373roaCvXXmdVxcAAKBONDz2S7fBesnSy7yyPIL1gLEQrWWdWLJ0xYS3AQAAMBU0PPZLN8Hardtu/jXBesBMNBQTrAEAwLDS8NgvnQZrG6nOr6/LHYL1gJloKCZYd++SZSuTnXc/6JUDAIDJoeGxX2LBOv+V53ftesBbv+wr0QnWA8ZC8YpV6woWLrm0uXx0xRXJjp33J+uvuiF9vmrNlcmtt+1sLi8L1tt37hmvuz59vGbt1cltt9/TXHbzlu3jz+9Obr9zV3LRnAXJgkXLvPVnz12Y3HXPg8nSS1enz+0Ybtp8p1fP2DFY3W3jdez5lVff0JwrPv/iS5I58xalyy5euLS5zu137Eq3OXf+4mTFynVp3UVLRtNl9r89t98WFyxanj6+buPN6bJrrtucrmeP3Xpum9t27BkPyg+kj209O6b8cVpd6wt7fO3GWwp90u54AABAf2h47JeyYG3fuJivp8/zdF2C9QByATQv/8ZFC9Y6qpoPk6FgvWr1+mTHXVnAdCxkzr14cfrYgrUFyfzyGFtX9+O4YJ0vu3P77sLz2ePh2kKxe671F4+HWAvG9tjaf/2mW739mDu27U6WLFtR2K57PGv2xYW6y0fXFH5JsXbnl29vBHTT7ngAAEB/aHjsl7JgrfXasW9a1PUJ1gOmLKw6FqwtTJatEwrWt9y6I7lqw6ZCmYVK25Z7XPVTR2yEfOt4CHehX5cbOwY3iuzoMc+euyi5/oZWWN504+3edtz25y+4JH28Zetd6Yh6vs669demyyw06/rOjZvvSEOz1bNjc+UarPPH3O54AABAf2h47JdQsLY3JWq9GN0GwXrAxMJbN8Ha6rsgnHf5FRvS5VWDta1z0y13pqO3Fox1P06nwdptKyS/jv1y4MpHL1vbLJ8zd2EzOOdHmjfdtDUtu2zVumTu/CXpceWDtS2zXxTs8XXXb2n2R9XjAQAAvaXhsV9CwfquXfd3TLdBsB4wsfAWC9aLL7nM28alKy5P7tx+X6FsZSNQmirB2pZb4HTPLwkEeKfTYG10qopZNprN57ZRagvGrtyNYNvjxUsvK6zjjjMU/Net39gM1vMuviQ4l9xpdzwAAKA/NDz2S9mbDyfqyqs3evvqF+27GM3MIbUM1vrmRbOs8abBWLC2EGrPLx29vDBtwt68uPryLEwvaoRvt7xKsLY37t229e50nfkLlqbTMjS4Ot0Ea5vjbW9otDc3ujcobr4lm6rhpnvYmwjtjY/5N07aGw6bIbvxJke3TRu9tpFoO2abDmJcsLbtXLkhewNoSLvjsWki9tzN5955997mfm1ed34ZAACoTsNjP2ko7gXdRz9p38VoZg6pZbAOcfOBY8HaWHi0Nzjm34xntty6M617547i6HWVYG02jgdhW9/mbNtz3a/TTbA2oyvWpsdsbxJcumxVYZl9OoeFaGtXfrTdWF07lm3j7Vq4uPXmRGPHatu8eNGydKS7NWK9pNkfeTaqHTuetH13tdpnn1By4813NJ9v286bHAEA6IaGx36aM2+hF4wnwran++gn7bsYzcwhtQvWmBy3b/M/BcVGxEPlAABgcmh4nAw2LcTmRndrMqd/5GnfxWhmDiFYoys2Rzz9LO0F2Txr+99GrC9eWD7vGgAA9JeGR5TTvovRzBxCsEbXbFqNTfOwQK1TVQAAwOTT8Ihy2ncxmplDCNYAAAA1oeER5bTvYjQzhxCsAQAAakLDI8pp38VoZg4hWAMAANSEhkeU076L0cwcQrAGAACoCQ2PKKd9F6OZOYRgDQAAUBMaHlFO+y5GM3MIwRoAAKAmNDyinPZdjGbmEII1AABATWh4RDntuxjNzCEEawAAgJrQ8Ihy2ncxmplDCNYAAAA1oeER5bTvYjQzhxCsAQAAakLDI8pp38VoZg4hWAMAANSEhkeU076L0cwcQrAGAACoCQ2PKKd9F6OZOYRgDQAAUBMaHlFO+y5GM3MIwRoAAKAmvnz2eV6AhM/6SfsuRjNzCMEaAACgJs49b6YXIuGzftK+i9HMHEKwBgAAqImRWXO9EAmf9ZP2XYxm5hCCNQAAQI1oiIRP+6wKzcwhBGsAAIAamTEyxwuSaLH+0T6rQjNzCMEaAACgZjRMokX7qirNzCEEawAAgJo559wZXqDEOWm/aF9VpZk5hGANAABQQzOZElJg/aF91AnNzCEEawAAgBrTgDkdaZ90QzNzCMEaAACgxmZeOL0/gs/ar33SDc3MIQRrAACAacI+v9m+HKWu39Bo7bL2dfM51TGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUMI1gAAAECEZuYQgjUAAAAQoZk5hGANAAAARGhmDiFYAwAAABGamUOGPlhfMOOi5MtfOS/50lnnTKqvnHtBum89nl746nkjU9Imc9aXz033PzJrnndcE2XbtH6zfeh+J5sdgx1LP9pprwvbtu4TLa7/+3EN2TmdimuoTm2y/fSjHWYy29FOP+8B7nwNwr1ukPXzmgH6QTNzyNAGa71Ap9K5Pei3mSNzvO0Ogl60zbah2x0006Wdg6oX/T9o11Cd2qTH1alBaUc7dTpfw6oX5wDoJ83MIUMXrM+/YJZ3MQ4KOzY93ioGuU3GRhX0mKsaphGbbts56OdvmHR7DQ3y60yPtapBa1O352bYrg89/qoG7XwNM+1bYFBoZg4ZmmA988K53sU3qPTYywxTm4z9+VbbUGYQ/tTbrU7aqeti4jrp/2G5hurUJj3eMoPejnbqdL6GVSfnAJgsmplDhiZY60U3yM4+53zv+EN0vWGgbSij6w2bKufQ6uh66I0q/W90vUFWlzbVpR0x06Wdg6zqOQAmi2bmkKEI1sP2p0QT+7Op1h8m2hal9YeVtitvGF+Tw6aO15C2QWn9QRU7N3W5PrRdSuuj97TPgamkmTmkZ8H6rV98EHTxwmVe3U4M85tB7Ni1PcPeJkfb5Gi9Yaftq8v5Gxba93U4B9oWR+sNujrf3/K0fcN6voaZ9j0wVTQzh/Q8WO+85/7k4LMv9Sxc6wU2bLQ9dWiTCX1ElZVpvWEXaqfWQf+E+n/Yz0Gd2qRtGNZ2tBM6X3W81w2y0DkApoJm5pCeB2t9ruWd0gts2Gh7qrbp9B//lJwZd+Kgv2wQhOa+TXTO8Zk/nvbKplqonVqnE3ZOtWxwPDJ+fB8GyqdOqP8neg6mWp3apG2o2o4jn2b3t8G+HjKh8zXRe91UGvvI+v0Trzzq4IfJqaOP+OWTIHQO+unvv//XZDRQDmhmDulLsL7qmhu8YN3NyLV9wL5eYJPrleTMqTcD5dV116ZX0h84WxvPd7z2++TMmd83l9uyo9t0ncmnbdPlnZposP7w9J+SUz895JVPVC/bmQ8Shz86M/76OuHV6dSBt+0H5cT6LjN4wdpo/1e7hgbboLTJXo+HJ3Av6bYdhUGDK7L73dpAvUGh7dTl/VL1HlH9F5SN2Tm/VssrkGCd/xk1GfQc9NNEgvXoXX9Jxg7/2Svv1rwFo14Zpo5m5pCeB+uYTsL11H9kW++DdbU2FYO1IlhPrl62s/oPwOoGPVgfeHs8HHza/XWk/V/tGsrbnPb7jhEtnzoTb9Ng6LYdhWA9BLSdunyqVb2vLHvuk8p1Pblg/bWHvkjGxsOns+jsRp0lbxfKH7/rcGv9s79ZWDb2rdCoudQZd/HZuwvPF+TOw/6xYt1lcxrLVn2cPr/usew4n9p1KC3f8OBfCvX1vF540SFv/ztWjZcvflXKv2its/gNb53L52fL7jxYLM8fuzr04v9K9h/4r4UyC9W23qEX/uLVx9TQzBzSs2D9g1df90J0GV23jH/RhWS/gTtZmQWEVln6G/rOpemymTuPFcqP7l6blh89Nf789DtZ+duvpDeRQr3xIHvi89w2T1cLIN20Kb/fA+PPtx49nT52gdtxN7l8WVYv287aJxrtaXDBIl928jV/G64sptu2ffjrrD1pG956PresVe6C4uNv2Q/g7Nx9aeT5dJk9Dp2LU/bYzt34470/+X2hTa7tJ3NlZ05WC3vdtPNLI3sL+3ejce74TfqaawRZKz/5Vut8HXm4da5Pv5WNwh/+9ZlAm4qviWzfxdf/iYObveN753SuH5qh3NbLfvAWtjfu+B/y9Vvl+TJz+Mas/ERh+39KZlc8rpCu+r8xCuqc/NH+tNxNscq0fhlJjyf3mjqam6qwsbndLKA7MxvlB07kz8sZ/1gCumqT3JOK10vx3ufWSZc1rol83fx1735JL74mqoWvbtpRbEPrvpYOJDTamL9O0/XktZP/RS1Yf9zMm4/KfrLy9D7h9PMeMBq4Ns+S/ed+joSuyfw9wuS3d+AKv8zqpn2RGxDK7/tEfpnco9y92H5Rbw7cbHuzVT8XrC3sufXe+ed/T0Zn2n7+Z1r+4Iat2bJfZOHWHh/7yen08fZ0v3Yu/9xcVrwPZMF6ViOoz9j035vPrd9X7vpL8tzDrzbOw/Z0mTsnO76TC8uNYH3oiV+0ztu6Twv1l2z+PHlyx+PeuTXeiPWCN5L9u9x+r0y348L6U7afxjEtuO2PuX0cSB8va2zDjq8Z/EtYfReuXajOHzOmnmbmkJ4Fa2Oj0Rqiy+i6IZW+ycou/DNnkgN79+bKiz9clo2539K3p/83/ww2mt147XF2A2tNt8gUR6zTm8Uffp/svXW71CvXVZtkxLoVrLPn9jg/Yp1fZjftbL1DhfLsB9b4zXok2/bJd99sBgO3DSu7ev1GOZZy2jZdHmL70T8nuvOhQcd+qXCP7f/0B8YHR5pldi5WzG9tOx+sbXm+fZmlWd+99HyyrIPRy27bqWVarsHa9Uv+h5+eeydt60dH08c6Ym31Pxxz5zG7Fop9YddBaIS7OGJtxxH6q0n+ePKP02NKjzv7gb3XynPXWPy4wrT/q1xD6Rze0yfSxx/acTVeF3m2/7HR1mNXbufFvfbyYcJCeWH9xjlK2z1+D7p6TfZLehXdtMmFzux5dh27Za3HJcG6zXWf3UvKXhPtddWOs7L9tkas/WCdlWdtCf11zsqX5R7ny1vt8a+b4/bLU+N1oeu2o+3U5SHptSs/L9L9f/5O83n6i967R8Z/aS5ew07+HmF13OvVaLtb6+1Pnz8+kg1MHNtdXMdd0/Y4NGe6SrB+9HAW+J575n8kK5dkwfi3/+nfm0Ewz/ZzbP9vvHKz0rsPZMG6dTw/TMa+80H6OOv7N5KxZz5OH6/c/Zdkx5riebF10xHmRrDOL7OwrPsf+354yoYXrM2c7cnW+z5vrfvYG2m5Betv3/+99HExWM9PDjX66dDBPybrlt/k7Sckf3zXbnrMW46ppZk5pKfB2lQdudb1Qr5y7gXeRR9y7IPWyE12sy3+cElvDunzrLz5QzNXT0cGMjIVZGR78s6nbnSqu5Gpam3qRbAujpY4Vmf27a8kp9zoSGPkJ1QWo23T5SG2fQ3Wri0aDvPB+tju7IfFvW5bgXOhwVr3nZqfH6Xxf5CFdNtOLdPyToO1jsK7OqFgrYoBuRigy8rzwXrsXdfXmfy+3ONWsB6/JtO2NTRGBfWY/OMK0/6vdA2N7C/sp/kXizPF/bdee8XzEgrWeuytvloauAe111WbJhKszwpf460+KHtNtNdVO87K9ttZsC7+taBZv7Gt/HZb7fGvwfTaElonRNupy8u07lHZfgojxrnn4Z8/xXtE9jh87NoONwhRLLeBhdbPLVsWmo5TJVibj3/1RfLMi40Q+NTbjWD9b81t5+/FR/d8kNZrLhOt+0Cfg/X+f/XOZYgG63Te9HjZo/e939pWI1jPvjIbCXfuXHNlYVuzF48lh15pBOyH3ah3e4TqwaWZOaTnwdrEwrXWL3PBjIsKF3zY2uaf2e2389BN1d2Q3EV96qcH0scbf5AFlVYdvbEVg/WRXxfDSzehoFqbKgTrna36+WWtYJ2Nzja3OfJIsjkNF0uTU42gk2+/K9PttaNt0+Uhtu3TP229wTDfTg2HLtwcOeluwK05ea1zkU0PsW1osB5r/KnU2ry1MbJ9/FTjrxLXZ1OC8sdWppt22g+2vc1R8c3J1blpOK5Op8Ha/j/2cLZuOtJVEqz1T8FHH/anXNi23CjRiVOfNB6XBev86N/aQhvyj5vB+lrrW/+XlirHFaL9X+UaslHq/DXi6LF3EqxttPFQ8zV1TrP/7j3y+8JUn9AIq+qmTZ0H6+wekF0T4ete+6A5cnjFka7+mlCpHWdl++okWO97y17jLhRm7WofrMPtsZ8R+fqHf5L91SdG26nLg+bvbz4+fiY73uL+s3a889zGZOOR7JzoNZm/R1idUz9qBdu9uddioa3jZuamATaP5xvvjN97DzSfp9fjH9zo/ebkw6PZfdnuJ8efyKbfrT30STBYL73un9Nt7xh/vGjnv6WB+sx/y+Yz23zrdN/jr7sZS7P789FtDzUDc/M+MPNg+rx4H6gerC+89P1k7Oks6Dafj6+7xB4HgvWGR7Jwq+cyRIN1Oiq9O5v6YfbngnW7bW645YfNx5v22/4/9+pguGhmDulLsDZl4frJA60XZxWtC6zEFdmFW7yJZDfkvEpzrL1g3bhBpDcGmRv3uV83RNtTqU2RYO3mE+ZH0tyyVrD251h/+INHvLmKJwOjca6sndDHH1X5CKr8ftI2yBzrfL1muBnNRl7yf9IMnYt8sH78reL802zEcmlxjm2FkflQO7VOkPSzC17HGnOV7XGnwTqd0tBQCKmNv8i4errvM39o/enZ+TA/R73Z72XBOj83+UxhSkRzn2flR6z96y/9pa7CcalQ/1c5B/mPczMnT+SmEOV0Eqx11NTdU4rzz1sjgmW6bVO1YJ1/H8GZ1jXR5rp3fVB8TeQCWRvahkrtOCvbbyfB+ks3Fu/bzfqNbeW369qj93pXp3Dv6PJ8VbnX6f3XlRf2n5tjHbom9edSfnvFe6crl7qNqXPGfjFMp2c58ppobi/3/oSTR3Mj1iMHsnpHf5aGyaMn/k/yzntZmH523w/T193RI1l4/fkv/3fyo1f/b/rY1rFz8rV943UPf5Fctfm3yfF/+X/NZcX7QDhYt85BLlhflIXaQ09/nmy65V+zx42wGwrWzbnRj32c1n/qcK6+uO6x8XY8Y9t9P7lz1fxk9wtZu7aOr2fTOw5JsH7ywffTbZrRxY0pH+5Njd/9c7Jpxx+yfe/qLP9g8GhmDulbsDYarnV5FeeOH1PrIqsq/GfAyWbHru3pvk2DRdvkaD2V3ZjjwT0vHZHNzUucTNq+upy/fkrDwMljzefp5+ZW+CUmRPu+2jnIrn990+Fmr97U0LY4Wm/Q1fn+lqftG4rz1Zz+6MqyUOzVGxLa94NE52lnb6L83KuHetDMHNLXYG1cuNbyTuhFFjcYwVrbMbE2DY5zvzrTa49jy7R+XqfB2o3uTMVHpbVrp9ZFjnwix0TOn/Z71XOgn0py+tetoD+V2r2mYtfOoNHjr3puhskwni/3mq/6qTuDrt05GASFj967qBGsc6PqqBfNzCF9D9a9cP4Fs7yLbdDZMWs78rT+MNG2KK0/rLRdecP4mhw2dbyGtA1K6w+q2Lmpy/Wh7VJaH72nfT5onmx88kfT4WLQRr1oZg4ZimBtqn7xwCAYmTXPO/6QYWqTo20oo+sNmyrn0OroeuiNKv1vhukaqkub6tKOmOnSzkFW9RwAk0Uzc8jQBGtT5Q0jUy30Rpd2hqFNTic3uWEOnZ20c5jO37DopP+H5Rx02iZdf1DU+f6WV5fzNcw6PQfAZNDMHDJUwdoM8p8YY38eLTPIbTL2pQ96zFVV/cKIQdBtOwf9/A2Tbq+hQX6d6bFWNWht6vbcDNv1ocdf1aCdr2GmfQsMCs3MIUMXrB37bXYQRkM6HcFpZ1Da5Jx3wYXeMXbLtqXbHxS9bOcgnb9h0etrSLc/FXr5mprKa8fOTa9GDgft/pZXl/M1zHp5DoB+0cwcMrTBGgAAAJgsmplDCNYAAABAhGbmEII1AAAAEKGZOYRgDQAAAERoZg4hWAMAAAARmplDCNYAAABAhGbmEII1AAAAEKGZOYRgDQAAAERoZg4hWAMAAAARmplDCNYAAABAhGbmEII1AAAAEKGZOYRgDQAAAERoZg4hWAMAAAARmplDCNYAAABAhGbmEII1AAAAEKGZOYRgDQAAAERoZg4hWAMAAAARmplDCNYAAABAhGbmEII1AAAAEKGZOYRgDQAAAERoZg4hWAMAAAARmplDCNYAAABAhGbmEII1AAAAEKGZOYRgDQAAAERoZg4hWAMAAEwD8xdtSpau3J9cevmzyejaF4aatcHaYm3SdvaLZuYQgjUAAEANLV5+rxdI687arP3QK5qZQwjWAAAANTJr9kIvcE43i5bt9PplojQzhxCsAQAAamLR8l1eyJyurC+0fyZCM3MIwRoAAGDI2VxjDZbI9GoetmbmEII1AADAkNMwiSLtr25oZg4hWAMAAAyxOnzKR79ZH2m/dUozc0hfg/UPX/9R8stffph88sknyWeffZZ8+umn6eO33/4vyaPf2O/VBwAAQHXMqa5uonOuNTOH9DxY37xla/Luu+8mv/vd7yqxugsXL/e2AwAAgHL2yRcaHtHeRD4tRDNzSE+D9eiKNV5wruL48Z+l6+r2AAAAEKahEdVoP1almTmkZ8HaRp3fHA/IGpqrevPN44xcAwAAVKSBEdVoP1almTmkJ8H6ojkXdzT9o4xtQ7cNAACAoqUrHvMCYzdWX/lC8vzY95KXX/F97ZoXvfp1YH2n/VmFZuaQngTrZ575rheSzRNPPJGcPHnSKz927Fi6TMuNbhsAAABFGha78fC+V5oh2sL15q0vpQ58+3CzfM+DL3vrhdy27SUvmDtadxBof1ahmTmkJ8H6vffe9wLyvffem6xcuTLZt2+ft2zt2rXpMqujy77+KJ8WAgAA0I4GxW60G5necMOLHQVjF6zHXhgP6Q0vvZyt/8xz1bYR40bWtbwb2p9VaGYOmXCw3nXvHi8c28fqXX311Wl43rx5s7fcyo3Vsbr5ZR/88pfePgAAAJBZtGyHFxQ7ZQH10DOHvXJVNcy6YG3/58sfeTQbFb/2Rj+8d8rCepVjqcL6UPs1RjNzyISDtX1WtQZn0+2I9W9+84m3DwAAAGSWrtzvBcVOlY1UK5uDXSXMlgXrvX+fBesbbmnt6zvPZFNNXnjxe8kVG/ztWJi30e79T77SLHej53l6DJ2wPtR+jdHMHDLhYP3Rr37lhWOnmznWNoKt+wAAAEBmot+0eP3N2TQPLS9jdW0dLc8rC9YuRLvnFqY1IG+/J5vH/cBDrTnfjtV3x6D0GDrRzTcxamYO6Wuw7gbBGgAAoNzo2ue9oNgJC7KdBFOrWzVYh+xoBOeDh4oh27h52KvXt0L4E/8hm6LytWuL++zlVBDrQ+3XGM3MIRMO1joV5Mc//nGycePG5NZbb02ngYyNjSWvvfZa8sYbbySvv/56+vjb3/52smvXrrSO1bWvOXfrMxUEAACg3PLVTweCYnU2BaSTgJoG3yv98rxQsH5xPDQ//PXWdI5QMLY3NlqZrX/jrf427n+o9akkofW7ZX2o/RqjmTlkwsFa37z49NNPJ2vWrEmef/755Pbbb0+uuuqqZPXq1c03LNrjm266KXnooYfSOlb3vffea67PmxcBAADKLRl90AuKnbKAes998Y/Ss4/bqxJmy6aC5H33eT8Yu7B8022t9bbd/XKz3Fx5XTZy3ctgbX2o/RqjmTlkwsF6zrxFhRFnG5G2AH3w4MHkb3/7W+L+/fWvf025f1988UVax+rm17cRcN0HAAAAMvMXbfKCYqfcZ1VrubI6j+5vjTqXqRKs3SeE3LGzVcee23QQe7xrz8vNOdXm2cZo9qYtWf1eBmvrQ+3XGM3MIRMO1ib/BTGfffZZsmXLluYI9TXXXJO8+OKLyUcffZT8/Oc/Tx/nR7Ctbn7EW7cNAACAIg2KnbKAunX7S8kT3zycHHj6sDfVw813rhpkqwRrY/Ot3XbNs99tbd/mcbs5186Dj7RCvQXy/DLddie0P6vQzBzSk2CtX2lunwRiU0BceC5jdfKfGsJXmgMAAMRpUOxUPqCWsY+90/XqQvuzCs3MIT0J1mbLrXcURp4//vjjZP369V6Ydvbs2ZP8Sj5RxLah2wUAAEDRgiVbvLDYCZtfbV9pbiPVxn0RjFPlM66HlfWd9mcVmplDehaszeiKNYWgbH77298mb775ZnL48OHkyJEj6WOtc/z4z9J1dXsAAAAI08CIarQfq9LMHNLTYG1u3rK1MC0kxuouXLzc2w4AAADKaWBENdqPVWlmDul5sDY25/rQM88VPu0jz97g+N5776d1rK6uDwAAgPZmzV7ohUa0Z32m/ViVZuaQvgRrAAAATA4NjwjTfuuUZuYQgjUAAMAQm7dggxciUWR9pP3WKc3MIQRrAACAIadBEkXaX93QzBxCsAYAAKiB2fNWeYFyurM+0X7qlmbmEII1AABAjSxf/bQXMKcj7ZeJ0swcQrAGAAComSWX3u8FzenC2q790QuamUMI1gAAADU10W9oHCbdfqNiVZqZQwjWAAAAQBsjs+Z6ITqEYA0AAAC0ccHMi7wQHUKwBgAAANo497yZXogO8YK1ragbAwAAAKYrzctlvGBtdGMAAADAdKVZuUwwWDNqDQAAAFSfBlIarB3dMAAAADBdaDaOaRusR2bN83YAAAAA1N1Xzx/xsnFM22BtZozM9nYEAAAA1JXlX83EVUSDtUPABgAAQJ11M0qdVzlYOzaBe8bIHKaJAAAAYKjZNyral7908gbFdjoO1gAAAAB8BGsAAACgBwjWAAAAQA8QrAEAAIAeIFgDAAAAPUCwBgAAAHqAYA0AAAD0AMEaAAAA6IH/D5OP50E/BlNOAAAAAElFTkSuQmCC" class="img-fluid"></p>
+<section id="perusing-classmates-pitches" class="level2">
+<h2 class="anchored" data-anchor-id="perusing-classmates-pitches">Perusing Classmates’ Pitches</h2>
+<p>I recommend reading through your classmates’ pitches and engaging by asking questions, reacting with thumbs up, or just mentioning that you like the idea because it sounds cool. Maybe as you surf you will have your own idea sparked anew.</p>
+</section>
+</section>
+<section id="grading" class="level1">
+<h1>Grading</h1>
+<section id="originality-checks" class="level2">
+<h2 class="anchored" data-anchor-id="originality-checks">Originality Checks</h2>
+<p>The following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Check for plagiarism/crappy AI copypaste - Please refer to the syllabus for the course policy on Academic Misconduct<br>
+</label></li>
+<li><label><input type="checkbox">Check for no cited sources - You will be notified and asked to resubmit with the required citations within <strong>1 day</strong> of notification, otherwise the Late Policy applies</label></li>
+</ul>
+</section>
+<section id="rubric" class="level2">
+<h2 class="anchored" data-anchor-id="rubric">Rubric</h2>
+<div style="font-size: 0.8rem; width: max-content; white-space: nowrap; min-width: 50%;">
+<table class="table-bordered caption-top table">
+<caption>Grading Rubric</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Complete</th>
+<th style="text-align: center;">Not Complete</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Pitch contains domain</td>
+<td style="text-align: center;"><input type="checkbox" checked=""></td>
+<td style="text-align: center;"><input type="checkbox" unchecked=""></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pitch contains task/analysis questions</td>
+<td style="text-align: center;"><input type="checkbox" checked=""></td>
+<td style="text-align: center;"><input type="checkbox" unchecked=""></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pitch contains user description</td>
+<td style="text-align: center;"><input type="checkbox" checked=""></td>
+<td style="text-align: center;"><input type="checkbox" unchecked=""></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pitch contains dataset, which is cited</td>
+<td style="text-align: center;"><input type="checkbox" checked=""></td>
+<td style="text-align: center;"><input type="checkbox" unchecked=""></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pitch contains related works and links</td>
+<td style="text-align: center;"><input type="checkbox" checked=""></td>
+<td style="text-align: center;"><input type="checkbox" unchecked=""></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Instructions followed for posting</td>
+<td style="text-align: center;"><input type="checkbox" checked=""></td>
+<td style="text-align: center;"><input type="checkbox" unchecked=""></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section id="faqs" class="level1">
+<h1>FAQ’s</h1>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>What if I have the exact same idea as someone else?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>It’s fine if multiple people happened upon the same dataset, but the task, related work, and description of the analysis question must be unique</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Our group has already decided what we’re doing, do we all still have to post a pitch?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Yes, because 1) the pitch will help you write the Proposal so you might as well, and 2) other students that don’t have an idea yet will still benefit from seeing your ideas.</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Can I use my own research data, to which there is no public link?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If you can verify that it’s well collected and your advisor is fine with you sharing that data, go for it</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Can I use data that I’m also using for another class Project?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>It’s great to double dip, just make sure you are not submitting the exact same things for double credit (considered Academic Misconduct and will be flagged by SafeAssign), and your team is fine with you benefitting in this way. If you want to build on work from other courses, you must self-cite.</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Can I scrape websites for data?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>You can try, but you will have a bad time unless you already have the infrastructure and cleaning pipeline set up</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Can I use hardware? (VR/XR System, Magic Globe thingie, Hyperwall, Pico Projector)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Yes, but please let me know if you need me to buy something ASAP 💲</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Do we need to mention what tool/framework/software we want to use?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>It’s not necessary, as this class is about visualization principles, and less about specific tools, but you can mention it if you have an idea</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Can I peruse other student’s ideas before posting my own?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Yes! Just be sure to use them as inspiration only and develop your own unique pitch, and @ mention who you were inspired by, and thank them for their cool idea as a comment on their own post</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>I don’t have any ideas
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>It’s fine, come up with <em>literally anything</em> that satisfies the specifications in this document. You don’t need to love it.</p>
+</div>
+</div>
+</div>
+<div class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>I can’t pick just one thing!
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Post ’em all! Just make sure they’re sufficiently distinct and warrant separate pitches (i.e.&nbsp;not just a different aspect of the same thing)</p>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

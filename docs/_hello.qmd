@@ -1,0 +1,55 @@
+---
+title: Shinylive in Quarto example
+format: html
+filters:
+  - shinylive
+---
+
+This is a Shinylive application embedded in a Quarto doc.
+
+```{shinylive-python}
+#| standalone: true
+
+from shiny import *
+
+app_ui = ui.page_fluid(
+    ui.input_slider("n", "N", 0, 100, 40),
+    ui.output_text_verbatim("txt"),
+)
+
+def server(input, output, session):
+    @output
+    @render.text
+    def txt():
+        return f"The value of n*2 is {input.n() * 2}"
+
+app = App(app_ui, server)
+
+```
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+this is just text
+
+::: {#assignment-1}
+<p><iframe width="100%" height="800" src="https://docs.google.com/document/d/1fqvFFV5XeH3AiVmMkwijXvOiO78G-ASnnm16e_2jPmw/preview?pli=1"></iframe></p>
+
+caption
+:::
+
+Another good idea is to create a discord webhook that connects to the quarto listings or RSS feed? in combo with the extension that lets you schedule pages?

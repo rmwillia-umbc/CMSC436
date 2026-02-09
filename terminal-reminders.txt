@@ -1,0 +1,28 @@
+to install an extension:
+quarto add mcanouil/quarto-iconify
+
+quarto add quarto-ext/shinylive 
+
+to create project
+quarto create project website    
+
+wishlist but pace yourself
+https://github.com/mcanouil/quarto-animate?tab=readme-ov-file
+
+extension list
+https://quarto.org/docs/extensions/
+
+
+
+If your tables aren't banding, it's usually because Quarto requires an ID or a caption for the Bootstrap .table-striped classes to attach correctly to the rendered HTML.
+To fix this for both banded rows and banded columns, use these specific Markdown attributes:
+1. The Markdown Fix
+Ensure your table has a caption line at the bottom. Use .table-striped for row banding and .table-striped-columns for column banding. 
+markdown
+
+| Criteria | Excellent | Good | Fair |
+|----------|-----------|------|------|
+| Design   | &#9744;   | &#9744; | &#9744; |
+| Content  | &#9744;   | &#9744; | &#9744; |
+
+: Grading Rubric {#tbl-rubric .table-striped .table-striped-columns .bordered tbl-colwidths="[50,20,20]"}
