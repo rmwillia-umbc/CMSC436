@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Assignment 1 Instructions – Data Visualization (CMSC 436 and 636) with Dr.&nbsp;Williams</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Data Visualization (CMSC 436 and 636) with Dr.&nbsp;Williams</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ai-use-policy-for-this-assignment" id="toc-ai-use-policy-for-this-assignment" class="nav-link active" data-scroll-target="#ai-use-policy-for-this-assignment">AI Use Policy for this Assignment</a></li>
+  <li><a href="#assignment-objective" id="toc-assignment-objective" class="nav-link" data-scroll-target="#assignment-objective">Assignment Objective</a></li>
+  <li><a href="#submitting-your-work" id="toc-submitting-your-work" class="nav-link" data-scroll-target="#submitting-your-work">How to Submit</a></li>
+  <li><a href="#assignment-instructions:-step-by-step" id="toc-assignment-instructions:-step-by-step" class="nav-link" data-scroll-target="#assignment-instructions\:-step-by-step">Assignment Instructions: Step-by-Step</a>
+  <ul class="collapse">
+  <li><a href="#step-0:-choose-one-or-two-visualizations-to-recreate" id="toc-step-0:-choose-one-or-two-visualizations-to-recreate" class="nav-link" data-scroll-target="#step-0\:-choose-one-or-two-visualizations-to-recreate">Step 0: Choose one or two Visualizations to Recreate</a></li>
+  <li><a href="#1-with-your-chosen-tool" id="toc-1-with-your-chosen-tool" class="nav-link" data-scroll-target="#1-with-your-chosen-tool">Step 1: Recreate Visualization #1 with your chosen tool</a></li>
+  <li><a href="#step-2-add-a-descriptive-caption-to-your-vis" id="toc-step-2-add-a-descriptive-caption-to-your-vis" class="nav-link" data-scroll-target="#step-2-add-a-descriptive-caption-to-your-vis">Step 2: Add a descriptive caption to your vis</a></li>
+  <li><a href="#step-4:-reflection" id="toc-step-4:-reflection" class="nav-link" data-scroll-target="#step-4\:-reflection">Step 3: Reflection</a></li>
+  </ul></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a>
+  <ul class="collapse">
+  <li><a href="#originality-checks" id="toc-originality-checks" class="nav-link" data-scroll-target="#originality-checks">Originality Checks</a></li>
+  <li><a href="#timeliness-checks" id="toc-timeliness-checks" class="nav-link" data-scroll-target="#timeliness-checks">Timeliness</a></li>
+  <li><a href="#rubric" id="toc-rubric" class="nav-link" data-scroll-target="#rubric">Rubric</a></li>
+  <li><a href="#faqs" id="toc-faqs" class="nav-link" data-scroll-target="#faqs">Frequently Asked Questions</a></li>
+  </ul></li>
+  <li><a href="#appendix-and-additional-resources" id="toc-appendix-and-additional-resources" class="nav-link" data-scroll-target="#appendix-and-additional-resources">Appendix and Additional Resources</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Assignment 1 Instructions</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Due Date: 2/25/26 (FLEX to 3/4/26)</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="💪 FLEX rules">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>💪 FLEX rules
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li>You have to get started to FLEX!<br>
+</li>
+<li>Aim for the original due date, then message me if you need to FLEX, lmk what’s up</li>
+<li>Be aware of accumulating deadlines when you think about FLEXING</li>
+</ul>
+</div>
+</div>
+</div>
+<section id="ai-use-policy-for-this-assignment" class="level1">
+<h1>AI Use Policy for this Assignment</h1>
+<div style="font-size: 0.8rem;">
+<table class="table-striped table-bordered faq-callout caption-top table">
+<caption>AI Policy Details</caption>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 25%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Ok or nah?</th>
+<th style="text-align: left;">For what?</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><button class="btn btn-success rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.65rem; "> can use </button></td>
+<td style="text-align: left;"><strong>Generating code snippets, and as a tutoring aid/assistant</strong></td>
+<td style="text-align: left;">✅ <strong>Syntax help:</strong> “What’s the syntax for geom_smooth() in ggplot?”<br> ✅ <strong>Debugging:</strong> Provide your code + error message and ask for help fixing it.<br> ✅ <strong>Planning:</strong> “What steps should I follow to create a waterfall chart?” (without providing the image itself)<br> ✅ <strong>Small snippets:</strong> Asking for a short, generic example (e.g., how to rotate x-axis labels).</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><button class="btn btn-danger rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.65rem; "> don’t use </button></td>
+<td style="text-align: left;"><strong>Don’t use AI to generate a complete or near-complete solution by uploading the provided visualization</strong></td>
+<td style="text-align: left;">❌ Uploading the assignment image (or a screenshot of it) to an AI tool and asking: “Write the code to reproduce this vis,” or any equivalent request.<br> ❌ Asking AI to infer the full specification (chart type, encodings, layout, annotations) from the image and output a full script/notebook.<br> ❌ Submitting code that is largely AI-generated when you cannot explain how it works.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><button class="btn btn-danger rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.65rem; "> don’t use </button></td>
+<td style="text-align: left;"><strong>Writing any part of your reflection</strong></td>
+<td style="text-align: left;">ℹ️ I’d like to hear about your experience first-hand, not generated or filtered thru AI to be generic and bland. Personality in your writing is appreciated and encouraged 🙂 but not required<br> ℹ️ Grammar and spelling do <strong>NOT</strong> count! So please also don’t filter thru Grammarly etc.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you do choose to use AI, please disclose it and include a link to the chat.</p>
+</div>
+</div>
+</section>
+<section id="assignment-objective" class="level1">
+<h1>Assignment Objective</h1>
+<p>This assignment is designed to simulate a real-world data visualization task where you will analyze, deconstruct, and accurately recreate a provided visualization using a tool of your choice (you can use more if you like). One of the most important skills in the workforce is choosing the right tool for the job, getting a sense for varying levels of <strong>features, interactivity, and customizability</strong> available with different visualization software tools, and figuring out which tools you would rather avoid (this will help you when it comes time to pick tools for your group project!).</p>
+<div class="callout callout-style-default callout-note callout-titled" title="tl;dr">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>tl;dr
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Choose one or two visualization(s)+dataset from <a href="https://padlet.com/rmwillia2/vis-o-the-day-4zfmrymkyzvf9vzo">this collection</a> <a href="#" data-bs-toggle="popover" data-bs-trigger="click" onclick="return false;" data-bs-boundary="viewport" data-bs-html="true" data-bs-sanitize="false" data-bs-content="<iframe src=&quot;https://padlet.com/rmwillia2/assignment-1-visualizations-data-4zfmrymkyzvf9vzo&quot; width=&quot;400&quot; height=&quot;600&quot; style=&quot;border:none;&quot;></iframe>">
+  <span title="Click to preview"><i class="bi bi-eye"></i></span>
+</a>. Write some code to recreate the visualization(s) as accurately as you can using one or more visualization tools from the <a href="https://padlet.com/rmwillia2/approved-visualization-tools-6rzddfbf6hhfjrdd">list of approved tools</a>. Document your process. Reflect on your choices and challenges. Submit code + documentation + vis + captions to Blackboard.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="submitting-your-work" class="level1">
+<h1>How to Submit</h1>
+<p>Submit your work in the following formats:</p>
+<ul>
+<li><strong>Final Visualizations + captions</strong> (.pdf, .docx, or .ppt). Put the captions below the image (or use the built-in captioning functionality of the tool, if applicable)<br>
+</li>
+<li><strong>Process Documentation</strong> (Notebook File, PDF, Word, or .mp4) and <strong>Code Files</strong> (include any files necessary to run the code)<br>
+</li>
+<li><strong>Reflection Response</strong> (Complete via Blackboard, which links to Google Assignments. Don’t forget to press submit!)</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Please do not put it in a zip archive!</strong></p>
+</div>
+</div>
+</section>
+<section id="assignment-instructions:-step-by-step" class="level1">
+<h1>Assignment Instructions: Step-by-Step</h1>
+<section id="step-0:-choose-one-or-two-visualizations-to-recreate" class="level2">
+<h2 class="anchored" data-anchor-id="step-0:-choose-one-or-two-visualizations-to-recreate">Step 0: Choose one or two Visualizations to Recreate</h2>
+<ol type="a">
+<li>Browse the set of <a href="https://padlet.com/rmwillia2/assignment-1-visualizations-data-4zfmrymkyzvf9vzo">provided visualizations and datasets</a><a href="#" data-bs-toggle="popover" data-bs-trigger="click" onclick="return false;" data-bs-boundary="viewport" data-bs-html="true" data-bs-sanitize="false" data-bs-content="<iframe src=&quot;https://padlet.com/rmwillia2/assignment-1-visualizations-data-4zfmrymkyzvf9vzo&quot; width=&quot;400&quot; height=&quot;600&quot; style=&quot;border:none;&quot;></iframe>">
+  <span title="Click to preview"><i class="bi bi-eye"></i></span>
+</a>.Each vis is accompanied by the dataset used to create it. Select one or two visualizations to attempt to recreate.<br>
+</li>
+<li>Familiarize yourself with the dataset and its structure. Do some exploring on the <a href="https://www.data-to-viz.com/">Data to Viz</a> <a href="#" data-bs-toggle="popover" data-bs-trigger="click" onclick="return false;" data-bs-boundary="viewport" data-bs-html="true" data-bs-sanitize="false" data-bs-content="<iframe src=&quot;https://www.data-to-viz.com/#explore&quot; width=&quot;600&quot; height=&quot;600&quot; style=&quot;border:none;&quot;></iframe>">
+  <span title="Click to preview"><i class="bi bi-eye"></i></span>
+</a> site to learn common vis names, caveats, and some tips to create them. As a hint, I have put the chart name in brackets for each image (though sometimes names will differ!)<br>
+</li>
+<li>Decide whether you will use AI or not – if you use it, be sure to include the link in your submission</li>
+</ol>
+</section>
+<section id="1-with-your-chosen-tool" class="level2">
+<h2 class="anchored" data-anchor-id="1-with-your-chosen-tool">Step 1: Recreate Visualization #1 with your chosen tool</h2>
+<ol type="a">
+<li><p>Choose an appropriate tool from the <a href="https://padlet.com/rmwillia2/approved-visualization-tools-6rzddfbf6hhfjrdd">list of approved tools</a>, based on the dataset and visualization type. You can change your mind at any time.<br>
+</p></li>
+<li><p>Load and prepare the dataset.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The dataset may require preprocessing (e.g., filtering, cleaning, or restructuring) to match the visual representation in the original image. You should document any changes you make to the dataset to recreate the visualization. You can add auxiliary data as needed, but don’t forget to cite and document it!</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>FAQs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="#data-sourcing" class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#data-sourcing .callout-collapse" onclick="setTimeout(() => { document.getElementById('data-sourcing').scrollIntoView({behavior: 'smooth'}); }, 100)"> Do we have to write code to stream the data from the Google Docs link?</a> <br></li>
+</ul>
+</div>
+</div></li>
+<li><p>Write some code to recreate the visualization(s) as accurately as you can</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>FAQs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="#icons-and-shapes" class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#icons-and-shapes .callout-collapse" onclick="setTimeout(() => { document.getElementById('icons-and-shapes').scrollIntoView({behavior: 'smooth'}); }, 100)"> Do I need to try and replicate even the little icons and shapes?</a> <br></li>
+<li><a href="#color-matching" class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#color-matching .callout-collapse" onclick="setTimeout(() => { document.getElementById('color-matching').scrollIntoView({behavior: 'smooth'}); }, 100)"> Do we have to match the colors too?</a> <br></li>
+<li><a href="#imperfect-replication" class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#imperfect-replication .callout-collapse" onclick="setTimeout(() => { document.getElementById('imperfect-replication').scrollIntoView({behavior: 'smooth'}); }, 100)"> What if I can’t get an exact 1:1 replica?</a></li>
+</ul>
+</div>
+</div></li>
+<li><p>Write a step-by-step breakdown of how you created each visualization (for eample, any data cleaning or transformation required, how to change the formatting to match the original, how to add text and/or annotations, etc.).</p>
+<p>You can do this by choosing one or more of these options:</p>
+<ul>
+<li>(preferred option) Interspersing markdown cells with your code cells in notebook environments, such as <a href="https://colab.google/">Colab</a>, <a href="https://jupyter.org/">Jupyter</a>, <a href="https://observablehq.com/">Observable</a>, <a href="https://rmarkdown.rstudio.com/lesson-10.html">R</a>, <a href="https://www.mathworks.com/products/matlab-online.html">Matlab</a>. Also export to .pdf if possible.<br>
+</li>
+<li>Use <a href="https://quarto.org/">Quarto</a> to intersperse text and code (node you’ll still need to upload the runnable code)<br>
+</li>
+<li>Including block comments in your code, and line comments as well (ok option, but gets hard to read fast)<br>
+</li>
+<li>Screenshotting code snippets and putting them into a word doc interspersed with text (not recommended, but you do you)<br>
+</li>
+<li>Narrating a screen-capture video of you writing the code while explaining what you’re doing. Be sure to include closed captions/subtitles (great choice if you don’t like fiddling with documents)</li>
+</ul>
+<p>Your documentation should be clear enough that another student could <strong>follow your steps and recreate your visualization</strong> without prior knowledge of the data or tool.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>FAQs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="#ai-narration" class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#ai-narration .callout-collapse" onclick="setTimeout(() => { document.getElementById('ai-narration').scrollIntoView({behavior: 'smooth'}); }, 100)"> If I choose the video option, can I use AI to generate the narration?</a> <br></li>
+<li><a href="#code-aesthetics" class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#code-aesthetics .callout-collapse" onclick="setTimeout(() => { document.getElementById('code-aesthetics').scrollIntoView({behavior: 'smooth'}); }, 100)"> How beautiful does my code need to be?</a> <br></li>
+</ul>
+</div>
+</div></li>
+</ol>
+</section>
+<section id="step-2-add-a-descriptive-caption-to-your-vis" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-add-a-descriptive-caption-to-your-vis">Step 2: Add a descriptive caption to your vis</h2>
+<p>Add a caption summarizing the visualization’s purpose and encodings. Check out <a href="https://chec.engineering.cornell.edu/visuals/captions-for-figures-in-documents/">this resource</a> <a href="#" data-bs-toggle="popover" data-bs-trigger="click" onclick="return false;" data-bs-boundary="viewport" data-bs-html="true" data-bs-sanitize="false" data-bs-content="<iframe src=&quot;https://chec.engineering.cornell.edu/visuals/captions-for-figures-in-documents/&quot; width=&quot;400&quot; height=&quot;600&quot; style=&quot;border:none;&quot;></iframe>">
+  <span title="Click to preview"><i class="bi bi-eye"></i></span>
+</a> for how to write great captions.</p>
+<div class="{callout-tip}">
+<p>Some vis tools have built-in functionality for creating captions, others don’t. If you choose a tool that doesn’t, find a workaround, and then you can mention how annoying it was to have to do that in your reflection 😀.</p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Captions are more than just titles! They should be able to stand alone if taken out of context, succinctly describing the main points the viewer should take away from looking at this image: What is being shown? What are the salient features? What <strong>task or analysis question</strong> can be completed or addressed by this vis?</p>
+</div>
+</div>
+</section>
+<section id="step-4:-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="step-4:-reflection">Step 3: Reflection</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please type in the Google Assignent doc provided on Blackboard, don’t copy paste from another doc, or it will get flagged as plagiarism by the system! Also pls no AI</p>
+</div>
+</div>
+<p>As you’re working, take some time to reflect and write some short notes about:</p>
+<ul>
+<li>Which tools did you consider, and which did you end up choosing to use, and why?<br>
+</li>
+<li>What challenges did you encounter in replicating the visualization?<br>
+</li>
+<li>Did you have to modify the dataset in any way to get the desired output?<br>
+</li>
+<li>Which features of your tool helped or hindered the recreation process (strengths/limitations)?<br>
+</li>
+<li>Are there elements of the original visualization that were difficult or impossible to replicate? If so, why?<br>
+</li>
+<li>What is one piece of advice you would give someone wanting to use this tool?<br>
+</li>
+<li>If you had to do this again, would you choose the same tool? Why or why not?</li>
+</ul>
+<p>Write your reflection via Blackboard under <strong>Assignment 1 Part 2</strong>, then don’t forget to press ✨Submit ✨</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>FAQs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="#reflection-style" class="btn btn-link p-0" data-bs-toggle="collapse" data-bs-target="#reflection-style .callout-collapse" onclick="setTimeout(() => { document.getElementById('#reflection-style').scrollIntoView({behavior: 'smooth'}); }, 100)"> Are bullets fine for my reflection, or do you want a full essay?</a> <br></li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="grading" class="level1">
+<h1>Grading</h1>
+<section id="originality-checks" class="level2">
+<h2 class="anchored" data-anchor-id="originality-checks">Originality Checks</h2>
+<p>The following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:</p>
+<ul>
+<li>Ensure that your recreated visualization was generated from the dataset, not simply redrawn in Canva or other drawing program. - Please refer to the syllabus for the course policy on Academic Misconduct<br>
+</li>
+<li>AI Policy must be followed, including a link to the chat<br>
+</li>
+<li>Responses to reflection questions must be <strong>specific</strong> to your experience – generic AI-generated answers will be flagged.</li>
+</ul>
+</section>
+<section id="timeliness-checks" class="level2">
+<h2 class="anchored" data-anchor-id="timeliness-checks">Timeliness</h2>
+<p><strong>Requests for extensions must be made to the Professor before the assignment due date and time (by 9 pm).</strong></p>
+
+<style>
+.calculator-container {
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.calculator-container h4 {
+  margin-top: 0;
+  font-size: .80em;
+  font-weight: 600;
+}
+
+.calculator-container label {
+  font-weight: 500;
+  font-size: 0.6em;
+}
+
+.calculator-container input[type="datetime-local"] {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.6em;
+  width: 200px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.calc-button {
+  background: white;
+  color: #667eea;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 0.80em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.result-text {
+  background: rgba(255,255,255,0.2);
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-size: 0.95em;
+}
+
+/* Optional: make the canvas itself transparent so only the chartArea plugin paints white */
+#myChart {
+  background: transparent;
+}
+</style>
+
+<div class="calculator-container">
+  <h4 class="anchored">Late Deduction Calculator</h4>
+
+  <div style="display: flex; gap: 30px; align-items: flex-start;">
+    <!-- Left side: Form -->
+    <div style="flex: 0 0 auto;">
+      <label for="dueDate">Due Date and Time:</label><br>
+      <input type="datetime-local" id="dueDate">
+
+      <br><br>
+
+      <label for="submitDate">Submission Date and Time:</label><br>
+      <input type="datetime-local" id="submitDate">
+
+      <br><br>
+
+      <button onclick="calculate()" class="calc-button">Calculate the Damage!</button>
+
+      <div class="result-text">
+        <p id="daysLateDisplay" style="margin: 5px 0;"></p>
+        <p id="result" style="font-weight: bold; margin: 5px 0; font-size: 1.1em;"></p>
+      </div>
+    </div>
+
+    <!-- Right side: Chart -->
+    <div style="flex: 1;">
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+function calculate() {
+  const dueDateVal = document.getElementById('dueDate').value;
+  const submitDateVal = document.getElementById('submitDate').value;
+
+  if (!dueDateVal || !submitDateVal) {
+    document.getElementById('result').innerHTML = 'Please select both dates';
+    document.getElementById('daysLateDisplay').innerHTML = '';
+    return;
+  }
+
+  const dueDate = new Date(dueDateVal);
+  const submitDate = new Date(submitDateVal);
+
+  const diffMs = submitDate - dueDate;
+  const diffDays = diffMs / (1000 * 60 * 60 * 24);
+  const gracePeriod = 1 / 24; // 1 hour in days
+
+    if (diffDays <= gracePeriod) {
+    document.getElementById('daysLateDisplay').innerHTML = 'Submitted on time or early!';
+    document.getElementById('result').innerHTML = 'Deduction: 0%';
+    } else {
+    const deduction = Math.min(
+        Math.round(3.07 * Math.exp(0.481 * diffDays) * 100) / 100,
+        100
+    );
+
+    // document.getElementById('daysLateDisplay').innerHTML = 'Days Late: ' + diffDays.toFixed(2);
+    document.getElementById('result').innerHTML = 'Deduction: ' + deduction + '%';
+    }
+
+
+}
+
+// --- Chart area background plugin (paints ONLY the chart plot area) ---
+const chartAreaBackground = {
+  id: 'chartAreaBackground',
+  beforeDraw(chart, args, options) {
+    const { ctx, chartArea } = chart;
+    if (!chartArea) return;
+
+    const { left, top, width, height } = chartArea;
+    ctx.save();
+    ctx.fillStyle = options?.color || 'white';
+    ctx.fillRect(left, top, width, height);
+    ctx.restore();
+  }
+};
+
+// --- Data (use numeric x via {x,y} points, so the x-scale can be linear) ---
+const days = Array.from({ length: 900 }, (_, i) => i * 0.01);
+const deductions = days.map(d =>
+  Math.min(Math.round(3.07 * Math.exp(0.481 * d) * 100) / 100, 100)
+);
+const points = days.map((d, i) => ({ x: d, y: deductions[i] }));
+
+const ctx = document.getElementById('myChart').getContext('2d');
+
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    datasets: [{
+    label: 'Percent Deducted',
+    data: points,
+    borderColor: '#667eea',
+    backgroundColor: 'rgba(102, 126, 234, 0.1)',
+    tension: 0.4,
+
+    // show markers only at integer days
+    pointRadius: function(context) {
+        const x = context.raw.x;
+        return Number.isInteger(x) ? 4 : 0;
+    },
+
+    pointBackgroundColor: '#764ba2'
+    }]
+  },
+  options: {
+    parsing: false,
+    plugins: {
+        legend: { display: false },
+        chartAreaBackground: { color: 'white' },
+        tooltip: {
+            enabled: false
+        }
+    },
+    scales: {
+      x: {
+        type: 'linear',
+        min: 0.5,
+        max: 7.5,
+        title: { display: true, text: 'Days Late', color: 'white' },
+        ticks: {
+          color: 'white',
+          stepSize: 1,
+          maxRotation: 0,
+          minRotation: 0
+        },
+        grid: {
+          color: 'rgba(0,0,0,0.1)'
+        }
+      },
+      y: {
+        min: 0,
+        max: 100,
+        title: { display: true, text: 'Percent Deducted (%)', color: 'white' },
+        ticks: { color: 'white' },
+        grid: {
+          color: 'rgba(0,0,0,0.1)'
+        }
+      }
+    }
+  },
+  plugins: [chartAreaBackground]
+});
+</script>
+
+</section>
+<section id="rubric" class="level2">
+<h2 class="anchored" data-anchor-id="rubric">Rubric</h2>
+<iframe src="https://docs.google.com/document/d/1M48jyPlo-0PRHYyHykHNHTUVxXRB7--es63Aw4YMVHw/preview" width="100%" height="400">
+</iframe>
+<!-- Where should I put the resources? on this page? or on a "next" in navigation?
+
+Also, should group the assignments into a top-navigation item, then link in the corresponding week overview (right that's one of the things i hate about BB) -->
+</section>
+<section id="faqs" class="level2">
+<h2 class="anchored" data-anchor-id="faqs">Frequently Asked Questions</h2>
+<div id="data-sourcing" class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Do we have to write code to stream the data from the Google Docs link?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>No! Feel free to do whatever causes less friction. If using a notebook, you can drag the data into your runtime, but note it will disappear at the end of each session, unless you connect it to a static cloud source. If you’re writing code locally, feel free to download the data and then read in with any read function (Pandas can be great for this in Python)</p>
+</div>
+</div>
+</div>
+<div id="code-aesthetics" class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>How beautiful does my code need to be?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Not pristine, just readable. Please dont pass it thruugh AI though, as that may cause the system to flag for verbatim text</p>
+</div>
+</div>
+</div>
+<div id="imperfect-replication" class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>What if I can’t get an exact 1:1 replica?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Try and get as close as you can, and then in your reflection you can talk about how yours differs from the original, what elements of the original you were unable to figure out how to do, why, and propose a solution if you had more time.</p>
+</div>
+</div>
+</div>
+<div id="color-matching" class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Do we have to match the colors too?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Yes! Get as close as you can. If you want to be precise about the colors, use this color picker! However, don’t worry about things like complicated background gradients.</p>
+</div>
+</div>
+</div>
+<div id="icons-and-shapes" class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Do I need to try and replicate even the little icons and shapes?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If the vis has fancy little icons or weird shapes, you can omit those. For example, the little people icons in this bar chart’s legend (however, you should still include the legend!)</p>
+</div>
+</div>
+</div>
+<div id="reflection-style" class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Are bullets fine for my reflection, or do you want a full essay?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Bullets are fine as long as I can understand your experience, and it’s clear which question you’re answering. If two questions tie together you may want to change the ordering, group questions, etc. for better flow Also feel free to write it as standard prose or train of thought, whatever you prefer!</p>
+</div>
+</div>
+</div>
+<div id="ai-narration" class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Can I use AI to generate the narration?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Sure, but you’d then need to write a script in your own words, and at that point why not just write it down? I guess you could do voice to text back to AI voice…sounds complicated, but up to you. Don’t forget the closed captions also!</p>
+</div>
+</div>
+</div>
+<div id="format-requests" class="faq-callout callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>What if I want/need to use a different format?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Shoot me a message and we’ll figure it out!</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="appendix-and-additional-resources" class="level1">
+<h1>Appendix and Additional Resources</h1>
+<!-- ## Code Resources {#code-resources}
+| what | link |
+| :---- | :---- |
+| Quarto export to pdf | [https://quarto.org/docs/output-formats/pdf-basics.html](https://quarto.org/docs/output-formats/pdf-basics.html) |
+| R markdown interactive docs (self contained html) | [https://rmarkdown.rstudio.com/lesson-9.html](https://rmarkdown.rstudio.com/lesson-9.html) |
+| Jupyter notebook export to pdf | [https://jupyterlab.readthedocs.io/en/stable/user/export.html](https://jupyterlab.readthedocs.io/en/stable/user/export.html) [https://pypi.org/project/notebook-as-pdf/](https://pypi.org/project/notebook-as-pdf/) (i have not tested this) |
+| Google colab export to pdf | [https://m.youtube.com/watch?v=-Ti9Mm21uVc](https://m.youtube.com/watch?v=-Ti9Mm21uVc) |
+| Observable HQ | Export to vanilla js: [https://observablehq.com/@bumbeishvili/convert-observable-code-to-normal-javascript](https://observablehq.com/@bumbeishvili/convert-observable-code-to-normal-javascript) <br> Print to pdf: [https://observablehq.com/@71/printing-observable-notebooks](https://observablehq.com/@71/printing-observable-notebooks) |
+| Github pages/Markdown to pdf | [https://gist.github.com/justincbagley/ec0a6334cc86e854715e459349ab1446](https://gist.github.com/justincbagley/ec0a6334cc86e854715e459349ab1446) |
+| Matlab live script publish function | [https://www.mathworks.com/help/matlab/ref/publish.html](https://www.mathworks.com/help/matlab/ref/publish.html) |
+ -->
+<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen="" frameborder="0" src="https://raindrop.io/amjussayinisall/cmsc-436-approved-tools-66316166/embed/theme=dark">
+</iframe>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl, {
+      sanitize: false,
+      html: true,
+      template: '<div class="popover" role="tooltip"><div class="popover-arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div><button type="button" class="btn-close popover-close" aria-label="Close"></button></div>'
+    })
+  })
+  
+  // Add click handler to close buttons
+  document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('popover-close')) {
+      // Find all popovers and hide them
+      popoverList.forEach(function(popover) {
+        popover.hide()
+      })
+    }
+  })
+});
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

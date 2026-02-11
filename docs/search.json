@@ -1,10 +1,113 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
+    "objectID": "Assignment-1-instructions.html",
+    "href": "Assignment-1-instructions.html",
+    "title": "Assignment 1 Instructions",
     "section": "",
-    "text": "This is stuff for Dr. Williams’ section of Data Visualization (CMSC 436 and 636).\nHere is the syllabus\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. You may want to use it for your group project! You can embed reactive apps in it, see the Shinylive demo for an example."
+    "text": "Due Date: 2/25/26 (FLEX to 3/4/26)",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#step-0:-choose-one-or-two-visualizations-to-recreate",
+    "href": "Assignment-1-instructions.html#step-0:-choose-one-or-two-visualizations-to-recreate",
+    "title": "Assignment 1 Instructions",
+    "section": "Step 0: Choose one or two Visualizations to Recreate",
+    "text": "Step 0: Choose one or two Visualizations to Recreate\n\nBrowse the set of provided visualizations and datasets\n  \n.Each vis is accompanied by the dataset used to create it. Select one or two visualizations to attempt to recreate.\n\nFamiliarize yourself with the dataset and its structure. Do some exploring on the Data to Viz \n  \n site to learn common vis names, caveats, and some tips to create them. As a hint, I have put the chart name in brackets for each image (though sometimes names will differ!)\n\nDecide whether you will use AI or not – if you use it, be sure to include the link in your submission",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#1-with-your-chosen-tool",
+    "href": "Assignment-1-instructions.html#1-with-your-chosen-tool",
+    "title": "Assignment 1 Instructions",
+    "section": "Step 1: Recreate Visualization #1 with your chosen tool",
+    "text": "Step 1: Recreate Visualization #1 with your chosen tool\n\nChoose an appropriate tool from the list of approved tools, based on the dataset and visualization type. You can change your mind at any time.\n\nLoad and prepare the dataset.\n\n\n\n\n\n\nNote\n\n\n\nThe dataset may require preprocessing (e.g., filtering, cleaning, or restructuring) to match the visual representation in the original image. You should document any changes you make to the dataset to recreate the visualization. You can add auxiliary data as needed, but don’t forget to cite and document it!\n\n\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Do we have to write code to stream the data from the Google Docs link? \n\n\n\nWrite some code to recreate the visualization(s) as accurately as you can\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Do I need to try and replicate even the little icons and shapes? \n Do we have to match the colors too? \n What if I can’t get an exact 1:1 replica?\n\n\n\nWrite a step-by-step breakdown of how you created each visualization (for eample, any data cleaning or transformation required, how to change the formatting to match the original, how to add text and/or annotations, etc.).\nYou can do this by choosing one or more of these options:\n\n(preferred option) Interspersing markdown cells with your code cells in notebook environments, such as Colab, Jupyter, Observable, R, Matlab. Also export to .pdf if possible.\n\nUse Quarto to intersperse text and code (node you’ll still need to upload the runnable code)\n\nIncluding block comments in your code, and line comments as well (ok option, but gets hard to read fast)\n\nScreenshotting code snippets and putting them into a word doc interspersed with text (not recommended, but you do you)\n\nNarrating a screen-capture video of you writing the code while explaining what you’re doing. Be sure to include closed captions/subtitles (great choice if you don’t like fiddling with documents)\n\nYour documentation should be clear enough that another student could follow your steps and recreate your visualization without prior knowledge of the data or tool.\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n If I choose the video option, can I use AI to generate the narration? \n How beautiful does my code need to be?",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#step-2-add-a-descriptive-caption-to-your-vis",
+    "href": "Assignment-1-instructions.html#step-2-add-a-descriptive-caption-to-your-vis",
+    "title": "Assignment 1 Instructions",
+    "section": "Step 2: Add a descriptive caption to your vis",
+    "text": "Step 2: Add a descriptive caption to your vis\nAdd a caption summarizing the visualization’s purpose and encodings. Check out this resource \n  \n for how to write great captions.\n\nSome vis tools have built-in functionality for creating captions, others don’t. If you choose a tool that doesn’t, find a workaround, and then you can mention how annoying it was to have to do that in your reflection 😀.\n\n\n\n\n\n\n\nNote\n\n\n\nCaptions are more than just titles! They should be able to stand alone if taken out of context, succinctly describing the main points the viewer should take away from looking at this image: What is being shown? What are the salient features? What task or analysis question can be completed or addressed by this vis?",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#step-4:-reflection",
+    "href": "Assignment-1-instructions.html#step-4:-reflection",
+    "title": "Assignment 1 Instructions",
+    "section": "Step 3: Reflection",
+    "text": "Step 3: Reflection\n\n\n\n\n\n\nImportant\n\n\n\nPlease type in the Google Assignent doc provided on Blackboard, don’t copy paste from another doc, or it will get flagged as plagiarism by the system! Also pls no AI\n\n\nAs you’re working, take some time to reflect and write some short notes about:\n\nWhich tools did you consider, and which did you end up choosing to use, and why?\n\nWhat challenges did you encounter in replicating the visualization?\n\nDid you have to modify the dataset in any way to get the desired output?\n\nWhich features of your tool helped or hindered the recreation process (strengths/limitations)?\n\nAre there elements of the original visualization that were difficult or impossible to replicate? If so, why?\n\nWhat is one piece of advice you would give someone wanting to use this tool?\n\nIf you had to do this again, would you choose the same tool? Why or why not?\n\nWrite your reflection via Blackboard under Assignment 1 Part 2, then don’t forget to press ✨Submit ✨\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Are bullets fine for my reflection, or do you want a full essay?",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#originality-checks",
+    "href": "Assignment-1-instructions.html#originality-checks",
+    "title": "Assignment 1 Instructions",
+    "section": "Originality Checks",
+    "text": "Originality Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:\n\nEnsure that your recreated visualization was generated from the dataset, not simply redrawn in Canva or other drawing program. - Please refer to the syllabus for the course policy on Academic Misconduct\n\nAI Policy must be followed, including a link to the chat\n\nResponses to reflection questions must be specific to your experience – generic AI-generated answers will be flagged.",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#timeliness-checks",
+    "href": "Assignment-1-instructions.html#timeliness-checks",
+    "title": "Assignment 1 Instructions",
+    "section": "Timeliness",
+    "text": "Timeliness\nRequests for extensions must be made to the Professor before the assignment due date and time (by 9 pm).\n\n\n\n\n  Late Deduction Calculator\n\n  \n    \n    \n      Due Date and Time:\n      \n\n      \n\n      Submission Date and Time:\n      \n\n      \n\n      Calculate the Damage!",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#rubric",
+    "href": "Assignment-1-instructions.html#rubric",
+    "title": "Assignment 1 Instructions",
+    "section": "Rubric",
+    "text": "Rubric",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#faqs",
+    "href": "Assignment-1-instructions.html#faqs",
+    "title": "Assignment 1 Instructions",
+    "section": "Frequently Asked Questions",
+    "text": "Frequently Asked Questions\n\n\n\n\n\n\nNoteDo we have to write code to stream the data from the Google Docs link?\n\n\n\n\n\nNo! Feel free to do whatever causes less friction. If using a notebook, you can drag the data into your runtime, but note it will disappear at the end of each session, unless you connect it to a static cloud source. If you’re writing code locally, feel free to download the data and then read in with any read function (Pandas can be great for this in Python)\n\n\n\n\n\n\n\n\n\nNoteHow beautiful does my code need to be?\n\n\n\n\n\nNot pristine, just readable. Please dont pass it thruugh AI though, as that may cause the system to flag for verbatim text\n\n\n\n\n\n\n\n\n\nNoteWhat if I can’t get an exact 1:1 replica?\n\n\n\n\n\nTry and get as close as you can, and then in your reflection you can talk about how yours differs from the original, what elements of the original you were unable to figure out how to do, why, and propose a solution if you had more time.\n\n\n\n\n\n\n\n\n\nNoteDo we have to match the colors too?\n\n\n\n\n\nYes! Get as close as you can. If you want to be precise about the colors, use this color picker! However, don’t worry about things like complicated background gradients.\n\n\n\n\n\n\n\n\n\nNoteDo I need to try and replicate even the little icons and shapes?\n\n\n\n\n\nIf the vis has fancy little icons or weird shapes, you can omit those. For example, the little people icons in this bar chart’s legend (however, you should still include the legend!)\n\n\n\n\n\n\n\n\n\nNoteAre bullets fine for my reflection, or do you want a full essay?\n\n\n\n\n\nBullets are fine as long as I can understand your experience, and it’s clear which question you’re answering. If two questions tie together you may want to change the ordering, group questions, etc. for better flow Also feel free to write it as standard prose or train of thought, whatever you prefer!\n\n\n\n\n\n\n\n\n\nNoteCan I use AI to generate the narration?\n\n\n\n\n\nSure, but you’d then need to write a script in your own words, and at that point why not just write it down? I guess you could do voice to text back to AI voice…sounds complicated, but up to you. Don’t forget the closed captions also!\n\n\n\n\n\n\n\n\n\nNoteWhat if I want/need to use a different format?\n\n\n\n\n\nShoot me a message and we’ll figure it out!",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is an alpha test of trying to rely less on blackboard because it infuriates me. Seriously the rage I feel when interacting with BB is beyond compare.",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
   },
   {
     "objectID": "Phase 0 Pitch.html",
@@ -106,14 +209,10 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
     "section": "",
-    "text": "This is an alpha test of trying to rely less on blackboard because it infuriates me. Seriously the rage I feel when interacting with BB is beyond compare.",
-    "crumbs": [
-      "Home",
-      "About"
-    ]
+    "text": "This is stuff for Dr. Williams’ section of Data Visualization (CMSC 436 and 636).\nHere is the syllabus\n\n\n\n\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. You may want to use it for your group project! You can embed reactive apps in it, see the Shinylive demo for an example."
   }
 ]

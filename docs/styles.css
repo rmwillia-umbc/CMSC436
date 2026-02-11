@@ -6,10 +6,29 @@
 }
 
 .popover {
-  max-width: 350px; /* Adjust as needed for your iframe */
+  max-width: 750px; /* Adjust as needed for your iframe */
+  position: relative; /* Ensures close button positions correctly */
 }
+
 .popover-body {
   padding: 0; /* Removes padding so the iframe fills the box */
+}
+
+/* Close button styling */
+.popover-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+  opacity: 0.5;
+  z-index: 10; /* Ensures it sits above the iframe */
+  background-color: white; /* Makes it visible over content */
+  border-radius: 50%;
+}
+
+.popover-close:hover {
+  opacity: 1;
 }
 
 /* Increased specificity to override Quarto's Bootstrap defaults */
@@ -18,4 +37,3 @@
   background-color: #003B46 !important; /* Forces the color change */
   color: white !important;            /* Forces the text color */
 }
-

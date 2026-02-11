@@ -1,0 +1,7 @@
+title: Popover Preview
+author: Your Name
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  shortcodes:
+    - popover-preview.lua

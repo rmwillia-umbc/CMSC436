@@ -1,27 +1,14 @@
 {
-  "about.qmd": {
-    "about.html": "2635fbd9"
-  },
-  "hello.qmd": {
-    "hello.html": "31d96237"
-  },
   "index.qmd": {
-    "index.html": "08b09289"
-  },
-  "Week-1.qmd": {
-    "Week-1.html": "f220fe1f"
-  },
-  "Assignment-1-instructions.qmd": {
-    "Assignment-1-instructions.html": "8d436988"
-  },
-  "CMSC 304 readings.qmd": {
-    "CMSC 304 readings.html": "2b2d720e"
-  },
-  "docs/Phase 0 Pitch.qmd": {
-    "Phase 0 Pitch.html": "783f0066"
+    "index.html": "1c947c71"
   },
   "Phase 0 Pitch.qmd": {
-    "Phase 0 Pitch.html": "cbea369e",
-    "Blackboard-Pitch.html": "6bda4606"
+    "Phase 0 Pitch.html": "ed016220"
+  },
+  "about.qmd": {
+    "about.html": "dface18c"
+  },
+  "Assignment-1-instructions.qmd": {
+    "Assignment-1-instructions.html": "8056a875"
   }
 }
