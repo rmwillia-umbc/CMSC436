@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#assignment-instructions:-step-by-step" id="toc-assignment-instructions:-step-by-step" class="nav-link" data-scroll-target="#assignment-instructions\:-step-by-step">Assignment Instructions: Step-by-Step</a>
   <ul class="collapse">
   <li><a href="#step-0:-choose-one-or-two-visualizations-to-recreate" id="toc-step-0:-choose-one-or-two-visualizations-to-recreate" class="nav-link" data-scroll-target="#step-0\:-choose-one-or-two-visualizations-to-recreate">Step 0: Choose one or two Visualizations to Recreate</a></li>
-  <li><a href="#1-with-your-chosen-tool" id="toc-1-with-your-chosen-tool" class="nav-link" data-scroll-target="#1-with-your-chosen-tool">Step 1: Recreate Visualization #1 with your chosen tool</a></li>
+  <li><a href="#1-with-your-chosen-tool" id="toc-1-with-your-chosen-tool" class="nav-link" data-scroll-target="#1-with-your-chosen-tool">Step 1: Recreate the vis with your chosen tool</a></li>
   <li><a href="#step-2-add-a-descriptive-caption-to-your-vis" id="toc-step-2-add-a-descriptive-caption-to-your-vis" class="nav-link" data-scroll-target="#step-2-add-a-descriptive-caption-to-your-vis">Step 2: Add a descriptive caption to your vis</a></li>
   <li><a href="#step-4:-reflection" id="toc-step-4:-reflection" class="nav-link" data-scroll-target="#step-4\:-reflection">Step 3: Reflection</a></li>
   </ul></li>
@@ -131,7 +131,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#rubric" id="toc-rubric" class="nav-link" data-scroll-target="#rubric">Rubric</a></li>
   <li><a href="#faqs" id="toc-faqs" class="nav-link" data-scroll-target="#faqs">Frequently Asked Questions</a></li>
   </ul></li>
-  <li><a href="#appendix-and-additional-resources" id="toc-appendix-and-additional-resources" class="nav-link" data-scroll-target="#appendix-and-additional-resources">Appendix and Additional Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -246,7 +245,7 @@ Important
 <div class="callout-body-container callout-body">
 <p>Choose one or two visualization(s)+dataset from <a href="https://padlet.com/rmwillia2/vis-o-the-day-4zfmrymkyzvf9vzo">this collection</a> <a href="#" data-bs-toggle="popover" data-bs-trigger="click" onclick="return false;" data-bs-boundary="viewport" data-bs-html="true" data-bs-sanitize="false" data-bs-content="<iframe src=&quot;https://padlet.com/rmwillia2/assignment-1-visualizations-data-4zfmrymkyzvf9vzo&quot; width=&quot;400&quot; height=&quot;600&quot; style=&quot;border:none;&quot;></iframe>">
   <span title="Click to preview"><i class="bi bi-eye"></i></span>
-</a>. Write some code to recreate the visualization(s) as accurately as you can using one or more visualization tools from the <a href="https://padlet.com/rmwillia2/approved-visualization-tools-6rzddfbf6hhfjrdd">list of approved tools</a>. Document your process. Reflect on your choices and challenges. Submit code + documentation + vis + captions to Blackboard.</p>
+</a>. Write some code to recreate the visualization(s) as accurately as you can using one or more visualization tools from the list of approved tools. Document your process. Reflect on your choices and challenges. Submit code + documentation + vis + captions to Blackboard.</p>
 </div>
 </div>
 </div>
@@ -292,11 +291,158 @@ Important
 </ol>
 </section>
 <section id="1-with-your-chosen-tool" class="level2">
-<h2 class="anchored" data-anchor-id="1-with-your-chosen-tool">Step 1: Recreate Visualization #1 with your chosen tool</h2>
+<h2 class="anchored" data-anchor-id="1-with-your-chosen-tool">Step 1: Recreate the vis with your chosen tool</h2>
 <ol type="a">
-<li><p>Choose an appropriate tool from the <a href="https://padlet.com/rmwillia2/approved-visualization-tools-6rzddfbf6hhfjrdd">list of approved tools</a>, based on the dataset and visualization type. You can change your mind at any time.<br>
-</p></li>
-<li><p>Load and prepare the dataset.</p>
+<li>First, choose an appropriate tool for your chosen vis from the list of approved tools below. You can change your mind at any time.<br>
+<!-- [list of approved tools](https://padlet.com/rmwillia2/approved-visualization-tools-6rzddfbf6hhfjrdd),  --></li>
+</ol>
+<style>
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 6px 16px;
+}
+
+
+@media (min-width: 768px) {
+  .tool-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.tool-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.tool-item img {
+  width: 18px;
+  height: 18px;
+}
+
+.tool-item a {
+  text-decoration: none;
+}
+</style>
+
+<div class="tool-grid">
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=panel.holoviz.org&amp;sz=64">
+  <a href="https://panel.holoviz.org/">Holoviz Panel</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=3b1b.github.io&amp;sz=64">
+  <a href="https://3b1b.github.io/manim/getting_started/example_scenes.html">Manim</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=unrealengine.com&amp;sz=64">
+  <a href="https://www.unrealengine.com/en-US">Unreal Engine</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64">
+  <a href="https://github.com/cosmograph-org/cosmos">CosmoGraph</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=bokeh.org&amp;sz=64">
+  <a href="https://docs.bokeh.org/en/latest/">Bokeh</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=vega.github.io&amp;sz=64">
+  <a href="https://vega.github.io/vega-lite/">Vega-Lite</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=gephi.org&amp;sz=64">
+  <a href="https://gephi.org/">Gephi</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=seaborn.pydata.org&amp;sz=64">
+  <a href="https://seaborn.pydata.org/">Seaborn</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=python-visualization.github.io&amp;sz=64">
+  <a href="https://python-visualization.github.io/folium/">Folium</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=plotly.com&amp;sz=64">
+  <a href="https://plotly.com/python/">Plotly</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=mathworks.com&amp;sz=64">
+  <a href="https://www.mathworks.com/products/matlab.html">MATLAB</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=shiny.rstudio.com&amp;sz=64">
+  <a href="https://shiny.rstudio.com/">Shiny</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=d3js.org&amp;sz=64">
+  <a href="https://d3js.org/">D3.js</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=matplotlib.org&amp;sz=64">
+  <a href="https://matplotlib.org/stable/gallery/index.html">Matplotlib</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=blender.org&amp;sz=64">
+  <a href="https://www.blender.org/">Blender</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=qgis.org&amp;sz=64">
+  <a href="https://www.qgis.org/en/site/">QGIS</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=developers.google.com&amp;sz=64">
+  <a href="https://developers.google.com/chart">Google Charts</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=visit-dav.github.io&amp;sz=64">
+  <a href="https://visit-dav.github.io/visit-website/">VisIt</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=opengl.org&amp;sz=64">
+  <a href="https://www.opengl.org/">OpenGL</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=vtk.org&amp;sz=64">
+  <a href="https://vtk.org/">VTK</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=unity.com&amp;sz=64">
+  <a href="https://unity.com/">Unity</a>
+</div>
+
+<div class="tool-item">
+  <img src="https://www.google.com/s2/favicons?domain=orangedatamining.com&amp;sz=64">
+  <a href="https://orangedatamining.com/">Orange</a>
+</div>
+
+</div>
+<br>
+<ol start="2" type="a">
+<li><p>Next, load and prepare the dataset.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -674,11 +820,9 @@ new Chart(ctx, {
 </section>
 <section id="rubric" class="level2">
 <h2 class="anchored" data-anchor-id="rubric">Rubric</h2>
-<iframe src="https://docs.google.com/document/d/1M48jyPlo-0PRHYyHykHNHTUVxXRB7--es63Aw4YMVHw/preview" width="100%" height="400">
-</iframe>
-<!-- Where should I put the resources? on this page? or on a "next" in navigation?
+<p><a href="https://docs.google.com/document/d/1M48jyPlo-0PRHYyHykHNHTUVxXRB7--es63Aw4YMVHw/preview">link to the rubric</a> <!-- Where should I put the resources? on this page? or on a "next" in navigation?
 
-Also, should group the assignments into a top-navigation item, then link in the corresponding week overview (right that's one of the things i hate about BB) -->
+Also, should group the assignments into a top-navigation item, then link in the corresponding week overview (right that's one of the things i hate about BB) --></p>
 </section>
 <section id="faqs" class="level2">
 <h2 class="anchored" data-anchor-id="faqs">Frequently Asked Questions</h2>
@@ -810,23 +954,6 @@ Also, should group the assignments into a top-navigation item, then link in the 
 </div>
 </div>
 </div>
-</section>
-</section>
-<section id="appendix-and-additional-resources" class="level1">
-<h1>Appendix and Additional Resources</h1>
-<!-- ## Code Resources {#code-resources}
-| what | link |
-| :---- | :---- |
-| Quarto export to pdf | [https://quarto.org/docs/output-formats/pdf-basics.html](https://quarto.org/docs/output-formats/pdf-basics.html) |
-| R markdown interactive docs (self contained html) | [https://rmarkdown.rstudio.com/lesson-9.html](https://rmarkdown.rstudio.com/lesson-9.html) |
-| Jupyter notebook export to pdf | [https://jupyterlab.readthedocs.io/en/stable/user/export.html](https://jupyterlab.readthedocs.io/en/stable/user/export.html) [https://pypi.org/project/notebook-as-pdf/](https://pypi.org/project/notebook-as-pdf/) (i have not tested this) |
-| Google colab export to pdf | [https://m.youtube.com/watch?v=-Ti9Mm21uVc](https://m.youtube.com/watch?v=-Ti9Mm21uVc) |
-| Observable HQ | Export to vanilla js: [https://observablehq.com/@bumbeishvili/convert-observable-code-to-normal-javascript](https://observablehq.com/@bumbeishvili/convert-observable-code-to-normal-javascript) <br> Print to pdf: [https://observablehq.com/@71/printing-observable-notebooks](https://observablehq.com/@71/printing-observable-notebooks) |
-| Github pages/Markdown to pdf | [https://gist.github.com/justincbagley/ec0a6334cc86e854715e459349ab1446](https://gist.github.com/justincbagley/ec0a6334cc86e854715e459349ab1446) |
-| Matlab live script publish function | [https://www.mathworks.com/help/matlab/ref/publish.html](https://www.mathworks.com/help/matlab/ref/publish.html) |
- -->
-<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen="" frameborder="0" src="https://raindrop.io/amjussayinisall/cmsc-436-approved-tools-66316166/embed/theme=dark">
-</iframe>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
@@ -851,6 +978,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
