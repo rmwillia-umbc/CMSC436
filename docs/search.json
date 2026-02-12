@@ -88,17 +88,6 @@
     ]
   },
   {
-    "objectID": "Assignment-1-instructions.html#faqs",
-    "href": "Assignment-1-instructions.html#faqs",
-    "title": "Assignment 1 Instructions",
-    "section": "Frequently Asked Questions",
-    "text": "Frequently Asked Questions\n\n\n\n\n\n\nNoteDo we have to write code to stream the data from the Google Docs link?\n\n\n\n\n\nNo! Feel free to do whatever causes less friction. If using a notebook, you can drag the data into your runtime, but note it will disappear at the end of each session, unless you connect it to a static cloud source. If you’re writing code locally, feel free to download the data and then read in with any read function (Pandas can be great for this in Python)\n\n\n\n\n\n\n\n\n\nNoteHow beautiful does my code need to be?\n\n\n\n\n\nNot pristine, just readable. Please dont pass it thruugh AI though, as that may cause the system to flag for verbatim text\n\n\n\n\n\n\n\n\n\nNoteWhat if I can’t get an exact 1:1 replica?\n\n\n\n\n\nTry and get as close as you can, and then in your reflection you can talk about how yours differs from the original, what elements of the original you were unable to figure out how to do, why, and propose a solution if you had more time.\n\n\n\n\n\n\n\n\n\nNoteDo we have to match the colors too?\n\n\n\n\n\nYes! Get as close as you can. If you want to be precise about the colors, use this color picker! However, don’t worry about things like complicated background gradients.\n\n\n\n\n\n\n\n\n\nNoteDo I need to try and replicate even the little icons and shapes?\n\n\n\n\n\nIf the vis has fancy little icons or weird shapes, you can omit those. For example, the little people icons in this bar chart’s legend (however, you should still include the legend!)\n\n\n\n\n\n\n\n\n\nNoteAre bullets fine for my reflection, or do you want a full essay?\n\n\n\n\n\nBullets are fine as long as I can understand your experience, and it’s clear which question you’re answering. If two questions tie together you may want to change the ordering, group questions, etc. for better flow Also feel free to write it as standard prose or train of thought, whatever you prefer!\n\n\n\n\n\n\n\n\n\nNoteCan I use AI to generate the narration?\n\n\n\n\n\nSure, but you’d then need to write a script in your own words, and at that point why not just write it down? I guess you could do voice to text back to AI voice…sounds complicated, but up to you. Don’t forget the closed captions also!\n\n\n\n\n\n\n\n\n\nNoteWhat if I want/need to use a different format?\n\n\n\n\n\nShoot me a message and we’ll figure it out!",
-    "crumbs": [
-      "Home",
-      "Assignment 1 Instructions"
-    ]
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
