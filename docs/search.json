@@ -198,6 +198,138 @@
     ]
   },
   {
+    "objectID": "Phase 1 Proposal.html",
+    "href": "Phase 1 Proposal.html",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "",
+    "text": "Due Date: 3/2/26",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#1.-expected-technical-roles-of-each-team-member",
+    "href": "Phase 1 Proposal.html#1.-expected-technical-roles-of-each-team-member",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "1. Expected technical roles of each team member",
+    "text": "1. Expected technical roles of each team member\nEvery group must account for the 5 functional roles in some way.\n\nAssign the baseline roles (Code Monkey, Project Manager, Technical Communictions Manager) of each member. Every team member should have 1 of these roles. You can define new ones, but use the given roles as a guide.\nDecide how you will dole out the additional Auxiliary Roles (QA/QC, Resource Manager). For example, you can rotate them for each deliverable, or pick one person who will manage it for the whole project.\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\n Can we switch roles during the project? \n How many code monkeys do we need?",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#2.-scheduling",
+    "href": "Phase 1 Proposal.html#2.-scheduling",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "2. Scheduling",
+    "text": "2. Scheduling\n\nIndicate a weekly outside-class meeting time slot, during which everyone agrees they could be free to meet. You don’t need to always meet at this time, but make sure that there exists at least one weekly time in our space-time continuum that works for everyone. This is required.\n\nDiscuss whether anyone has any foreseeable schedule disruptions that might affect the team (conference travel, on-site job interviews, part/full time work, midterm exams). You don’t need to divulge your personal life circumstances, just let your team know if you anticipate being away at a certain time, and how you’ll stay on top of your work.\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\n How often do we actually need to meet?",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#3.-conflict-resolution-strategies",
+    "href": "Phase 1 Proposal.html#3.-conflict-resolution-strategies",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "3. Conflict resolution strategies",
+    "text": "3. Conflict resolution strategies\n\nWhat should the procedure be for students that consistently display a pattern of not completing work?\nHow will your group use AI in the project? Some people prefer never to use it, others rely heavily on it. Come up with a compromise that everyone is comfortable with, if possible.\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\n What if group members disagree about AI usage? \n What should we do if a member isn’t contributing?",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#4.-collaboration-tool-preferences",
+    "href": "Phase 1 Proposal.html#4.-collaboration-tool-preferences",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "4. Collaboration tool preferences",
+    "text": "4. Collaboration tool preferences\nBriefly discuss and settle on what tools you will use for which aspects. Ask the Professor for recommendations if needed.\n\nFor coding you may want to use Github, Colab, or Observable HQ. Whatever you choose needs to have version control and collaboration capabilities.\nWhat will you use for project management?\n\n\n\n\n\n\n\nTipIdeas for project management tools\n\n\n\n\n\n\nTrello, here is an example Trello board setup\na Google Doc for task assignments/meeting minutes\nJira\n\n\n\n\n\nWhat will you use for brainstorming? You’ll use Google Docs for Phase 1 and 2, but you may want to use something else for brainstorming after that, or keep writing in the same doc for simplicity.\n\n\n\n\n\n\n\nTipIdeas for visual brainstorming tools\n\n\n\n\n\nPadlet, FigJam, Miro, mural.co are my favorites\n\n\n\n\nWhat will you use for creating your interrim deliverables (group presentations)? Consider whether it would be best to have interactive elements.\n\n\n\n\n\n\n\nTipIdeas for interactive presentations\n\n\n\n\n\nFor interactive html-based presentations reveal.js, slidev or Quarto for open source options, or Prezi (I’ve not heard good things about this one from past students). Canva is also an option but it costs money.\n\n\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\n Do we have to use specific tools?",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#communication-preferences-plans",
+    "href": "Phase 1 Proposal.html#communication-preferences-plans",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "5. Communication preferences & plans",
+    "text": "5. Communication preferences & plans\nFor example, do most people in the group prefer email, Discord, in-person? Will you exchange numbers/WhatsApp? For virtual meetings, will you use the Discord voice channel, Google Meet, etc? For in person meetings, where is a good spot? Who will take the meeting minutes? Discuss as a team what time people go to bed and wake up, and respect each others’ work/life balance.",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#domain-and-project-motivation",
+    "href": "Phase 1 Proposal.html#domain-and-project-motivation",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "1. Domain and Project Motivation",
+    "text": "1. Domain and Project Motivation\nWhat is the Big Idea for your Project? What is the domain, who are your target users, and what tasks/analysis questions should they be able to complete with your project?\n\n\n\n\n\n\nTip\n\n\n\n\n\nTo determine these questions, do a quick internet search like you did for your Pitch to see what’s currently being done. You’ll have a chance to refine these ideas further. A great place to discover un-solved tasks in a vis area is to check “Future Work” sections of peer-reviewed publications.\n\n\n\nWhen describing your analysis questions/tasks, be sure to use the concepts from Chapters 2 & 3 (Data Abstraction, Task Abstraction) in the textbook to write good tasks that are appropriate to the data types and dataset types you have identified. At least one of your analysis questions/tasks should require deriving new data/transforming data.",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#data",
+    "href": "Phase 1 Proposal.html#data",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "2. Data",
+    "text": "2. Data\nIdentify one or more preliminary dataset(s) that would support the tasks you identify.\n\n\n\n\n\n\nImportant\n\n\n\nBe sure to cite your dataset.\n\n\n\nDataset requirements\nYour dataset should be rich enough to support multiple analysis tasks and meaningful visual encodings. Very simple two- or three- column tables typically only support a single chart type and do not provide enough structure for a semester-long project.\nDatasets with only two attributes will not be approved unless you justify why the structure is inherently complex (e.g., network edges, text corpora, spatial geometries). You can also add auxiliary data (for example, adding spatial boundaries from a 2nd source to categorical place names in a simple 2-column dataset dataset).\n\n\nDetail the types, semantics, and limitations\n\nFor each attribute you plan to use, include a description of the data type(s) and the semantics of the attributes (putting this information in a table in your doc might be good for this).\n\n\n\n\n\n\n\nNoteReminders\n\n\n\n\n\nAttribute semantics are the real-world meaning of that attribute. A dataset can have multiple types; which you choose is a design choice.\n\n\n\n\nAdditionally, mention some limitations of the dataset(s). A limitation is anything about the data that could affect the analysis or conclusions. Examples include:\n\n\n\nSize and Access\n\nDataset too large to store\nCan only be streamed via API\n\n\nCoverage and Granularity\n\nOnly includes one country, platform, or time period\n\nMissing certain populations or categories\nLacks geographic detail\nAggregated at too course resolution for the task\n\n\nMissing or Noisy Values\n\nMany nulls or nans\nInconsistent categories or labels\n\n\nProvenance\n\nUnknown data collection and processing methods\nInsufficient or dubious documentation\n\n\n\nIf you choose from the above list, or find a different limitation, explain how this limitation might affect your user’s ability to complete the task(s).\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\n What counts as having “access” to the data? \n Can we use multiple datasets?",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#project-contributions",
+    "href": "Phase 1 Proposal.html#project-contributions",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "3. Project Final Form",
+    "text": "3. Project Final Form\n\nInclude some info about the end product you might want to create\n\n\n\n\n\n\n\nTipFinal form inspiration examples!\n\n\n\n\n\n\nAnimated map\nLarge-format poster\nData quilt\nStory Map\nVR experience or XR experience\nScrollytelling data story\nInteractive website\nsomething else?\n\n\n\n\n\nStart thinking about software tools could be used to create your final vision, ideas for specific encodings/idioms, user interface/interaction, and any issues you foresee.\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\n Do we need to decide on our final format now?\n What if we forsee no issues?",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#originality-checks",
+    "href": "Phase 1 Proposal.html#originality-checks",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "Originality Checks",
+    "text": "Originality Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to your group with or without options for remediation:\n\nCheck for plagiarism via SafeAssign and by eye - Please refer to the syllabus for the course policy on Academic Misconduct\nCheck for no cited sources (including your dataset) - You will be notified and asked to resubmit with the required citations within 1 day of notification, otherwise the Late Policy applies\nCheck that any images are either original or have correct attribution - Please refer to the syllabus for the course policy on Academic Misconduct",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#timeliness-checks",
+    "href": "Phase 1 Proposal.html#timeliness-checks",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "Timeliness",
+    "text": "Timeliness\nLate policy for Group Work = -25% penalty per day (i.e. NOT compounded; 0% credit is available after four days). Requests for extensions must be made to and approved by the Professor, via email, before 9 pm on the day the assignment is due.",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
+    "objectID": "Phase 1 Proposal.html#rubric",
+    "href": "Phase 1 Proposal.html#rubric",
+    "title": "Group Project Proposal + Group Charter (Phase 1)",
+    "section": "Rubric",
+    "text": "Rubric\n[Rubric] Phase 1",
+    "crumbs": [
+      "Home",
+      "Group Project Proposal + Group Charter (Phase 1)"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
