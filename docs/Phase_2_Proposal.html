@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Revised Proposal + Related Works (Phase 2) – Data Visualization (CMSC 436 and 636) with Dr.&nbsp;Williams</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-1d4f84655f446305ac42a8f1abcf7405.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Data Visualization (CMSC 436 and 636) with Dr.&nbsp;Williams</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ai-use-policy-for-phase-2" id="toc-ai-use-policy-for-phase-2" class="nav-link active" data-scroll-target="#ai-use-policy-for-phase-2">AI Use Policy for Phase 2</a></li>
+  <li><a href="#assignment-objective" id="toc-assignment-objective" class="nav-link" data-scroll-target="#assignment-objective">Phase 2 Objectives</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#submitting-your-work" id="toc-submitting-your-work" class="nav-link" data-scroll-target="#submitting-your-work">How to Submit</a></li>
+  <li><a href="#part-0" id="toc-part-0" class="nav-link" data-scroll-target="#part-0">Part 0: The 3 V’s: Verify Vis Veracity</a></li>
+  <li><a href="#part-1-proposal-revisions" id="toc-part-1-proposal-revisions" class="nav-link" data-scroll-target="#part-1-proposal-revisions">Part 1: Proposal Revisions</a></li>
+  <li><a href="#part-2-visual-curation-of-related-works" id="toc-part-2-visual-curation-of-related-works" class="nav-link" data-scroll-target="#part-2-visual-curation-of-related-works">Part 2: Visual Curation of Related Works</a>
+  <ul class="collapse">
+  <li><a href="#step-1-find-inspo" id="toc-step-1-find-inspo" class="nav-link" data-scroll-target="#step-1-find-inspo">Step 1: Find Inspo</a></li>
+  <li><a href="#step-2-document-and-reflect" id="toc-step-2-document-and-reflect" class="nav-link" data-scroll-target="#step-2-document-and-reflect">Step 2: Document and Reflect</a></li>
+  <li><a href="#step-3-continue-to-search-to-avoid-design-fixation" id="toc-step-3-continue-to-search-to-avoid-design-fixation" class="nav-link" data-scroll-target="#step-3-continue-to-search-to-avoid-design-fixation">Step 3+: Continue to search to avoid design fixation</a></li>
+  </ul></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a>
+  <ul class="collapse">
+  <li><a href="#originality-checks" id="toc-originality-checks" class="nav-link" data-scroll-target="#originality-checks">Checks</a></li>
+  <li><a href="#timeliness-checks" id="toc-timeliness-checks" class="nav-link" data-scroll-target="#timeliness-checks">Timeliness</a></li>
+  <li><a href="#rubric" id="toc-rubric" class="nav-link" data-scroll-target="#rubric">Rubric</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Revised Proposal + Related Works (Phase 2)</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Due Date: Mar 9, 2026</p>
+<section id="ai-use-policy-for-phase-2" class="level1">
+<h1>AI Use Policy for Phase 2</h1>
+<div style="font-size: 0.8rem;">
+<table class="table-striped table-bordered faq-callout caption-top table">
+<caption>AI Policy Details</caption>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 25%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Ok or nah?</th>
+<th style="text-align: left;">For what?</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><button class="btn btn-success rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.65rem; "> can use </button></td>
+<td style="text-align: left;"><strong>Validation and Formatting</strong></td>
+<td style="text-align: left;">✅ Judging whether a source is high-quality or peer-reviewed <br> ✅ Organizing attribute tables, formatting references or citations</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><button class="btn btn-warning rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.65rem; "> limited </button></td>
+<td style="text-align: left;"><strong>Drafting your reflection or proposal revisions</strong></td>
+<td style="text-align: left;">⚠️ AI can help you improve clarity or structure, but the analysis, critiques, and ideas must be your group’s own.<br> ⚠️ Descriptions of marks and channels must reflect your own reading of the visualizations, not AI-generated summaries.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><button class="btn btn-danger rounded-pill" style="cursor: default; pointer-events: none; font-size: 0.65rem; "> don’t use </button></td>
+<td style="text-align: left;"><strong>Intellectual work</strong></td>
+<td style="text-align: left;">❌ Do not use AI to generate the visual analysis (marks, channels, idioms) for your curated works.<br>❌ Do not use AI to search for related works - it often can’t find a good diversity of examples.<br> ❌ Do not use AI to write your group’s reflection.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you do choose to use AI to do this assignment, please disclose it and include a link to the chat.</p>
+</div>
+</div>
+</section>
+<section id="assignment-objective" class="level1">
+<h1>Phase 2 Objectives</h1>
+<p>In your google doc from Phase 1, refine your initial Proposal, based on the feedback you have received from the Professor/TA, and add a section called “Related Works”. <strong>The revisions you make to Phase 1 will be the majority of the grade for this Revised Proposal + Related Work (Phase 2).</strong> You can make your revisions directly by editing your Phase 1 text, or start a new tab in the <strong>same</strong> Google doc as Phase 1.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="tl;dr">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>tl;dr
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Revise proposal based on feedback</li>
+<li>Collect some related vis, add text/comments on item, including marks+channels and how it’s related. Keep it vis focused</li>
+<li>Write short reflection about ideas inspired</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="prerequisites" class="level1">
+<h1>Prerequisites</h1>
+<ol type="1">
+<li>You should now make a final-ish decision on which dataset(s) you will use. You can always add more data and more tools as needed, but now is the time to decide on a starting point.</li>
+<li>Refresh your knowledge on how to choose good sources on the internet: <a href="https://owl.purdue.edu/owl/research_and_citation/conducting_research/evaluating_sources_of_information/evaluating_digital_sources.html">Evaluating Digital Sources - Purdue OWL</a>. Avoid using “publications” from <a href="https://beallslist.net/">Predatory Journals</a> (also, avoid publishing in them yourselves)</li>
+</ol>
+</section>
+<section id="submitting-your-work" class="level1">
+<h1>How to Submit</h1>
+<p>Because this is collaborative writing, and a doc to be refined, type your text in the “Team Charter and Project Proposal” google doc located in your team’s shared folder. Your folder is linked in your team’s Discord channel description.</p>
+<p>Once completed, export to pdf and upload to Blackboard.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Draft this directly in the provided google doc rather than in a local document. Working offline increases the risk of lost work and version conflicts.</p>
+</div>
+</div>
+</section>
+<section id="part-0" class="level1">
+<h1>Part 0: The 3 V’s: Verify Vis Veracity</h1>
+<p>There are a lot of <a href="https://vdl.sci.utah.edu/blog/2023/04/17/misleading/">bad charts on the web.</a> In order to avoid basing your Project on bad info, please only use sources that are from:</p>
+<ul>
+<li>A conference proceeding or journal paper from a peer-reviewed publication (e.g.&nbsp;do a Google Scholar search). Avoid sources from <a href="https://beallslist.net/">Predatory Publishers</a></li>
+<li>A highly-regarded long-form* visualization blog, editorial, case-study, in-depth critique, podcast, or other online periodical. This can be nuanced, so ask the Professor when in doubt</li>
+</ul>
+<p>Try to have a good balance between peer-reviewed research and media. Avoid only using compiled internet lists e.g.&nbsp;“Top 10 best/worst visualizations” or clickbait e.g.&nbsp;“You won’t BELIEVE why this vis was banned!!!!!!!!!!!”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Examples of good sources
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Here are some examples of what would be approved for high quality, long-form, and scholarly sources:</p>
+<ul>
+<li>figure 2 from this scholarly paper: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/imt2.43">Complex heatmap visualization</a></li>
+<li><a href="https://medium.com/@pbesh/linked-highlighting-with-react-d3-js-and-reflux-16e9c0b2210b">Linked Highlighting with React, D3.js and Reflux | by Peter Beshai | Medium</a></li>
+<li><a href="https://www.storytellingwithdata.com/">storytelling with data</a></li>
+<li><a href="https://www.visualisingdata.com/podcast/">the ‘explore explain’ podcast &amp; video series</a></li>
+<li><a href="https://nightingaledvs.com/">Nightingale</a></li>
+<li><a href="http://www.digitalhumanities.org/dhq/vol/14/3/000487/000487.html">The Fold: Rethinking Interactivity in Data Visualization</a></li>
+</ul>
+<p>I don’t have examples of bad sources because there are so many; unfortunately the guideline for this is often “I’ll know it when I see it,” so please ask if you’re unsure.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="part-1-proposal-revisions" class="level1">
+<h1>Part 1: Proposal Revisions</h1>
+<p>Revise your proposal based on professor/TA feedback, additional discussions with your team, etc..</p>
+</section>
+<section id="part-2-visual-curation-of-related-works" class="level1">
+<h1>Part 2: Visual Curation of Related Works</h1>
+<p>Choose how you want to curate your visual inspiration. Some options are <a href="https://www.padlet.com/">Padlet</a>, <a href="https://miro.com/">Miro</a>, <a href="https://www.figma.com/figjam/">Figma Figjam</a>, <a href="https://www.mural.co/">Mural.co</a>, and <a href="https://dotstorming.com/">dotstorming</a></p>
+<section id="step-1-find-inspo" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-find-inspo">Step 1: Find Inspo</h2>
+<p>Both individually and as a group, search for many related visualizations and add them to whatever tool your group is using for brainstorming.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please note that if you do get your vis from an internet compiled list (<a href="https://en.wikipedia.org/wiki/Listicle">listicle</a>) this is usually NOT the original source; you must search for the original publication/post. Typically posts on reddit say something like [OC] for original content (but not always), which would be considered the original source, but be sure to double check.</p>
+<p>Here is an example of a listicle: <a href="https://visme.co/blog/best-data-visualizations/">https://visme.co/blog/best-data-visualizations/</a>. Note that it has no links to the originals, which means it is a bad source and should not be used. If you really like an image you can go look for the original, but that may be a bad use of your time.</p>
+</div>
+</div>
+<ol start="2" type="a">
+<li>Your sources should be relevant to the <strong>visualization aspects</strong> of your project. Please take care that you are not including sources that are <strong>only</strong> relevant to the domain or non-visual analysis technique.</li>
+</ol>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>FAQs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="#" class="btn btn-link p-0 faq-trigger" style="text-align: left !important;" onclick="event.preventDefault(); openFaqDrawer('vis-relevant')">My source is about the same topic as my project, does that make it a valid related work?</a></p>
+</div>
+</div>
+<ol start="3" type="a">
+<li>Each person in your group must contribute <strong>at least 2</strong> unique items to the collection, and write some quick notes in your google doc describing 1) how the source’s author(s) visually encode their data (marks, identity channels, magnitude channels), and 2)how it is similar to and/or different from your proposed approach/idea.
+<ul>
+<li>each person should type their own text into the doc</li>
+<li>with their text, each person should also put the links where they got their images from</li>
+</ul></li>
+</ol>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>FAQs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="#" class="btn btn-link p-0 faq-trigger" style="text-align: left !important;" onclick="event.preventDefault(); openFaqDrawer('predatory-journals')">How do I know if a journal is predatory?</a> <br></li>
+<li><a href="#" class="btn btn-link p-0 faq-trigger" style="text-align: left !important;" onclick="event.preventDefault(); openFaqDrawer('listicle-source')">Can I use a listicle as a source if I find the original image?</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="step-2-document-and-reflect" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-document-and-reflect">Step 2: Document and Reflect</h2>
+<ol type="a">
+<li>Take a screenshot of your entire collection and paste it into your Google doc. Make sure that all the images are showing.</li>
+<li>Using everyone’s notes from their collected sources, write a <strong>short</strong> high-level reflection on the group’s findings (400 words max).</li>
+</ol>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>FAQs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="#" class="btn btn-link p-0 faq-trigger" style="text-align: left !important;" onclick="event.preventDefault(); openFaqDrawer('animated-interactive')">What if it’s animated/interactive?</a> <br></li>
+<li><a href="#" class="btn btn-link p-0 faq-trigger" style="text-align: left !important;" onclick="event.preventDefault(); openFaqDrawer('padlet-image')">Why isn’t the right image showing up when I paste a link in Padlet or Mural or Miro?</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="step-3-continue-to-search-to-avoid-design-fixation" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-continue-to-search-to-avoid-design-fixation">Step 3+: Continue to search to avoid design fixation</h2>
+<p>Keep updating this collection of related work throughout your project, as features, scope, tasks, etc evolve. Prune as needed.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>What is design fixation and why should we care?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Design fixation</strong> is the tendency to get stuck on an initial concept and unconsciously constrain your thinking around it, even when better solutions exist. It’s the mental trap of anchoring too early on a specific idea, making it hard to explore genuinely different directions.</p>
+<p>Why does it matter for this project and beyond?</p>
+<ul>
+<li>A lot of times people settle on familiar vis idioms because they are familiar, not because they are the most effective for your user/task/data</li>
+<li>It’s also easy to gravitate toward whatever the default output of a library looks like, instead of what your data and user actually need</li>
+<li>Seeking out varied references across domains and styles forces you to decouple the design problem from the implementation</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="grading" class="level1">
+<h1>Grading</h1>
+<section id="originality-checks" class="level2">
+<h2 class="anchored" data-anchor-id="originality-checks">Checks</h2>
+<p>The following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to your group with or without options for remediation:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Check for plagiarism via SafeAssign and by eye - Please refer to the syllabus for the course policy on Academic Misconduct</label></li>
+<li><label><input type="checkbox">Check for improperly or non-existent cited sources</label></li>
+<li><label><input type="checkbox">Check that images have correct attribution - Please refer to the syllabus for the course policy on Academic Misconduct</label></li>
+</ul>
+</section>
+<section id="timeliness-checks" class="level2">
+<h2 class="anchored" data-anchor-id="timeliness-checks">Timeliness</h2>
+<p>Late policy for Group Work = -25% penalty per day (i.e.&nbsp;NOT compounded; 0% credit is available after four days). Requests for extensions must be made to and approved by the Professor, via email, <strong>before 9 pm</strong> on the day the assignment is due.</p>
+</section>
+<section id="rubric" class="level2">
+<h2 class="anchored" data-anchor-id="rubric">Rubric</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1qC_f5ovR3QcTCHYtrjMGr2zLr7yHniFzyTvCQ7Y2XEA/edit?usp=sharing">[Rubric] Phase 1</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1giNZOtWMTebDkPerrbUfvEdbqS4YVMJQtpuyaybbRmY/edit?usp=sharing">[Rubric] Related Works</a></p>
+<!-- Hidden FAQ content for drawer -->
+<div style="display:none">
+
+  <div id="predatory-journals" data-faq-title="How do I know if a journal is predatory?">
+    <p>Check <a href="https://beallslist.net/">Beall's List</a>, which is a list of potentially predatory publishers and journals. You can also look for signs like: the journal charges high fees with little editorial oversight, it accepts papers very quickly with minimal peer review, or it's not indexed in major academic databases. When in doubt, do a quick search for the journal name alongside the word "predatory" or ask the Professor.</p>
+  </div>
+
+  <div id="vis-relevant" data-faq-title="My source is about the same topic as my project, does that make it a valid related work?">
+    <p>Your related works collection is meant to inspire your <strong>visual design</strong>, not your domain knowledge or analytical methods. A related work is relevant if the visualization technique could plausibly be applied to your dataset. This means the marks, channels, and idioms used in the source are compatible with the structure of your data: the attribute types, dataset types, and tasks involved. Topic overlap alone does not make something a valid related work.</p>
+    <p>For example, if your dataset has two quantitative attributes and a categorical grouping, a scatterplot with color encoding is relevant. A chord diagram showing relationships between nodes is not, unless your data has that relational structure or you plan to derive the relationships.</p>
+  </div>
+
+  <div id="listicle-source" data-faq-title="Can I use a listicle as a source if I find the original image?">
+    <p>The listicle itself cannot be your source, you must cite the original publication or post. If you find the original, then yes, you can use it, as long as it meets the quality standards described in Part 0. Be aware that tracking down originals can be time-consuming; it may be more efficient to search for high-quality sources directly.</p>
+  </div>
+
+  <div id="animated-interactive" data-faq-title="What if it's animated/interactive?">
+    <p>Take a screenshot.</p>
+  </div>
+
+  <div id="padlet-image" data-faq-title="Why isn't the right image showing up when I paste a link in Padlet or Mural.co or Miro?">
+    <p>When you paste a link directly into sites like these, the image shown is the website-defined thumbnail, which may not be the one you want. If the image isn't the right one, you can click "remove" and add a screenshot instead, and put the link in the caption. You'll also need to do this if it's a pdf of a paper.</p>
+  </div>
+
+</div>
+
+<div id="faq-drawer">
+  <div id="faq-drawer-close" onclick="closeFaqDrawer()">✕</div>
+  <div id="faq-drawer-content"></div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Move drawer to body so it's outside Quarto's stacking context
+    const drawer = document.getElementById('faq-drawer');
+    document.body.appendChild(drawer);
+
+    // Popover setup
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl, {
+        sanitize: false,
+        html: true,
+        template: '<div class="popover" role="tooltip"><div class="popover-arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div><button type="button" class="btn-close popover-close" aria-label="Close"></button></div>'
+      })
+    })
+
+    document.addEventListener('click', function(e) {
+      if (e.target.classList.contains('popover-close')) {
+        popoverList.forEach(function(popover) {
+          popover.hide()
+        })
+      }
+    })
+  });
+
+  function openFaqDrawer(id) {
+    const source = document.getElementById(id);
+    const title = source.dataset.faqTitle;
+    document.getElementById('faq-drawer-content').innerHTML =
+      `<p class="fw-bold mb-3">${title}</p>` + source.innerHTML;
+    document.getElementById('faq-drawer').classList.add('open');
+  }
+
+  function closeFaqDrawer() {
+    document.getElementById('faq-drawer').classList.remove('open');
+  }
+
+  document.addEventListener('click', function(e) {
+    const drawer = document.getElementById('faq-drawer');
+    if (drawer.classList.contains('open') && !drawer.contains(e.target) && !e.target.closest('.faq-trigger')) {
+      closeFaqDrawer();
+    }
+  });
+</script>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

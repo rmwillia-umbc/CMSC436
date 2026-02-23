@@ -99,105 +99,6 @@
     ]
   },
   {
-    "objectID": "Phase 0 Pitch.html",
-    "href": "Phase 0 Pitch.html",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "",
-    "text": "Due Date: 2/16/26",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#identify-the-domain-subject-area",
-    "href": "Phase 0 Pitch.html#identify-the-domain-subject-area",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "1. Identify the domain (subject area)",
-    "text": "1. Identify the domain (subject area)\nUse an appropriate amount of specificity.\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of domains\n\n\n\n\nExplainable AI\nHealthcare economics\nSocial network analysis\n\n\n\n\n\n\n\n\n\n\n\nWarning❌Bad examples of domains\n\n\n\n\nMachine Learning (too broad)\nMinor 7th dominant cords in Bach symphonies (too specific)\nData visualization (too meta)",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#describe-a-target-user-of-your-vis",
-    "href": "Phase 0 Pitch.html#describe-a-target-user-of-your-vis",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "2. Describe a target user of your vis",
-    "text": "2. Describe a target user of your vis\nUse objective observables to describe them that relate to the task (check Chapter 3).\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of users\n\n\n\n\nConsumer with a fitness tracker\nA potential voter\n\nVenture capitalist\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of users\n\n\n\n\nMyself and/or my friends\nSomeone that doesn’t understand the data\nThe professor grading this vis",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#describe-the-main-tasks",
-    "href": "Phase 0 Pitch.html#describe-the-main-tasks",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "3. Describe the main task(s)",
-    "text": "3. Describe the main task(s)\nThese could be action/target pairs or analysis question(s) the user of your vis would need to do (check Chapter 3).\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of tasks\n\n\n\n\nDetermine how object size affects semantic segmentation boundaries\nCluster Goodreads users based on book genre and recommendations\nExplore the narrative structure of popular Manga\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of tasks\n\n\n\n\nTo understand the data\nTo learn about Chemistry",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#identify-one-or-more-datasets",
-    "href": "Phase 0 Pitch.html#identify-one-or-more-datasets",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "4. Identify one or more datasets",
-    "text": "4. Identify one or more datasets\nThese can be exemplars; you are not locked in. Make sure the dataset is available, documented, and of good quality.\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of datasets\n\n\n\n\nBird Migration Data (data was used for a published paper, documentation exists, readable .csv format)\nCityscapes Dataset (benchmark dataset used for many CV/AI/ML papers, lots of code available on internet to process)\nIris Dataset (another canonical dataset, straight from an academic lab)\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of datasets\n\n\n\n\nWe will scrape Instagram (you probably won’t have time, data will be messy)\nWe will collect a survey about people’s habits (designing a good survey is super tricky, takes time)\nWe will request Twitter/X API developer access to collect Tweets (again, no time)\nAnything like this: test.csv",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#find-link-and-briefly-describe-related-work",
-    "href": "Phase 0 Pitch.html#find-link-and-briefly-describe-related-work",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "5. Find, link, and briefly describe related work",
-    "text": "5. Find, link, and briefly describe related work\nThese should be a few related visualizations you’ve come across while looking into this area. You may want to consider how might a different kind of visualization reveal new insights?\nRelated work can be “related” by being similar in the What-Why-How framework (Chapter 1,2,3) in any of these ways:\n\n\n\n\n\n\nTipWays that related work can be related\n\n\n\n\nSame/similar domain\nSame/similar dataset type/semantics (Chapter 2)\nSimilar tasks & target user (Chapter 3)\nSimilar vis type/idiom (Chapter 5, Chapter 7, Chapter 8, Chapter 9)\nSimilar interaction mechanisms (Chapter 11-14)\n\n\n\nYou can use any visual you find on the internet or in print, but you must be able to trace it back to the original source and cite it.",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#perusing-classmates-pitches",
-    "href": "Phase 0 Pitch.html#perusing-classmates-pitches",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "Perusing Classmates’ Pitches",
-    "text": "Perusing Classmates’ Pitches\nI recommend reading through your classmates’ pitches and engaging by asking questions, reacting with thumbs up, or just mentioning that you like the idea because it sounds cool. Maybe as you surf you will have your own idea sparked anew.",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#originality-checks",
-    "href": "Phase 0 Pitch.html#originality-checks",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "Originality Checks",
-    "text": "Originality Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:\n\nCheck for plagiarism/crappy AI copypaste - Please refer to the syllabus for the course policy on Academic Misconduct\n\nCheck for no cited sources - You will be notified and asked to resubmit with the required citations within 1 day of notification, otherwise the Late Policy applies",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#rubric",
-    "href": "Phase 0 Pitch.html#rubric",
-    "title": "Phase 0: Individual Project Pitch",
-    "section": "Rubric",
-    "text": "Rubric\n\n\nGrading Rubric\n\n\n\n\n\n\n\n\nComplete\nNot Complete\n\n\n\n\nPitch contains domain\n\n\n\n\nPitch contains task/analysis questions\n\n\n\n\nPitch contains user description\n\n\n\n\nPitch contains dataset, which is cited\n\n\n\n\nPitch contains related works and links\n\n\n\n\nInstructions followed for posting",
-    "crumbs": [
-      "Home",
-      "Phase 0: Individual Project Pitch"
-    ]
-  },
-  {
     "objectID": "Phase 1 Proposal.html",
     "href": "Phase 1 Proposal.html",
     "title": "Group Project Proposal + Group Charter (Phase 1)",
@@ -330,10 +231,186 @@
     ]
   },
   {
+    "objectID": "Phase 0 Pitch.html",
+    "href": "Phase 0 Pitch.html",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "",
+    "text": "Due Date: 2/16/26",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase 0 Pitch.html#identify-the-domain-subject-area",
+    "href": "Phase 0 Pitch.html#identify-the-domain-subject-area",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "1. Identify the domain (subject area)",
+    "text": "1. Identify the domain (subject area)\nUse an appropriate amount of specificity.\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of domains\n\n\n\n\nExplainable AI\nHealthcare economics\nSocial network analysis\n\n\n\n\n\n\n\n\n\n\n\nWarning❌Bad examples of domains\n\n\n\n\nMachine Learning (too broad)\nMinor 7th dominant cords in Bach symphonies (too specific)\nData visualization (too meta)",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase 0 Pitch.html#describe-a-target-user-of-your-vis",
+    "href": "Phase 0 Pitch.html#describe-a-target-user-of-your-vis",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "2. Describe a target user of your vis",
+    "text": "2. Describe a target user of your vis\nUse objective observables to describe them that relate to the task (check Chapter 3).\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of users\n\n\n\n\nConsumer with a fitness tracker\nA potential voter\n\nVenture capitalist\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of users\n\n\n\n\nMyself and/or my friends\nSomeone that doesn’t understand the data\nThe professor grading this vis",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase 0 Pitch.html#describe-the-main-tasks",
+    "href": "Phase 0 Pitch.html#describe-the-main-tasks",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "3. Describe the main task(s)",
+    "text": "3. Describe the main task(s)\nThese could be action/target pairs or analysis question(s) the user of your vis would need to do (check Chapter 3).\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of tasks\n\n\n\n\nDetermine how object size affects semantic segmentation boundaries\nCluster Goodreads users based on book genre and recommendations\nExplore the narrative structure of popular Manga\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of tasks\n\n\n\n\nTo understand the data\nTo learn about Chemistry",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase 0 Pitch.html#identify-one-or-more-datasets",
+    "href": "Phase 0 Pitch.html#identify-one-or-more-datasets",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "4. Identify one or more datasets",
+    "text": "4. Identify one or more datasets\nThese can be exemplars; you are not locked in. Make sure the dataset is available, documented, and of good quality.\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of datasets\n\n\n\n\nBird Migration Data (data was used for a published paper, documentation exists, readable .csv format)\nCityscapes Dataset (benchmark dataset used for many CV/AI/ML papers, lots of code available on internet to process)\nIris Dataset (another canonical dataset, straight from an academic lab)\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of datasets\n\n\n\n\nWe will scrape Instagram (you probably won’t have time, data will be messy)\nWe will collect a survey about people’s habits (designing a good survey is super tricky, takes time)\nWe will request Twitter/X API developer access to collect Tweets (again, no time)\nAnything like this: test.csv",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase 0 Pitch.html#find-link-and-briefly-describe-related-work",
+    "href": "Phase 0 Pitch.html#find-link-and-briefly-describe-related-work",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "5. Find, link, and briefly describe related work",
+    "text": "5. Find, link, and briefly describe related work\nThese should be a few related visualizations you’ve come across while looking into this area. You may want to consider how might a different kind of visualization reveal new insights?\nRelated work can be “related” by being similar in the What-Why-How framework (Chapter 1,2,3) in any of these ways:\n\n\n\n\n\n\nTipWays that related work can be related\n\n\n\n\nSame/similar domain\nSame/similar dataset type/semantics (Chapter 2)\nSimilar tasks & target user (Chapter 3)\nSimilar vis type/idiom (Chapter 5, Chapter 7, Chapter 8, Chapter 9)\nSimilar interaction mechanisms (Chapter 11-14)\n\n\n\nYou can use any visual you find on the internet or in print, but you must be able to trace it back to the original source and cite it.",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase 0 Pitch.html#perusing-classmates-pitches",
+    "href": "Phase 0 Pitch.html#perusing-classmates-pitches",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "Perusing Classmates’ Pitches",
+    "text": "Perusing Classmates’ Pitches\nI recommend reading through your classmates’ pitches and engaging by asking questions, reacting with thumbs up, or just mentioning that you like the idea because it sounds cool. Maybe as you surf you will have your own idea sparked anew.",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase 0 Pitch.html#originality-checks",
+    "href": "Phase 0 Pitch.html#originality-checks",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "Originality Checks",
+    "text": "Originality Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:\n\nCheck for plagiarism/crappy AI copypaste - Please refer to the syllabus for the course policy on Academic Misconduct\n\nCheck for no cited sources - You will be notified and asked to resubmit with the required citations within 1 day of notification, otherwise the Late Policy applies",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase 0 Pitch.html#rubric",
+    "href": "Phase 0 Pitch.html#rubric",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "Rubric",
+    "text": "Rubric\n\n\nGrading Rubric\n\n\n\n\n\n\n\n\nComplete\nNot Complete\n\n\n\n\nPitch contains domain\n\n\n\n\nPitch contains task/analysis questions\n\n\n\n\nPitch contains user description\n\n\n\n\nPitch contains dataset, which is cited\n\n\n\n\nPitch contains related works and links\n\n\n\n\nInstructions followed for posting",
+    "crumbs": [
+      "Home",
+      "Individual Project Pitch (Phase 0)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html",
+    "href": "Phase_2_Proposal.html",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "",
+    "text": "Due Date: Mar 9, 2026",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#step-1-find-inspo",
+    "href": "Phase_2_Proposal.html#step-1-find-inspo",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Step 1: Find Inspo",
+    "text": "Step 1: Find Inspo\nBoth individually and as a group, search for many related visualizations and add them to whatever tool your group is using for brainstorming.\n\n\n\n\n\n\nImportant\n\n\n\nPlease note that if you do get your vis from an internet compiled list (listicle) this is usually NOT the original source; you must search for the original publication/post. Typically posts on reddit say something like [OC] for original content (but not always), which would be considered the original source, but be sure to double check.\nHere is an example of a listicle: https://visme.co/blog/best-data-visualizations/. Note that it has no links to the originals, which means it is a bad source and should not be used. If you really like an image you can go look for the original, but that may be a bad use of your time.\n\n\n\nYour sources should be relevant to the visualization aspects of your project. Please take care that you are not including sources that are only relevant to the domain or non-visual analysis technique.\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\nMy source is about the same topic as my project, does that make it a valid related work?\n\n\n\nEach person in your group must contribute at least 2 unique items to the collection, and write some quick notes in your google doc describing 1) how the source’s author(s) visually encode their data (marks, identity channels, magnitude channels), and 2)how it is similar to and/or different from your proposed approach/idea.\n\neach person should type their own text into the doc\nwith their text, each person should also put the links where they got their images from\n\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nHow do I know if a journal is predatory? \nCan I use a listicle as a source if I find the original image?",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#step-2-document-and-reflect",
+    "href": "Phase_2_Proposal.html#step-2-document-and-reflect",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Step 2: Document and Reflect",
+    "text": "Step 2: Document and Reflect\n\nTake a screenshot of your entire collection and paste it into your Google doc. Make sure that all the images are showing.\nUsing everyone’s notes from their collected sources, write a short high-level reflection on the group’s findings (400 words max).\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nWhat if it’s animated/interactive? \nWhy isn’t the right image showing up when I paste a link in Padlet or Mural or Miro?",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#step-3-continue-to-search-to-avoid-design-fixation",
+    "href": "Phase_2_Proposal.html#step-3-continue-to-search-to-avoid-design-fixation",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Step 3+: Continue to search to avoid design fixation",
+    "text": "Step 3+: Continue to search to avoid design fixation\nKeep updating this collection of related work throughout your project, as features, scope, tasks, etc evolve. Prune as needed.\n\n\n\n\n\n\nNoteWhat is design fixation and why should we care?\n\n\n\nDesign fixation is the tendency to get stuck on an initial concept and unconsciously constrain your thinking around it, even when better solutions exist. It’s the mental trap of anchoring too early on a specific idea, making it hard to explore genuinely different directions.\nWhy does it matter for this project and beyond?\n\nA lot of times people settle on familiar vis idioms because they are familiar, not because they are the most effective for your user/task/data\nIt’s also easy to gravitate toward whatever the default output of a library looks like, instead of what your data and user actually need\nSeeking out varied references across domains and styles forces you to decouple the design problem from the implementation",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#originality-checks",
+    "href": "Phase_2_Proposal.html#originality-checks",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Checks",
+    "text": "Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to your group with or without options for remediation:\n\nCheck for plagiarism via SafeAssign and by eye - Please refer to the syllabus for the course policy on Academic Misconduct\nCheck for improperly or non-existent cited sources\nCheck that images have correct attribution - Please refer to the syllabus for the course policy on Academic Misconduct",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#timeliness-checks",
+    "href": "Phase_2_Proposal.html#timeliness-checks",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Timeliness",
+    "text": "Timeliness\nLate policy for Group Work = -25% penalty per day (i.e. NOT compounded; 0% credit is available after four days). Requests for extensions must be made to and approved by the Professor, via email, before 9 pm on the day the assignment is due.",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#rubric",
+    "href": "Phase_2_Proposal.html#rubric",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Rubric",
+    "text": "Rubric\n[Rubric] Phase 1\n[Rubric] Related Works\n\n\n\n  \n    Check Beall's List, which is a list of potentially predatory publishers and journals. You can also look for signs like: the journal charges high fees with little editorial oversight, it accepts papers very quickly with minimal peer review, or it's not indexed in major academic databases. When in doubt, do a quick search for the journal name alongside the word \"predatory\" or ask the Professor.\n  \n\n  \n    Your related works collection is meant to inspire your visual design, not your domain knowledge or analytical methods. A related work is relevant if the visualization technique could plausibly be applied to your dataset. This means the marks, channels, and idioms used in the source are compatible with the structure of your data: the attribute types, dataset types, and tasks involved. Topic overlap alone does not make something a valid related work.\n    For example, if your dataset has two quantitative attributes and a categorical grouping, a scatterplot with color encoding is relevant. A chord diagram showing relationships between nodes is not, unless your data has that relational structure or you plan to derive the relationships.\n  \n\n  \n    The listicle itself cannot be your source, you must cite the original publication or post. If you find the original, then yes, you can use it, as long as it meets the quality standards described in Part 0. Be aware that tracking down originals can be time-consuming; it may be more efficient to search for high-quality sources directly.\n  \n\n  \n    Take a screenshot.\n  \n\n  \n    When you paste a link directly into sites like these, the image shown is the website-defined thumbnail, which may not be the one you want. If the image isn't the right one, you can click \"remove\" and add a screenshot instead, and put the link in the caption. You'll also need to do this if it's a pdf of a paper.\n  \n\n\n\n\n  ✕",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "This is stuff for Dr. Williams’ section of Data Visualization (CMSC 436 and 636).\nHere is the syllabus\n\n\n\n\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. You may want to use it for your group project! You can embed reactive apps in it, see the Shinylive demo for an example."
+    "text": "This is stuff for Dr. Williams’ section of Data Visualization (CMSC 436 and 636).\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. You may want to use it for your group project! You can embed reactive apps in it."
   }
 ]
