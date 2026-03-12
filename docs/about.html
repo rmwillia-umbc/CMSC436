@@ -159,6 +159,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Revised Proposal + Related Works (Phase 2)</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Phase_3_Alpha.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Alpha Release: Presentation + Peer Review</span></a>
+  </div>
+</li>
     </ul>
     </div>
     
@@ -281,6 +287,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -409,7 +409,6 @@ Important
 <p>The following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to your group with or without options for remediation:</p>
 <ul class="task-list">
 <li><label><input type="checkbox">Check for plagiarism via SafeAssign and by eye - Please refer to the syllabus for the course policy on Academic Misconduct</label></li>
-<li><label><input type="checkbox">Check for improperly or non-existent cited sources</label></li>
 <li><label><input type="checkbox">Check that images have correct attribution - Please refer to the syllabus for the course policy on Academic Misconduct</label></li>
 </ul>
 </section>
@@ -589,6 +588,11 @@ Important
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
