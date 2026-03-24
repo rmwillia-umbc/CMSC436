@@ -1,277 +1,174 @@
 [
   {
-    "objectID": "Assignment-1-instructions.html",
-    "href": "Assignment-1-instructions.html",
-    "title": "Assignment 1 Instructions",
+    "objectID": "Assignment_2.html",
+    "href": "Assignment_2.html",
+    "title": "Assignment 2: Evaluating Visualizations",
     "section": "",
-    "text": "Due Date: 2/25/26 (FLEX to 3/4/26)",
+    "text": "AI Policy Details\n\n\n\n\n\n\n\nOk or nah?\nFor what?\nExamples\n\n\n\n\n don’t use \nThis is a solo critical-thinking assignment\n❌ Do not use AI to find or select your visualizations.❌ Do not use AI to write, draft, or refine your evaluation or critique.❌ Do not use AI to describe what a visualization shows or identify its strengths/weaknesses.\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIf you do choose to use AI for any part of this assignment, please disclose it and include a link to the chat.",
     "crumbs": [
       "Home",
-      "Assignment 1 Instructions"
+      "Assignment 2: Evaluating Visualizations"
     ]
   },
   {
-    "objectID": "Assignment-1-instructions.html#step-0:-choose-one-or-two-visualizations-to-recreate",
-    "href": "Assignment-1-instructions.html#step-0:-choose-one-or-two-visualizations-to-recreate",
-    "title": "Assignment 1 Instructions",
-    "section": "Step 0: Choose one or two Visualizations to Recreate",
-    "text": "Step 0: Choose one or two Visualizations to Recreate\n\nBrowse the set of provided visualizations and datasets\n  \n.Each vis is accompanied by the dataset used to create it. Select one or two visualizations to attempt to recreate.\n\nFamiliarize yourself with the dataset and its structure. Do some exploring on the Data to Viz \n  \n site to learn common vis names, caveats, and some tips to create them. As a hint, I have put the chart name in brackets for each image (though sometimes names will differ!)\n\nDecide whether you will use AI or not – if you use it, be sure to include the link in your submission",
+    "objectID": "Assignment_2.html#part-1-best",
+    "href": "Assignment_2.html#part-1-best",
+    "title": "Assignment 2: Evaluating Visualizations",
+    "section": "Part 1 (BEST)",
+    "text": "Part 1 (BEST)\nBefore 9:00 pm:\n\nPost your “Best Vis” entry on this padlet: THE BEST\nCopy the link to your Padlet post to your Assignment 2 document (click the three dots in the top right of your post and select “Copy link to post.”)\n\nEvery semester one person pastes the link to the vis source, not the link to their padlet post. Don’t be that person in 2026. Say yes to the three dots.\n\nUsing the concepts from class (marks, channels, expressiveness, effectiveness) evaluate the vis by filling out the evaluation doc in Blackboard for THE BEST. Make sure you press Submit!",
     "crumbs": [
       "Home",
-      "Assignment 1 Instructions"
+      "Assignment 2: Evaluating Visualizations"
     ]
   },
   {
-    "objectID": "Assignment-1-instructions.html#1-with-your-chosen-tool",
-    "href": "Assignment-1-instructions.html#1-with-your-chosen-tool",
-    "title": "Assignment 1 Instructions",
-    "section": "Step 1: Recreate the vis with your chosen tool",
-    "text": "Step 1: Recreate the vis with your chosen tool\n\nFirst, choose an appropriate tool for your chosen vis from the list of approved tools below. You can change your mind at any time.\n\n\n\n\n\n\n\n  \n  Holoviz Panel\n\n\n\n  \n  Manim\n\n\n\n  \n  Unreal Engine\n\n\n\n  \n  CosmoGraph\n\n\n\n  \n  Bokeh\n\n\n\n  \n  Vega-Lite\n\n\n\n  \n  Gephi\n\n\n\n  \n  Seaborn\n\n\n\n  \n  Folium\n\n\n\n  \n  Plotly\n\n\n\n  \n  MATLAB\n\n\n\n  \n  Shiny\n\n\n\n  \n  D3.js\n\n\n\n  \n  Matplotlib\n\n\n\n  \n  Blender\n\n\n\n  \n  QGIS\n\n\n\n  \n  Google Charts\n\n\n\n  \n  VisIt\n\n\n\n  \n  OpenGL\n\n\n\n  \n  VTK\n\n\n\n  \n  Unity\n\n\n\n  \n  Orange\n\n\n\n\n\nNext, load and prepare the dataset.\n\n\n\n\n\n\nNote\n\n\n\nThe dataset may require preprocessing (e.g., filtering, cleaning, or restructuring) to match the visual representation in the original image. You should document any changes you make to the dataset to recreate the visualization. You can add auxiliary data as needed, but don’t forget to cite and document it!\n\n\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Do we have to write code to stream the data from the Google Docs link? \n\n\n\nWrite some code to recreate the visualization(s) as accurately as you can\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Do I need to try and replicate even the little icons and shapes? \n Do we have to match the colors too? \n What if I can’t get an exact 1:1 replica?\n\n\n\nWrite a step-by-step breakdown of how you created each visualization (for eample, any data cleaning or transformation required, how to change the formatting to match the original, how to add text and/or annotations, etc.).\nYou can do this by choosing one or more of these options:\n\n(preferred option) Interspersing markdown cells with your code cells in notebook environments, such as Colab, Jupyter, Observable, R, Matlab. Also export to .pdf if possible.\n\nUse Quarto to intersperse text and code (node you’ll still need to upload the runnable code)\n\nIncluding block comments in your code, and line comments as well (ok option, but gets hard to read fast)\n\nScreenshotting code snippets and putting them into a word doc interspersed with text (not recommended, but you do you)\n\nNarrating a screen-capture video of you writing the code while explaining what you’re doing. Be sure to include closed captions/subtitles (great choice if you don’t like fiddling with documents)\n\nYour documentation should be clear enough that another student could follow your steps and recreate your visualization without prior knowledge of the data or tool.\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n If I choose the video option, can I use AI to generate the narration? \n How beautiful does my code need to be?",
+    "objectID": "Assignment_2.html#part-2-worst",
+    "href": "Assignment_2.html#part-2-worst",
+    "title": "Assignment 2: Evaluating Visualizations",
+    "section": "Part 2 (WORST)",
+    "text": "Part 2 (WORST)\nBefore 9:00 pm:\n\nPost your “Worst Vis” entry on this padlet: THE WORST\nCopy the link to your Padlet post to your Assignment 2 document (click the three dots in the top right of your post and select “Copy link to post.”).\n\nEvery semester one person pastes the link to the vis source, not the link to their padlet post. Where does this person come from. Where do they go. We may never know because I can’t find their submission.\n\nUsing the concepts from class (marks, channels, expressiveness, effectiveness) evaluate the vis by filling out the evaluation doc in Blackboard for THE WORST.. Make sure you press Submit!",
     "crumbs": [
       "Home",
-      "Assignment 1 Instructions"
+      "Assignment 2: Evaluating Visualizations"
     ]
   },
   {
-    "objectID": "Assignment-1-instructions.html#step-2-add-a-descriptive-caption-to-your-vis",
-    "href": "Assignment-1-instructions.html#step-2-add-a-descriptive-caption-to-your-vis",
-    "title": "Assignment 1 Instructions",
-    "section": "Step 2: Add a descriptive caption to your vis",
-    "text": "Step 2: Add a descriptive caption to your vis\nAdd a caption summarizing the visualization’s purpose and encodings. Check out this resource \n  \n for how to write great captions.\n\nSome vis tools have built-in functionality for creating captions, others don’t. If you choose a tool that doesn’t, find a workaround, and then you can mention how annoying it was to have to do that in your reflection 😀.\n\n\n\n\n\n\n\nNote\n\n\n\nCaptions are more than just titles! They should be able to stand alone if taken out of context, succinctly describing the main points the viewer should take away from looking at this image: What is being shown? What are the salient features? What task or analysis question can be completed or addressed by this vis?",
-    "crumbs": [
-      "Home",
-      "Assignment 1 Instructions"
-    ]
-  },
-  {
-    "objectID": "Assignment-1-instructions.html#step-4:-reflection",
-    "href": "Assignment-1-instructions.html#step-4:-reflection",
-    "title": "Assignment 1 Instructions",
-    "section": "Step 3: Reflection",
-    "text": "Step 3: Reflection\n\n\n\n\n\n\nImportant\n\n\n\nPlease type in the Google Assignent doc provided on Blackboard, don’t copy paste from another doc, or it will get flagged as plagiarism by the system! Also pls no AI\n\n\nAs you’re working, take some time to reflect and write some short notes about:\n\nWhich tools did you consider, and which did you end up choosing to use, and why?\n\nWhat challenges did you encounter in replicating the visualization?\n\nDid you have to modify the dataset in any way to get the desired output?\n\nWhich features of your tool helped or hindered the recreation process (strengths/limitations)?\n\nAre there elements of the original visualization that were difficult or impossible to replicate? If so, why?\n\nWhat is one piece of advice you would give someone wanting to use this tool?\n\nIf you had to do this again, would you choose the same tool? Why or why not?\n\nWrite your reflection via Blackboard under Assignment 1 Part 2, then don’t forget to press ✨Submit ✨\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Are bullets fine for my reflection, or do you want a full essay?",
-    "crumbs": [
-      "Home",
-      "Assignment 1 Instructions"
-    ]
-  },
-  {
-    "objectID": "Assignment-1-instructions.html#originality-checks",
-    "href": "Assignment-1-instructions.html#originality-checks",
-    "title": "Assignment 1 Instructions",
-    "section": "Originality Checks",
-    "text": "Originality Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:\n\nEnsure that your recreated visualization was generated from the dataset, not simply redrawn in Canva or other drawing program. - Please refer to the syllabus for the course policy on Academic Misconduct\n\nAI Policy must be followed, including a link to the chat\n\nResponses to reflection questions must be specific to your experience – generic AI-generated answers will be flagged.",
-    "crumbs": [
-      "Home",
-      "Assignment 1 Instructions"
-    ]
-  },
-  {
-    "objectID": "Assignment-1-instructions.html#timeliness-checks",
-    "href": "Assignment-1-instructions.html#timeliness-checks",
-    "title": "Assignment 1 Instructions",
-    "section": "Timeliness",
-    "text": "Timeliness\nRequests for extensions must be made to the Professor before the assignment due date and time (by 9 pm).\n\n\n\n\n  Late Deduction Calculator\n\n  \n    \n    \n      Due Date and Time:\n      \n\n      \n\n      Submission Date and Time:\n      \n\n      \n\n      Calculate the Damage!",
-    "crumbs": [
-      "Home",
-      "Assignment 1 Instructions"
-    ]
-  },
-  {
-    "objectID": "Assignment-1-instructions.html#rubric",
-    "href": "Assignment-1-instructions.html#rubric",
-    "title": "Assignment 1 Instructions",
-    "section": "Rubric",
-    "text": "Rubric\nlink to the rubric",
-    "crumbs": [
-      "Home",
-      "Assignment 1 Instructions"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
     "section": "",
-    "text": "This is an alpha test of trying to rely less on blackboard because it infuriates me. Seriously the rage I feel when interacting with BB is beyond compare.",
-    "crumbs": [
-      "Home",
-      "About"
-    ]
+    "text": "This is stuff for Dr. Williams’ section of Data Visualization (CMSC 436 and 636).\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. You may want to use it for your group project! You can embed reactive apps in it."
   },
   {
-    "objectID": "Phase_2_Proposal.html",
-    "href": "Phase_2_Proposal.html",
-    "title": "Revised Proposal + Related Works (Phase 2)",
+    "objectID": "Phase_3_Alpha.html",
+    "href": "Phase_3_Alpha.html",
+    "title": "Alpha Release (Phase 3)",
     "section": "",
-    "text": "Due Date: Mar 9, 2026",
+    "text": "AI Policy Details\n\n\n\n\n\n\n\nOk or nah?\nFor what?\nExamples\n\n\n\n\n can use \nDebugging and production polish\n✅ Fixing code bugs, captioning assistance, or video editing tips  ✅ Formatting slides, checking grammar on captions or annotations\n\n\n limited \nDrafting narration or slide text\n⚠️ AI can help you tighten wording or improve clarity, but the design rationale, evaluation, and trade-off analysis must be your group’s own. ⚠️ Descriptions of your design artifacts and their marks/channels must reflect your own understanding, not AI-generated summaries.\n\n\n don’t use \nIntellectual and creative work\n❌ Do not use AI to write your design evaluation or trade-off analysis. ❌ Do not use AI to produce your peer review evaluation or presentation content.\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIf you do choose to use AI for any part of this assignment, please disclose it and include a link to the chat.",
     "crumbs": [
       "Home",
-      "Revised Proposal + Related Works (Phase 2)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase_2_Proposal.html#step-1-find-inspo",
-    "href": "Phase_2_Proposal.html#step-1-find-inspo",
-    "title": "Revised Proposal + Related Works (Phase 2)",
-    "section": "Step 1: Find Inspo",
-    "text": "Step 1: Find Inspo\nBoth individually and as a group, search for many related visualizations and add them to whatever tool your group is using for brainstorming.\n\n\n\n\n\n\nImportant\n\n\n\nPlease note that if you do get your vis from an internet compiled list (listicle) this is usually NOT the original source; you must search for the original publication/post. Typically posts on reddit say something like [OC] for original content (but not always), which would be considered the original source, but be sure to double check.\nHere is an example of a listicle: https://visme.co/blog/best-data-visualizations/. Note that it has no links to the originals, which means it is a bad source and should not be used. If you really like an image you can go look for the original, but that may be a bad use of your time.\n\n\n\nYour sources should be relevant to the visualization aspects of your project. Please take care that you are not including sources that are only relevant to the domain or non-visual analysis technique.\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\nMy source is about the same topic as my project, does that make it a valid related work?\n\n\n\nEach person in your group must contribute at least 2 unique items to the collection, and write some quick notes in your google doc describing 1) how the source’s author(s) visually encode their data (marks, identity channels, magnitude channels), and 2)how it is similar to and/or different from your proposed approach/idea.\n\neach person should type their own text into the doc\nwith their text, each person should also put the links where they got their images from\n\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nHow do I know if a journal is predatory? \nCan I use a listicle as a source if I find the original image?",
+    "objectID": "Phase_3_Alpha.html#course-themes",
+    "href": "Phase_3_Alpha.html#course-themes",
+    "title": "Alpha Release (Phase 3)",
+    "section": "Course Themes",
+    "text": "Course Themes\nThroughout this course we have explored some themes around different design choices: Color (Ch. 10), Transformation (Ch. 2–3), Animation/Interaction (Ch. 11–12), Marks + Channels (Ch. 5, 7, 8). These themes should guide your design exploration and evaluation.\nFor the Alpha release, your group must engage deeply with at least two or three themes of your choice. “Deeply” means exploring multiple options, comparing and contrasting them, and evaluating trade-offs using course principles, not just mentioning a theme in passing. To do this, you’ll generate many design artifacts.\nThere are some example theme explorations at the end of this doc.\n\n\n\n\n\n\nTipWhat is a design artifact?\n\n\n\n\n\nA design artifact is any tangible output of your design process: something you created to explore, communicate, or evaluate a design idea. This includes hand-drawn sketches, digital mockups, wireframes, custom color palettes, annotated pseudocode, process diagrams, storyboards, user stories, digital mockups. The key distinction is that an artifact is something you made to think through a design choice, not something merely described in words. A napkin sketch comparing two layout options is a design artifact; a paragraph saying “we considered two layouts” is not.\nThere is no “correct” number of artifacts: a healthy dose of curiosity + continuous evaluation will get your team to the right number. The expectation for this phase is that you produce too many artifacts, and then prune to the most promising set based on your evaluation, your peers’ evaluations, and professor feedback.\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nMinimum requirement: At least two (2) artifacts must be implemented in software. The rest can be sketches, mockups, or other non-code artifacts. More coded artifacts is always better to get a sense of feasibility.",
     "crumbs": [
       "Home",
-      "Revised Proposal + Related Works (Phase 2)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase_2_Proposal.html#step-2-document-and-reflect",
-    "href": "Phase_2_Proposal.html#step-2-document-and-reflect",
-    "title": "Revised Proposal + Related Works (Phase 2)",
-    "section": "Step 2: Document and Reflect",
-    "text": "Step 2: Document and Reflect\n\nTake a screenshot of your entire collection and paste it into your Google doc. Make sure that all the images are showing.\nUsing everyone’s notes from their collected sources, write a short high-level reflection on the group’s findings (400 words max).\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nWhat if it’s animated/interactive? \nWhy isn’t the right image showing up when I paste a link in Padlet or Mural or Miro?",
+    "objectID": "Phase_3_Alpha.html#slide-deck",
+    "href": "Phase_3_Alpha.html#slide-deck",
+    "title": "Alpha Release (Phase 3)",
+    "section": "Deliverable 1: Slide Deck",
+    "text": "Deliverable 1: Slide Deck\nYour slides should include:\n\nLabeled figures and screenshots of all design artifacts generated (coded and sketched), not just the ones presented in your video\nInformative image captions on every figure i.e. not just “Figure 1” but what it shows and why it matters. Check out this resource \n  \n for how to write great captions.\nKey design decisions or trade-offs\n\n\n\n\n\n\n\nNote\n\n\n\nYour slides and video will be shared with your peer review group, so they should be clear enough for someone unfamiliar with your project to follow, and well-captioned visuals make their job easier.",
     "crumbs": [
       "Home",
-      "Revised Proposal + Related Works (Phase 2)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase_2_Proposal.html#step-3-continue-to-search-to-avoid-design-fixation",
-    "href": "Phase_2_Proposal.html#step-3-continue-to-search-to-avoid-design-fixation",
-    "title": "Revised Proposal + Related Works (Phase 2)",
-    "section": "Step 3+: Continue to search to avoid design fixation",
-    "text": "Step 3+: Continue to search to avoid design fixation\nKeep updating this collection of related work throughout your project, as features, scope, tasks, etc evolve. Prune as needed.\n\n\n\n\n\n\nNoteWhat is design fixation and why should we care?\n\n\n\nDesign fixation is the tendency to get stuck on an initial concept and unconsciously constrain your thinking around it, even when better solutions exist. It’s the mental trap of anchoring too early on a specific idea, making it hard to explore genuinely different directions.\nWhy does it matter for this project and beyond?\n\nA lot of times people settle on familiar vis idioms because they are familiar, not because they are the most effective for your user/task/data\nIt’s also easy to gravitate toward whatever the default output of a library looks like, instead of what your data and user actually need\nSeeking out varied references across domains and styles forces you to decouple the design problem from the implementation",
+    "objectID": "Phase_3_Alpha.html#video-demo",
+    "href": "Phase_3_Alpha.html#video-demo",
+    "title": "Alpha Release (Phase 3)",
+    "section": "Deliverable 2: Recorded Video Demo (8–9 minutes)",
+    "text": "Deliverable 2: Recorded Video Demo (8–9 minutes)\nThink of this as showing your work to a sponsor who might fund your project. Not a formal pitch, just what are you building, why, and what have you explored so far?\nYour video should include:\n\nDomain + Goal (∼30 sec) — What is your project about? What should a user be able to do with your visualization?\nData Walk-Through (∼30 sec) — Open your data, show its structure. How many items? What attributes? Any preprocessing or joining you had to do?\nCode Walk-Through (2–3 min) — Walk through your code. Explain and show how it works, not just the output.\nMost Promising Designs (1–2 min) — Present and discuss one or two designs your group is most excited about. Coded or polished sketches.\nArtifact Evaluation (1–2 min) — For each artifact you present in step 4: Which tasks does it support? What did you explore to come to this decision? What trade-offs did you make?\nNext Steps (∼30 sec) — What improvements or new directions are you planning?\n\nProduction requirements:\n\nNarrate with voice + captions, or use text annotations (call-outs, pop-ups). Closed-captions are required if you use voice, they can be auto-generated.\nIf using your mouse as a pointer, make sure the cursor is clearly visible\n\n\n\n\n\n\n\nImportant\n\n\n\nOnce a video assignment is submitted, Yuja doesn’t let students edit, replace, or delete the video file from their Media Collection, so make sure the final version is ready before anyone hits submit!\n\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nWhat if our video is slightly over or under the time limit? \nHow should we add closed-captions to our video?",
     "crumbs": [
       "Home",
-      "Revised Proposal + Related Works (Phase 2)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase_2_Proposal.html#originality-checks",
-    "href": "Phase_2_Proposal.html#originality-checks",
-    "title": "Revised Proposal + Related Works (Phase 2)",
+    "objectID": "Phase_3_Alpha.html#how-it-works",
+    "href": "Phase_3_Alpha.html#how-it-works",
+    "title": "Alpha Release (Phase 3)",
+    "section": "How It Works",
+    "text": "How It Works\n\nAssignment: Each group will be assigned one other group’s video and slide deck to review.\nAsynchronous Review: Watch the video, study the slides, and complete the peer evaluation rubric as a team. Every member of your group should watch the video.\nLive Review Presentation (10–15 min): Your group will present the other group’s project to the class. Walk the audience through what they built, what design choices they explored, and your evaluation of their work using the rubric.\n\n\n\n\n\n\n\nTip\n\n\n\nWhy this format? If five people conferred and worked to understand your project and still can’t explain it clearly, that’s important feedback. The clarity of your deliverables directly affects how well your reviewers can represent your work.",
+    "crumbs": [
+      "Home",
+      "Alpha Release (Phase 3)"
+    ]
+  },
+  {
+    "objectID": "Phase_3_Alpha.html#review-presentation",
+    "href": "Phase_3_Alpha.html#review-presentation",
+    "title": "Alpha Release (Phase 3)",
+    "section": "Your Review Presentation Will Cover",
+    "text": "Your Review Presentation Will Cover\n\nProject Overview: Summarize the domain, data, and visualization goals in your own words.\nDesign Artifacts: Walk through their key artifacts. Which ones are most effective and why? Which artifacts clash with principles we learned in class, and how could they be improved?\nRubric Evaluation: What did you like about the project? What do you wish the project did but doesn’t? What out of the box thinking could help the team innovate?\nRecommendations: What would you suggest they prioritize for the Beta Release?\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nWhat if we think the peer review score is unfair? \nDo all group members need to speak during the review presentation?",
+    "crumbs": [
+      "Home",
+      "Alpha Release (Phase 3)"
+    ]
+  },
+  {
+    "objectID": "Phase_3_Alpha.html#originality-checks",
+    "href": "Phase_3_Alpha.html#originality-checks",
+    "title": "Alpha Release (Phase 3)",
     "section": "Checks",
-    "text": "Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to your group with or without options for remediation:\n\nCheck for plagiarism via SafeAssign and by eye - Please refer to the syllabus for the course policy on Academic Misconduct\nCheck that images have correct attribution - Please refer to the syllabus for the course policy on Academic Misconduct",
+    "text": "Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to your group with or without options for remediation:\n\nCheck for plagiarism via SafeAssign and by eye - Please refer to the syllabus for the course policy on Academic Misconduct\nCheck for improperly or non-existent cited sources\nCheck that images have correct attribution - Please refer to the syllabus for the course policy on Academic Misconduct",
     "crumbs": [
       "Home",
-      "Revised Proposal + Related Works (Phase 2)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase_2_Proposal.html#timeliness-checks",
-    "href": "Phase_2_Proposal.html#timeliness-checks",
-    "title": "Revised Proposal + Related Works (Phase 2)",
+    "objectID": "Phase_3_Alpha.html#timeliness-checks",
+    "href": "Phase_3_Alpha.html#timeliness-checks",
+    "title": "Alpha Release (Phase 3)",
     "section": "Timeliness",
-    "text": "Timeliness\nLate policy for Group Work = -25% penalty per day (i.e. NOT compounded; 0% credit is available after four days). Requests for extensions must be made to and approved by the Professor, via email, before 9 pm on the day the assignment is due.",
+    "text": "Timeliness\nFor this phase, there are no extensions for videos and slide deck, as that would disadvantage the reviewing team.",
     "crumbs": [
       "Home",
-      "Revised Proposal + Related Works (Phase 2)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase_2_Proposal.html#rubric",
-    "href": "Phase_2_Proposal.html#rubric",
-    "title": "Revised Proposal + Related Works (Phase 2)",
+    "objectID": "Phase_3_Alpha.html#rubric",
+    "href": "Phase_3_Alpha.html#rubric",
+    "title": "Alpha Release (Phase 3)",
     "section": "Rubric",
-    "text": "Rubric\n[Rubric] Phase 1\n[Rubric] Related Works\n\n\n\n  \n    Check Beall's List, which is a list of potentially predatory publishers and journals. You can also look for signs like: the journal charges high fees with little editorial oversight, it accepts papers very quickly with minimal peer review, or it's not indexed in major academic databases. When in doubt, do a quick search for the journal name alongside the word \"predatory\" or ask the Professor.\n  \n\n  \n    Your related works collection is meant to inspire your visual design, not your domain knowledge or analytical methods. A related work is relevant if the visualization technique could plausibly be applied to your dataset. This means the marks, channels, and idioms used in the source are compatible with the structure of your data: the attribute types, dataset types, and tasks involved. Topic overlap alone does not make something a valid related work.\n    For example, if your dataset has two quantitative attributes and a categorical grouping, a scatterplot with color encoding is relevant. A chord diagram showing relationships between nodes is not, unless your data has that relational structure or you plan to derive the relationships.\n  \n\n  \n    The listicle itself cannot be your source, you must cite the original publication or post. If you find the original, then yes, you can use it, as long as it meets the quality standards described in Part 0. Be aware that tracking down originals can be time-consuming; it may be more efficient to search for high-quality sources directly.\n  \n\n  \n    Take a screenshot.\n  \n\n  \n    When you paste a link directly into sites like these, the image shown is the website-defined thumbnail, which may not be the one you want. If the image isn't the right one, you can click \"remove\" and add a screenshot instead, and put the link in the caption. You'll also need to do this if it's a pdf of a paper.\n  \n\n\n\n\n  ✕",
+    "text": "Rubric\n[Rubric] Phase 3",
     "crumbs": [
       "Home",
-      "Revised Proposal + Related Works (Phase 2)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase 0 Pitch.html",
-    "href": "Phase 0 Pitch.html",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "",
-    "text": "Due Date: 2/16/26",
+    "objectID": "Phase_3_Alpha.html#example-themes",
+    "href": "Phase_3_Alpha.html#example-themes",
+    "title": "Alpha Release (Phase 3)",
+    "section": "Example Theme Explorations",
+    "text": "Example Theme Explorations\n\n\n\n\n\n\nTipColor\n\n\n\n\n\nHere are some examples for what you could do to explore Color\nExperiment by comparing and contrasting multiple elements related to color, for example:\n\n(Which color scale to use??\nhow many color bins to use?\ncan we use hot vs fire?\nwhat is a diverging scale for?\nhow to use color with choropleths?)\n\nYou may want to try out multiple tools/packages for encoding with color in visualization, and ensure you can use the output in your project\n\nColorgorical\nColorBrewer\nVizPalette\nProPlot Python library\nColorMoves\n\nTo evaluate the Color theme, consider: For your project’s users+tasks+data, what are the perceptual ramifications of using different types of colormaps? What is the effect of changing the color binning? How many attributes can you show at once with each color scheme? What contrast is needed for colors in your vis? Are there any cultural constructs around your selected colors?\nNotes for the Color Theme:\n\nMake sure you compare and contrast different options, rather than trying 1 and saying “looks good.”\nIf you choose to use a color tool, ensure you understand how to use the output of the tool in your project\n\n\n\n\n\n\n\n\n\n\nTipTransformation\n\n\n\n\n\nHere are some examples for what you could do to explore Transformation\n\nExplore the effect of different abstractions: Abstractions\nTransform Tabular data → network: Graphia\nExplore different bar chart groupings: Basic grouped barplot in d3.js\nExplore different clustering/hierarchies: Tree, Cluster / D3 | Observable, D3 Hierarchies\n\nTo evaluate the Transformation theme, investigate different ways to transform your data, and/or to derive new data, and answer some relevant theme specific questions. What new data could you derive to improve the match between data semantics and the task? Why? Do you need to normalize your data? Do you need to standardize your data? Why or why not? Can you try out different semantics: for example, if your initial dataset type is tabular, can you transform it to another dataset type? Which one? What advantages might this hold? Disadvantages? How might you need to aggregate attributes hierarchically or derive groupings to improve the effectiveness of your visualizations?\nNotes for the Transformation Theme:\n\nYou may want to check if you need to get any additional supporting data to support your transformation. For example, latitude longitude of each country, country border polygons, GDP, county/state-level census data, etc.\n\n\n\n\n\n\n\n\n\n\nTipAnimation or Interaction\n\n\n\n\n\nHere are some examples for what you could do to explore Animation/ Interaction\n\nAnimating cartograms: A smooth transition between choropleth and cartogram\nAnimating transitions: How to Animate Transitions Between Multiple Charts | FlowingData\nScrollytelling: How to implement scrollytelling with six different libraries\nField animation: fieldanimation · PyPI\nFisheye distortion for tree views: Fisheye Distortion\n\nTo evaluate the Animation/Interaction theme, consider: what should the user be able to input and how will they input it? What should the user be able to customize, and via what widget (slider, direct input, radio button, etc) ? How many views will you have, and how will they be coordinated? How can you use animation to increase/decrease the effectiveness? What elements should be in an initial overview vs. a detail on-demand view? How might the user navigate within your system (zoom, pan, etc)? Would scrollytelling work for your case?\nNotes for the Animation/Interaction Theme\n\nArtifacts for this theme should be documented in the form of storyboards, wireframes, and/or user stories\n\n\n\n\n\n\n\n\n\n\nTipMarks + Channels\n\n\n\n\n\nHere are some examples for exploring Marks + Channels\n\nGo to the zoo (the visualization zoo): A Tour through the Visualization Zoo - ACM Queue\nLearn some new vocab (visual vocab): Visual Vocabulary\nChoose a few from the Python graph gallery: Python Graph Gallery\nChoose a few from the D3 graph library: The D3 Graph Gallery\n\nTo evaluate the Marks+Channels theme, after experimenting with different combinations of marks and channels relevant to the tasks you have identified, you could consider the scalability of these (i.e. what would happen if you try to break it with too much data). What visual channels can you use? For each visual channel you list, describe the data and attribute type it encodes. What marks can you use? How many attributes can you show at once with each combination of mark(s) + channel(s)? Which channels interfere, and how? Can you combine marks into glyphs?\nNotes for the Marks+Channels Theme:\n\nUse the concepts from Chapter 5 and Chapter 7 to describe the effects of each different idiom you create. Are you using best practices? Why or why not?\nMake sure you compare and contrast different options, rather than trying only 1 and saying “looks good.”",
     "crumbs": [
       "Home",
-      "Individual Project Pitch (Phase 0)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase 0 Pitch.html#identify-the-domain-subject-area",
-    "href": "Phase 0 Pitch.html#identify-the-domain-subject-area",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "1. Identify the domain (subject area)",
-    "text": "1. Identify the domain (subject area)\nUse an appropriate amount of specificity.\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of domains\n\n\n\n\nExplainable AI\nHealthcare economics\nSocial network analysis\n\n\n\n\n\n\n\n\n\n\n\nWarning❌Bad examples of domains\n\n\n\n\nMachine Learning (too broad)\nMinor 7th dominant cords in Bach symphonies (too specific)\nData visualization (too meta)",
+    "objectID": "Phase_3_Alpha.html#example-artifacts",
+    "href": "Phase_3_Alpha.html#example-artifacts",
+    "title": "Alpha Release (Phase 3)",
+    "section": "Example Artifact Compilations and Documentation",
+    "text": "Example Artifact Compilations and Documentation\n\n\n\n\n\n\nTipExamples of good artifact compilation + annotation\n\n\n\n\n\n\nHow Drawing Makes Us Better at Data Visualization\nUX Concept: Interaction Design Sketches from Flow Diagram | by Gisell Quignard | Bootcamp\n\n\n\n\n\n\n\n\n\n\nTipExamples of design process documentation that includes artifacts + evaluation\n\n\n\n\n\n\nA Data Visualization Adventure\nVisualizing Data\nHome Price Visualization\nData Vis Process Books",
     "crumbs": [
       "Home",
-      "Individual Project Pitch (Phase 0)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
-    "objectID": "Phase 0 Pitch.html#describe-a-target-user-of-your-vis",
-    "href": "Phase 0 Pitch.html#describe-a-target-user-of-your-vis",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "2. Describe a target user of your vis",
-    "text": "2. Describe a target user of your vis\nUse objective observables to describe them that relate to the task (check Chapter 3).\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of users\n\n\n\n\nConsumer with a fitness tracker\nA potential voter\n\nVenture capitalist\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of users\n\n\n\n\nMyself and/or my friends\nSomeone that doesn’t understand the data\nThe professor grading this vis",
+    "objectID": "Phase_3_Alpha.html#example-videos",
+    "href": "Phase_3_Alpha.html#example-videos",
+    "title": "Alpha Release (Phase 3)",
+    "section": "Example Video Demos",
+    "text": "Example Video Demos\n\n\n\n\n\n\nTipExamples of video demos\n\n\n\n\n\n\nPortfolio Optimization App with R Shiny | 2-Minute Demo\nIIT Bombay Interaction Design Student’s Projects: Scientific Visualization of Microorganisms\n\n\n\n\n\n\n\n  \n    There is no “correct” number of artifacts: a healthy dose of curiosity + continuous evaluation will get your team to the right number. The expectation for this phase is that you produce too many artifacts, and then prune to the most promising set based on your evaluation, your peers’ evaluations, and professor feedback. A good rule of thumb is that if you feel like you have \"enough,\" you probably need a few more. The minimum requirement is that at least two artifacts are implemented in code, but the rest can be sketches, mockups, wireframes, storyboards, etc.\n  \n\n  \n    Absolutely, a sketch counts. A design artifact is anything tangible you created to explore or evaluate a design idea: hand-drawn sketches, digital mockups, wireframes, annotated pseudocode, storyboards, and coded prototypes all qualify. The only requirement is that at least two (2) of your artifacts are implemented in software. The rest can be any format that helps you think through design choices.\n  \n\n  \n    The 8–9 minute range is a guideline, not a hard cutoff. Going slightly over or under is fine. However, a video that is significantly shorter likely isn't covering enough depth, and one that runs well over suggests you may need to tighten your presentation. Practice and trim as needed.\n  \n\n  \n    You can use auto-captioning tools built into Yuja, or use one from other video editors (e.g., iMovie, DaVinci Resolve, Premiere Pro) or platforms like YouTube's auto-generated captions (upload as unlisted, download the .srt, and burn them in). You can also use free tools like VEED.io or Kapwing. The key is that captions are present and legible — they don't need to be perfectly styled.\n  \n\n  \n    Peer review scores are one input, not the final grade. The professor will review all peer evaluations and calibrate scores. If you feel a score is significantly off, you can raise it with the professor after grades are released. The goal of peer review is constructive feedback, not punitive grading.\n  \n\n  \n    Yes, every group member should contribute to the live review presentation. You can divide it however you like (e.g., one person covers the project overview, another the rubric evaluation), but all members should have a speaking role. This ensures everyone engaged with the material.\n  \n\n\n\n\n  ✕",
     "crumbs": [
       "Home",
-      "Individual Project Pitch (Phase 0)"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#describe-the-main-tasks",
-    "href": "Phase 0 Pitch.html#describe-the-main-tasks",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "3. Describe the main task(s)",
-    "text": "3. Describe the main task(s)\nThese could be action/target pairs or analysis question(s) the user of your vis would need to do (check Chapter 3).\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of tasks\n\n\n\n\nDetermine how object size affects semantic segmentation boundaries\nCluster Goodreads users based on book genre and recommendations\nExplore the narrative structure of popular Manga\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of tasks\n\n\n\n\nTo understand the data\nTo learn about Chemistry",
-    "crumbs": [
-      "Home",
-      "Individual Project Pitch (Phase 0)"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#identify-one-or-more-datasets",
-    "href": "Phase 0 Pitch.html#identify-one-or-more-datasets",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "4. Identify one or more datasets",
-    "text": "4. Identify one or more datasets\nThese can be exemplars; you are not locked in. Make sure the dataset is available, documented, and of good quality.\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of datasets\n\n\n\n\nBird Migration Data (data was used for a published paper, documentation exists, readable .csv format)\nCityscapes Dataset (benchmark dataset used for many CV/AI/ML papers, lots of code available on internet to process)\nIris Dataset (another canonical dataset, straight from an academic lab)\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of datasets\n\n\n\n\nWe will scrape Instagram (you probably won’t have time, data will be messy)\nWe will collect a survey about people’s habits (designing a good survey is super tricky, takes time)\nWe will request Twitter/X API developer access to collect Tweets (again, no time)\nAnything like this: test.csv",
-    "crumbs": [
-      "Home",
-      "Individual Project Pitch (Phase 0)"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#find-link-and-briefly-describe-related-work",
-    "href": "Phase 0 Pitch.html#find-link-and-briefly-describe-related-work",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "5. Find, link, and briefly describe related work",
-    "text": "5. Find, link, and briefly describe related work\nThese should be a few related visualizations you’ve come across while looking into this area. You may want to consider how might a different kind of visualization reveal new insights?\nRelated work can be “related” by being similar in the What-Why-How framework (Chapter 1,2,3) in any of these ways:\n\n\n\n\n\n\nTipWays that related work can be related\n\n\n\n\nSame/similar domain\nSame/similar dataset type/semantics (Chapter 2)\nSimilar tasks & target user (Chapter 3)\nSimilar vis type/idiom (Chapter 5, Chapter 7, Chapter 8, Chapter 9)\nSimilar interaction mechanisms (Chapter 11-14)\n\n\n\nYou can use any visual you find on the internet or in print, but you must be able to trace it back to the original source and cite it.",
-    "crumbs": [
-      "Home",
-      "Individual Project Pitch (Phase 0)"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#perusing-classmates-pitches",
-    "href": "Phase 0 Pitch.html#perusing-classmates-pitches",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "Perusing Classmates’ Pitches",
-    "text": "Perusing Classmates’ Pitches\nI recommend reading through your classmates’ pitches and engaging by asking questions, reacting with thumbs up, or just mentioning that you like the idea because it sounds cool. Maybe as you surf you will have your own idea sparked anew.",
-    "crumbs": [
-      "Home",
-      "Individual Project Pitch (Phase 0)"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#originality-checks",
-    "href": "Phase 0 Pitch.html#originality-checks",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "Originality Checks",
-    "text": "Originality Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:\n\nCheck for plagiarism/crappy AI copypaste - Please refer to the syllabus for the course policy on Academic Misconduct\n\nCheck for no cited sources - You will be notified and asked to resubmit with the required citations within 1 day of notification, otherwise the Late Policy applies",
-    "crumbs": [
-      "Home",
-      "Individual Project Pitch (Phase 0)"
-    ]
-  },
-  {
-    "objectID": "Phase 0 Pitch.html#rubric",
-    "href": "Phase 0 Pitch.html#rubric",
-    "title": "Individual Project Pitch (Phase 0)",
-    "section": "Rubric",
-    "text": "Rubric\n\n\nGrading Rubric\n\n\n\n\n\n\n\n\nComplete\nNot Complete\n\n\n\n\nPitch contains domain\n\n\n\n\nPitch contains task/analysis questions\n\n\n\n\nPitch contains user description\n\n\n\n\nPitch contains dataset, which is cited\n\n\n\n\nPitch contains related works and links\n\n\n\n\nInstructions followed for posting",
-    "crumbs": [
-      "Home",
-      "Individual Project Pitch (Phase 0)"
+      "Alpha Release (Phase 3)"
     ]
   },
   {
@@ -407,142 +304,278 @@
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html",
-    "href": "Phase_3_Alpha.html",
-    "title": "Alpha Release: Presentation + Peer Review",
+    "objectID": "Phase 0 Pitch.html",
+    "href": "Phase 0 Pitch.html",
+    "title": "Individual Project Pitch (Phase 0)",
     "section": "",
-    "text": "AI Policy Details\n\n\n\n\n\n\n\nOk or nah?\nFor what?\nExamples\n\n\n\n\n can use \nDebugging and production polish\n✅ Fixing code bugs, captioning assistance, or video editing tips  ✅ Formatting slides, checking grammar on captions or annotations\n\n\n limited \nDrafting narration or slide text\n⚠️ AI can help you tighten wording or improve clarity, but the design rationale, evaluation, and trade-off analysis must be your group’s own. ⚠️ Descriptions of your design artifacts and their marks/channels must reflect your own understanding, not AI-generated summaries.\n\n\n don’t use \nIntellectual and creative work\n❌ Do not use AI to write your design evaluation or trade-off analysis. ❌ Do not use AI to produce your peer review evaluation or presentation content.\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIf you do choose to use AI for any part of this assignment, please disclose it and include a link to the chat.",
+    "text": "Due Date: 2/16/26",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#course-themes",
-    "href": "Phase_3_Alpha.html#course-themes",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Course Themes",
-    "text": "Course Themes\nThroughout this course we have explored some themes around different design choices: Color (Ch. 10), Transformation (Ch. 2–3), Animation/Interaction (Ch. 11–12), Marks + Channels (Ch. 5, 7, 8). These themes should guide your design exploration and evaluation.\nFor the Alpha release, your group must engage deeply with at least two or three themes of your choice. “Deeply” means exploring multiple options, comparing and contrasting them, and evaluating trade-offs using course principles, not just mentioning a theme in passing. To do this, you’ll generate many design artifacts.\nThere are some example theme explorations at the end of this doc.\n\n\n\n\n\n\nTipWhat is a design artifact?\n\n\n\n\n\nA design artifact is any tangible output of your design process: something you created to explore, communicate, or evaluate a design idea. This includes hand-drawn sketches, digital mockups, wireframes, custom color palettes, annotated pseudocode, process diagrams, storyboards, user stories, digital mockups. The key distinction is that an artifact is something you made to think through a design choice, not something merely described in words. A napkin sketch comparing two layout options is a design artifact; a paragraph saying “we considered two layouts” is not.\nThere is no “correct” number of artifacts: a healthy dose of curiosity + continuous evaluation will get your team to the right number. The expectation for this phase is that you produce too many artifacts, and then prune to the most promising set based on your evaluation, your peers’ evaluations, and professor feedback.\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nMinimum requirement: At least two (2) artifacts must be implemented in software. The rest can be sketches, mockups, or other non-code artifacts. More coded artifacts is always better to get a sense of feasibility.",
+    "objectID": "Phase 0 Pitch.html#identify-the-domain-subject-area",
+    "href": "Phase 0 Pitch.html#identify-the-domain-subject-area",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "1. Identify the domain (subject area)",
+    "text": "1. Identify the domain (subject area)\nUse an appropriate amount of specificity.\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of domains\n\n\n\n\nExplainable AI\nHealthcare economics\nSocial network analysis\n\n\n\n\n\n\n\n\n\n\n\nWarning❌Bad examples of domains\n\n\n\n\nMachine Learning (too broad)\nMinor 7th dominant cords in Bach symphonies (too specific)\nData visualization (too meta)",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#slide-deck",
-    "href": "Phase_3_Alpha.html#slide-deck",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Deliverable 1: Slide Deck",
-    "text": "Deliverable 1: Slide Deck\nYour slides should include:\n\nLabeled figures and screenshots of all design artifacts generated (coded and sketched), not just the ones presented in your video\nInformative image captions on every figure i.e. not just “Figure 1” but what it shows and why it matters. Check out this resource \n  \n for how to write great captions.\nKey design decisions or trade-offs\n\n\n\n\n\n\n\nNote\n\n\n\nYour slides and video will be shared with your peer review group, so they should be clear enough for someone unfamiliar with your project to follow, and well-captioned visuals make their job easier.",
+    "objectID": "Phase 0 Pitch.html#describe-a-target-user-of-your-vis",
+    "href": "Phase 0 Pitch.html#describe-a-target-user-of-your-vis",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "2. Describe a target user of your vis",
+    "text": "2. Describe a target user of your vis\nUse objective observables to describe them that relate to the task (check Chapter 3).\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of users\n\n\n\n\nConsumer with a fitness tracker\nA potential voter\n\nVenture capitalist\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of users\n\n\n\n\nMyself and/or my friends\nSomeone that doesn’t understand the data\nThe professor grading this vis",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#video-demo",
-    "href": "Phase_3_Alpha.html#video-demo",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Deliverable 2: Recorded Video Demo (8–9 minutes)",
-    "text": "Deliverable 2: Recorded Video Demo (8–9 minutes)\nThink of this as showing your work to a sponsor who might fund your project. Not a formal pitch, just what are you building, why, and what have you explored so far?\nYour video should include:\n\nDomain + Goal (∼30 sec) — What is your project about? What should a user be able to do with your visualization?\nData Walk-Through (∼30 sec) — Open your data, show its structure. How many items? What attributes? Any preprocessing or joining you had to do?\nCode Walk-Through (2–3 min) — Walk through your code. Explain and show how it works, not just the output.\nMost Promising Designs (1–2 min) — Present and discuss one or two designs your group is most excited about. Coded or polished sketches.\nArtifact Evaluation (1–2 min) — For each artifact you present in step 4: Which tasks does it support? What did you explore to come to this decision? What trade-offs did you make?\nNext Steps (∼30 sec) — What improvements or new directions are you planning?\n\nProduction requirements:\n\nNarrate with voice + captions, or use text annotations (call-outs, pop-ups). Closed-captions are required if you use voice, they can be auto-generated.\nIf using your mouse as a pointer, make sure the cursor is clearly visible\n\n\n\n\n\n\n\nImportant\n\n\n\nOnce a video assignment is submitted, Yuja doesn’t let students edit, replace, or delete the video file from their Media Collection, so make sure the final version is ready before anyone hits submit!\n\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nWhat if our video is slightly over or under the time limit? \nHow should we add closed-captions to our video?",
+    "objectID": "Phase 0 Pitch.html#describe-the-main-tasks",
+    "href": "Phase 0 Pitch.html#describe-the-main-tasks",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "3. Describe the main task(s)",
+    "text": "3. Describe the main task(s)\nThese could be action/target pairs or analysis question(s) the user of your vis would need to do (check Chapter 3).\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of tasks\n\n\n\n\nDetermine how object size affects semantic segmentation boundaries\nCluster Goodreads users based on book genre and recommendations\nExplore the narrative structure of popular Manga\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of tasks\n\n\n\n\nTo understand the data\nTo learn about Chemistry",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#how-it-works",
-    "href": "Phase_3_Alpha.html#how-it-works",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "How It Works",
-    "text": "How It Works\n\nAssignment: Each group will be assigned one other group’s video and slide deck to review.\nAsynchronous Review: Watch the video, study the slides, and complete the peer evaluation rubric as a team. Every member of your group should watch the video.\nLive Review Presentation (10–15 min): Your group will present the other group’s project to the class. Walk the audience through what they built, what design choices they explored, and your evaluation of their work using the rubric.\n\n\n\n\n\n\n\nTip\n\n\n\nWhy this format? If five people conferred and worked to understand your project and still can’t explain it clearly, that’s important feedback. The clarity of your deliverables directly affects how well your reviewers can represent your work.",
+    "objectID": "Phase 0 Pitch.html#identify-one-or-more-datasets",
+    "href": "Phase 0 Pitch.html#identify-one-or-more-datasets",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "4. Identify one or more datasets",
+    "text": "4. Identify one or more datasets\nThese can be exemplars; you are not locked in. Make sure the dataset is available, documented, and of good quality.\n\n\n\n\n\n\n\n\n\nTip✅ Good examples of datasets\n\n\n\n\nBird Migration Data (data was used for a published paper, documentation exists, readable .csv format)\nCityscapes Dataset (benchmark dataset used for many CV/AI/ML papers, lots of code available on internet to process)\nIris Dataset (another canonical dataset, straight from an academic lab)\n\n\n\n\n\n\n\n\n\n\n\nWarning❌ Bad examples of datasets\n\n\n\n\nWe will scrape Instagram (you probably won’t have time, data will be messy)\nWe will collect a survey about people’s habits (designing a good survey is super tricky, takes time)\nWe will request Twitter/X API developer access to collect Tweets (again, no time)\nAnything like this: test.csv",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#review-presentation",
-    "href": "Phase_3_Alpha.html#review-presentation",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Your Review Presentation Will Cover",
-    "text": "Your Review Presentation Will Cover\n\nProject Overview: Summarize the domain, data, and visualization goals in your own words.\nDesign Artifacts: Walk through their key artifacts. Which ones are most effective and why? Which artifacts clash with principles we learned in class, and how could they be improved?\nRubric Evaluation: What did you like about the project? What do you wish the project did but doesn’t? What out of the box thinking could help the team innovate?\nRecommendations: What would you suggest they prioritize for the Beta Release?\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nWhat if we think the peer review score is unfair? \nDo all group members need to speak during the review presentation?",
+    "objectID": "Phase 0 Pitch.html#find-link-and-briefly-describe-related-work",
+    "href": "Phase 0 Pitch.html#find-link-and-briefly-describe-related-work",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "5. Find, link, and briefly describe related work",
+    "text": "5. Find, link, and briefly describe related work\nThese should be a few related visualizations you’ve come across while looking into this area. You may want to consider how might a different kind of visualization reveal new insights?\nRelated work can be “related” by being similar in the What-Why-How framework (Chapter 1,2,3) in any of these ways:\n\n\n\n\n\n\nTipWays that related work can be related\n\n\n\n\nSame/similar domain\nSame/similar dataset type/semantics (Chapter 2)\nSimilar tasks & target user (Chapter 3)\nSimilar vis type/idiom (Chapter 5, Chapter 7, Chapter 8, Chapter 9)\nSimilar interaction mechanisms (Chapter 11-14)\n\n\n\nYou can use any visual you find on the internet or in print, but you must be able to trace it back to the original source and cite it.",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#originality-checks",
-    "href": "Phase_3_Alpha.html#originality-checks",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Checks",
-    "text": "Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to your group with or without options for remediation:\n\nCheck for plagiarism via SafeAssign and by eye - Please refer to the syllabus for the course policy on Academic Misconduct\nCheck for improperly or non-existent cited sources\nCheck that images have correct attribution - Please refer to the syllabus for the course policy on Academic Misconduct",
+    "objectID": "Phase 0 Pitch.html#perusing-classmates-pitches",
+    "href": "Phase 0 Pitch.html#perusing-classmates-pitches",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "Perusing Classmates’ Pitches",
+    "text": "Perusing Classmates’ Pitches\nI recommend reading through your classmates’ pitches and engaging by asking questions, reacting with thumbs up, or just mentioning that you like the idea because it sounds cool. Maybe as you surf you will have your own idea sparked anew.",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#timeliness-checks",
-    "href": "Phase_3_Alpha.html#timeliness-checks",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Timeliness",
-    "text": "Timeliness\nFor this phase, there are no extensions for videos and slide deck, as that would disadvantage the reviewing team.",
+    "objectID": "Phase 0 Pitch.html#originality-checks",
+    "href": "Phase 0 Pitch.html#originality-checks",
+    "title": "Individual Project Pitch (Phase 0)",
+    "section": "Originality Checks",
+    "text": "Originality Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:\n\nCheck for plagiarism/crappy AI copypaste - Please refer to the syllabus for the course policy on Academic Misconduct\n\nCheck for no cited sources - You will be notified and asked to resubmit with the required citations within 1 day of notification, otherwise the Late Policy applies",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#rubric",
-    "href": "Phase_3_Alpha.html#rubric",
-    "title": "Alpha Release: Presentation + Peer Review",
+    "objectID": "Phase 0 Pitch.html#rubric",
+    "href": "Phase 0 Pitch.html#rubric",
+    "title": "Individual Project Pitch (Phase 0)",
     "section": "Rubric",
-    "text": "Rubric\n[Rubric] Phase 3",
+    "text": "Rubric\n\n\nGrading Rubric\n\n\n\n\n\n\n\n\nComplete\nNot Complete\n\n\n\n\nPitch contains domain\n\n\n\n\nPitch contains task/analysis questions\n\n\n\n\nPitch contains user description\n\n\n\n\nPitch contains dataset, which is cited\n\n\n\n\nPitch contains related works and links\n\n\n\n\nInstructions followed for posting",
     "crumbs": [
       "Home",
-      "Alpha Release: Presentation + Peer Review"
+      "Individual Project Pitch (Phase 0)"
     ]
   },
   {
-    "objectID": "Phase_3_Alpha.html#example-themes",
-    "href": "Phase_3_Alpha.html#example-themes",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Example Theme Explorations",
-    "text": "Example Theme Explorations\n\n\n\n\n\n\nTipColor\n\n\n\n\n\nHere are some examples for what you could do to explore Color\nExperiment by comparing and contrasting multiple elements related to color, for example:\n\n(Which color scale to use??\nhow many color bins to use?\ncan we use hot vs fire?\nwhat is a diverging scale for?\nhow to use color with choropleths?)\n\nYou may want to try out multiple tools/packages for encoding with color in visualization, and ensure you can use the output in your project\n\nColorgorical\nColorBrewer\nVizPalette\nProPlot Python library\nColorMoves\n\nTo evaluate the Color theme, consider: For your project’s users+tasks+data, what are the perceptual ramifications of using different types of colormaps? What is the effect of changing the color binning? How many attributes can you show at once with each color scheme? What contrast is needed for colors in your vis? Are there any cultural constructs around your selected colors?\nNotes for the Color Theme:\n\nMake sure you compare and contrast different options, rather than trying 1 and saying “looks good.”\nIf you choose to use a color tool, ensure you understand how to use the output of the tool in your project\n\n\n\n\n\n\n\n\n\n\nTipTransformation\n\n\n\n\n\nHere are some examples for what you could do to explore Transformation\n\nExplore the effect of different abstractions: Abstractions\nTransform Tabular data → network: Graphia\nExplore different bar chart groupings: Basic grouped barplot in d3.js\nExplore different clustering/hierarchies: Tree, Cluster / D3 | Observable, D3 Hierarchies\n\nTo evaluate the Transformation theme, investigate different ways to transform your data, and/or to derive new data, and answer some relevant theme specific questions. What new data could you derive to improve the match between data semantics and the task? Why? Do you need to normalize your data? Do you need to standardize your data? Why or why not? Can you try out different semantics: for example, if your initial dataset type is tabular, can you transform it to another dataset type? Which one? What advantages might this hold? Disadvantages? How might you need to aggregate attributes hierarchically or derive groupings to improve the effectiveness of your visualizations?\nNotes for the Transformation Theme:\n\nYou may want to check if you need to get any additional supporting data to support your transformation. For example, latitude longitude of each country, country border polygons, GDP, county/state-level census data, etc.\n\n\n\n\n\n\n\n\n\n\nTipAnimation or Interaction\n\n\n\n\n\nHere are some examples for what you could do to explore Animation/ Interaction\n\nAnimating cartograms: A smooth transition between choropleth and cartogram\nAnimating transitions: How to Animate Transitions Between Multiple Charts | FlowingData\nScrollytelling: How to implement scrollytelling with six different libraries\nField animation: fieldanimation · PyPI\nFisheye distortion for tree views: Fisheye Distortion\n\nTo evaluate the Animation/Interaction theme, consider: what should the user be able to input and how will they input it? What should the user be able to customize, and via what widget (slider, direct input, radio button, etc) ? How many views will you have, and how will they be coordinated? How can you use animation to increase/decrease the effectiveness? What elements should be in an initial overview vs. a detail on-demand view? How might the user navigate within your system (zoom, pan, etc)? Would scrollytelling work for your case?\nNotes for the Animation/Interaction Theme\n\nArtifacts for this theme should be documented in the form of storyboards, wireframes, and/or user stories\n\n\n\n\n\n\n\n\n\n\nTipMarks + Channels\n\n\n\n\n\nHere are some examples for exploring Marks + Channels\n\nGo to the zoo (the visualization zoo): A Tour through the Visualization Zoo - ACM Queue\nLearn some new vocab (visual vocab): Visual Vocabulary\nChoose a few from the Python graph gallery: Python Graph Gallery\nChoose a few from the D3 graph library: The D3 Graph Gallery\n\nTo evaluate the Marks+Channels theme, after experimenting with different combinations of marks and channels relevant to the tasks you have identified, you could consider the scalability of these (i.e. what would happen if you try to break it with too much data). What visual channels can you use? For each visual channel you list, describe the data and attribute type it encodes. What marks can you use? How many attributes can you show at once with each combination of mark(s) + channel(s)? Which channels interfere, and how? Can you combine marks into glyphs?\nNotes for the Marks+Channels Theme:\n\nUse the concepts from Chapter 5 and Chapter 7 to describe the effects of each different idiom you create. Are you using best practices? Why or why not?\nMake sure you compare and contrast different options, rather than trying only 1 and saying “looks good.”",
-    "crumbs": [
-      "Home",
-      "Alpha Release: Presentation + Peer Review"
-    ]
-  },
-  {
-    "objectID": "Phase_3_Alpha.html#example-artifacts",
-    "href": "Phase_3_Alpha.html#example-artifacts",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Example Artifact Compilations and Documentation",
-    "text": "Example Artifact Compilations and Documentation\n\n\n\n\n\n\nTipExamples of good artifact compilation + annotation\n\n\n\n\n\n\nHow Drawing Makes Us Better at Data Visualization\nUX Concept: Interaction Design Sketches from Flow Diagram | by Gisell Quignard | Bootcamp\n\n\n\n\n\n\n\n\n\n\nTipExamples of design process documentation that includes artifacts + evaluation\n\n\n\n\n\n\nA Data Visualization Adventure\nVisualizing Data\nHome Price Visualization\nData Vis Process Books",
-    "crumbs": [
-      "Home",
-      "Alpha Release: Presentation + Peer Review"
-    ]
-  },
-  {
-    "objectID": "Phase_3_Alpha.html#example-videos",
-    "href": "Phase_3_Alpha.html#example-videos",
-    "title": "Alpha Release: Presentation + Peer Review",
-    "section": "Example Video Demos",
-    "text": "Example Video Demos\n\n\n\n\n\n\nTipExamples of video demos\n\n\n\n\n\n\nPortfolio Optimization App with R Shiny | 2-Minute Demo\nIIT Bombay Interaction Design Student’s Projects: Scientific Visualization of Microorganisms\n\n\n\n\n\n\n\n  \n    There is no “correct” number of artifacts: a healthy dose of curiosity + continuous evaluation will get your team to the right number. The expectation for this phase is that you produce too many artifacts, and then prune to the most promising set based on your evaluation, your peers’ evaluations, and professor feedback. A good rule of thumb is that if you feel like you have \"enough,\" you probably need a few more. The minimum requirement is that at least two artifacts are implemented in code, but the rest can be sketches, mockups, wireframes, storyboards, etc.\n  \n\n  \n    Absolutely, a sketch counts. A design artifact is anything tangible you created to explore or evaluate a design idea: hand-drawn sketches, digital mockups, wireframes, annotated pseudocode, storyboards, and coded prototypes all qualify. The only requirement is that at least two (2) of your artifacts are implemented in software. The rest can be any format that helps you think through design choices.\n  \n\n  \n    The 8–9 minute range is a guideline, not a hard cutoff. Going slightly over or under is fine. However, a video that is significantly shorter likely isn't covering enough depth, and one that runs well over suggests you may need to tighten your presentation. Practice and trim as needed.\n  \n\n  \n    You can use auto-captioning tools built into Yuja, or use one from other video editors (e.g., iMovie, DaVinci Resolve, Premiere Pro) or platforms like YouTube's auto-generated captions (upload as unlisted, download the .srt, and burn them in). You can also use free tools like VEED.io or Kapwing. The key is that captions are present and legible — they don't need to be perfectly styled.\n  \n\n  \n    Peer review scores are one input, not the final grade. The professor will review all peer evaluations and calibrate scores. If you feel a score is significantly off, you can raise it with the professor after grades are released. The goal of peer review is constructive feedback, not punitive grading.\n  \n\n  \n    Yes, every group member should contribute to the live review presentation. You can divide it however you like (e.g., one person covers the project overview, another the rubric evaluation), but all members should have a speaking role. This ensures everyone engaged with the material.\n  \n\n\n\n\n  ✕",
-    "crumbs": [
-      "Home",
-      "Alpha Release: Presentation + Peer Review"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
+    "objectID": "Phase_2_Proposal.html",
+    "href": "Phase_2_Proposal.html",
+    "title": "Revised Proposal + Related Works (Phase 2)",
     "section": "",
-    "text": "This is stuff for Dr. Williams’ section of Data Visualization (CMSC 436 and 636).\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. You may want to use it for your group project! You can embed reactive apps in it."
+    "text": "Due Date: Mar 9, 2026",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#step-1-find-inspo",
+    "href": "Phase_2_Proposal.html#step-1-find-inspo",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Step 1: Find Inspo",
+    "text": "Step 1: Find Inspo\nBoth individually and as a group, search for many related visualizations and add them to whatever tool your group is using for brainstorming.\n\n\n\n\n\n\nImportant\n\n\n\nPlease note that if you do get your vis from an internet compiled list (listicle) this is usually NOT the original source; you must search for the original publication/post. Typically posts on reddit say something like [OC] for original content (but not always), which would be considered the original source, but be sure to double check.\nHere is an example of a listicle: https://visme.co/blog/best-data-visualizations/. Note that it has no links to the originals, which means it is a bad source and should not be used. If you really like an image you can go look for the original, but that may be a bad use of your time.\n\n\n\nYour sources should be relevant to the visualization aspects of your project. Please take care that you are not including sources that are only relevant to the domain or non-visual analysis technique.\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\nMy source is about the same topic as my project, does that make it a valid related work?\n\n\n\nEach person in your group must contribute at least 2 unique items to the collection, and write some quick notes in your google doc describing 1) how the source’s author(s) visually encode their data (marks, identity channels, magnitude channels), and 2)how it is similar to and/or different from your proposed approach/idea.\n\neach person should type their own text into the doc\nwith their text, each person should also put the links where they got their images from\n\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nHow do I know if a journal is predatory? \nCan I use a listicle as a source if I find the original image?",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#step-2-document-and-reflect",
+    "href": "Phase_2_Proposal.html#step-2-document-and-reflect",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Step 2: Document and Reflect",
+    "text": "Step 2: Document and Reflect\n\nTake a screenshot of your entire collection and paste it into your Google doc. Make sure that all the images are showing.\nUsing everyone’s notes from their collected sources, write a short high-level reflection on the group’s findings (400 words max).\n\n\n\n\n\n\n\nWarningFAQs\n\n\n\n\nWhat if it’s animated/interactive? \nWhy isn’t the right image showing up when I paste a link in Padlet or Mural or Miro?",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#step-3-continue-to-search-to-avoid-design-fixation",
+    "href": "Phase_2_Proposal.html#step-3-continue-to-search-to-avoid-design-fixation",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Step 3+: Continue to search to avoid design fixation",
+    "text": "Step 3+: Continue to search to avoid design fixation\nKeep updating this collection of related work throughout your project, as features, scope, tasks, etc evolve. Prune as needed.\n\n\n\n\n\n\nNoteWhat is design fixation and why should we care?\n\n\n\nDesign fixation is the tendency to get stuck on an initial concept and unconsciously constrain your thinking around it, even when better solutions exist. It’s the mental trap of anchoring too early on a specific idea, making it hard to explore genuinely different directions.\nWhy does it matter for this project and beyond?\n\nA lot of times people settle on familiar vis idioms because they are familiar, not because they are the most effective for your user/task/data\nIt’s also easy to gravitate toward whatever the default output of a library looks like, instead of what your data and user actually need\nSeeking out varied references across domains and styles forces you to decouple the design problem from the implementation",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#originality-checks",
+    "href": "Phase_2_Proposal.html#originality-checks",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Checks",
+    "text": "Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to your group with or without options for remediation:\n\nCheck for plagiarism via SafeAssign and by eye - Please refer to the syllabus for the course policy on Academic Misconduct\nCheck that images have correct attribution - Please refer to the syllabus for the course policy on Academic Misconduct",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#timeliness-checks",
+    "href": "Phase_2_Proposal.html#timeliness-checks",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Timeliness",
+    "text": "Timeliness\nLate policy for Group Work = -25% penalty per day (i.e. NOT compounded; 0% credit is available after four days). Requests for extensions must be made to and approved by the Professor, via email, before 9 pm on the day the assignment is due.",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "Phase_2_Proposal.html#rubric",
+    "href": "Phase_2_Proposal.html#rubric",
+    "title": "Revised Proposal + Related Works (Phase 2)",
+    "section": "Rubric",
+    "text": "Rubric\n[Rubric] Phase 1\n[Rubric] Related Works\n\n\n\n  \n    Check Beall's List, which is a list of potentially predatory publishers and journals. You can also look for signs like: the journal charges high fees with little editorial oversight, it accepts papers very quickly with minimal peer review, or it's not indexed in major academic databases. When in doubt, do a quick search for the journal name alongside the word \"predatory\" or ask the Professor.\n  \n\n  \n    Your related works collection is meant to inspire your visual design, not your domain knowledge or analytical methods. A related work is relevant if the visualization technique could plausibly be applied to your dataset. This means the marks, channels, and idioms used in the source are compatible with the structure of your data: the attribute types, dataset types, and tasks involved. Topic overlap alone does not make something a valid related work.\n    For example, if your dataset has two quantitative attributes and a categorical grouping, a scatterplot with color encoding is relevant. A chord diagram showing relationships between nodes is not, unless your data has that relational structure or you plan to derive the relationships.\n  \n\n  \n    The listicle itself cannot be your source, you must cite the original publication or post. If you find the original, then yes, you can use it, as long as it meets the quality standards described in Part 0. Be aware that tracking down originals can be time-consuming; it may be more efficient to search for high-quality sources directly.\n  \n\n  \n    Take a screenshot.\n  \n\n  \n    When you paste a link directly into sites like these, the image shown is the website-defined thumbnail, which may not be the one you want. If the image isn't the right one, you can click \"remove\" and add a screenshot instead, and put the link in the caption. You'll also need to do this if it's a pdf of a paper.\n  \n\n\n\n\n  ✕",
+    "crumbs": [
+      "Home",
+      "Revised Proposal + Related Works (Phase 2)"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is an alpha test of trying to rely less on blackboard because it infuriates me. Seriously the rage I feel when interacting with BB is beyond compare.",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html",
+    "href": "Assignment-1-instructions.html",
+    "title": "Assignment 1 Instructions",
+    "section": "",
+    "text": "Due Date: 2/25/26 (FLEX to 3/4/26)",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#step-0:-choose-one-or-two-visualizations-to-recreate",
+    "href": "Assignment-1-instructions.html#step-0:-choose-one-or-two-visualizations-to-recreate",
+    "title": "Assignment 1 Instructions",
+    "section": "Step 0: Choose one or two Visualizations to Recreate",
+    "text": "Step 0: Choose one or two Visualizations to Recreate\n\nBrowse the set of provided visualizations and datasets\n  \n.Each vis is accompanied by the dataset used to create it. Select one or two visualizations to attempt to recreate.\n\nFamiliarize yourself with the dataset and its structure. Do some exploring on the Data to Viz \n  \n site to learn common vis names, caveats, and some tips to create them. As a hint, I have put the chart name in brackets for each image (though sometimes names will differ!)\n\nDecide whether you will use AI or not – if you use it, be sure to include the link in your submission",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#1-with-your-chosen-tool",
+    "href": "Assignment-1-instructions.html#1-with-your-chosen-tool",
+    "title": "Assignment 1 Instructions",
+    "section": "Step 1: Recreate the vis with your chosen tool",
+    "text": "Step 1: Recreate the vis with your chosen tool\n\nFirst, choose an appropriate tool for your chosen vis from the list of approved tools below. You can change your mind at any time.\n\n\n\n\n\n\n\n  \n  Holoviz Panel\n\n\n\n  \n  Manim\n\n\n\n  \n  Unreal Engine\n\n\n\n  \n  CosmoGraph\n\n\n\n  \n  Bokeh\n\n\n\n  \n  Vega-Lite\n\n\n\n  \n  Gephi\n\n\n\n  \n  Seaborn\n\n\n\n  \n  Folium\n\n\n\n  \n  Plotly\n\n\n\n  \n  MATLAB\n\n\n\n  \n  Shiny\n\n\n\n  \n  D3.js\n\n\n\n  \n  Matplotlib\n\n\n\n  \n  Blender\n\n\n\n  \n  QGIS\n\n\n\n  \n  Google Charts\n\n\n\n  \n  VisIt\n\n\n\n  \n  OpenGL\n\n\n\n  \n  VTK\n\n\n\n  \n  Unity\n\n\n\n  \n  Orange\n\n\n\n\n\nNext, load and prepare the dataset.\n\n\n\n\n\n\nNote\n\n\n\nThe dataset may require preprocessing (e.g., filtering, cleaning, or restructuring) to match the visual representation in the original image. You should document any changes you make to the dataset to recreate the visualization. You can add auxiliary data as needed, but don’t forget to cite and document it!\n\n\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Do we have to write code to stream the data from the Google Docs link? \n\n\n\nWrite some code to recreate the visualization(s) as accurately as you can\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Do I need to try and replicate even the little icons and shapes? \n Do we have to match the colors too? \n What if I can’t get an exact 1:1 replica?\n\n\n\nWrite a step-by-step breakdown of how you created each visualization (for eample, any data cleaning or transformation required, how to change the formatting to match the original, how to add text and/or annotations, etc.).\nYou can do this by choosing one or more of these options:\n\n(preferred option) Interspersing markdown cells with your code cells in notebook environments, such as Colab, Jupyter, Observable, R, Matlab. Also export to .pdf if possible.\n\nUse Quarto to intersperse text and code (node you’ll still need to upload the runnable code)\n\nIncluding block comments in your code, and line comments as well (ok option, but gets hard to read fast)\n\nScreenshotting code snippets and putting them into a word doc interspersed with text (not recommended, but you do you)\n\nNarrating a screen-capture video of you writing the code while explaining what you’re doing. Be sure to include closed captions/subtitles (great choice if you don’t like fiddling with documents)\n\nYour documentation should be clear enough that another student could follow your steps and recreate your visualization without prior knowledge of the data or tool.\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n If I choose the video option, can I use AI to generate the narration? \n How beautiful does my code need to be?",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#step-2-add-a-descriptive-caption-to-your-vis",
+    "href": "Assignment-1-instructions.html#step-2-add-a-descriptive-caption-to-your-vis",
+    "title": "Assignment 1 Instructions",
+    "section": "Step 2: Add a descriptive caption to your vis",
+    "text": "Step 2: Add a descriptive caption to your vis\nAdd a caption summarizing the visualization’s purpose and encodings. Check out this resource \n  \n for how to write great captions.\n\nSome vis tools have built-in functionality for creating captions, others don’t. If you choose a tool that doesn’t, find a workaround, and then you can mention how annoying it was to have to do that in your reflection 😀.\n\n\n\n\n\n\n\nNote\n\n\n\nCaptions are more than just titles! They should be able to stand alone if taken out of context, succinctly describing the main points the viewer should take away from looking at this image: What is being shown? What are the salient features? What task or analysis question can be completed or addressed by this vis?",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#step-4:-reflection",
+    "href": "Assignment-1-instructions.html#step-4:-reflection",
+    "title": "Assignment 1 Instructions",
+    "section": "Step 3: Reflection",
+    "text": "Step 3: Reflection\n\n\n\n\n\n\nImportant\n\n\n\nPlease type in the Google Assignent doc provided on Blackboard, don’t copy paste from another doc, or it will get flagged as plagiarism by the system! Also pls no AI\n\n\nAs you’re working, take some time to reflect and write some short notes about:\n\nWhich tools did you consider, and which did you end up choosing to use, and why?\n\nWhat challenges did you encounter in replicating the visualization?\n\nDid you have to modify the dataset in any way to get the desired output?\n\nWhich features of your tool helped or hindered the recreation process (strengths/limitations)?\n\nAre there elements of the original visualization that were difficult or impossible to replicate? If so, why?\n\nWhat is one piece of advice you would give someone wanting to use this tool?\n\nIf you had to do this again, would you choose the same tool? Why or why not?\n\nWrite your reflection via Blackboard under Assignment 1 Part 2, then don’t forget to press ✨Submit ✨\n\n\n\n\n\n\nTipFAQs\n\n\n\n\n Are bullets fine for my reflection, or do you want a full essay?",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#originality-checks",
+    "href": "Assignment-1-instructions.html#originality-checks",
+    "title": "Assignment 1 Instructions",
+    "section": "Originality Checks",
+    "text": "Originality Checks\nThe following checks will be performed for each submission; If any of these validation conditions are not satisfied, your assignment will be returned to you with or without options for remediation:\n\nEnsure that your recreated visualization was generated from the dataset, not simply redrawn in Canva or other drawing program. - Please refer to the syllabus for the course policy on Academic Misconduct\n\nAI Policy must be followed, including a link to the chat\n\nResponses to reflection questions must be specific to your experience – generic AI-generated answers will be flagged.",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#timeliness-checks",
+    "href": "Assignment-1-instructions.html#timeliness-checks",
+    "title": "Assignment 1 Instructions",
+    "section": "Timeliness",
+    "text": "Timeliness\nRequests for extensions must be made to the Professor before the assignment due date and time (by 9 pm).\n\n\n\n\n  Late Deduction Calculator\n\n  \n    \n    \n      Due Date and Time:\n      \n\n      \n\n      Submission Date and Time:\n      \n\n      \n\n      Calculate the Damage!",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
+  },
+  {
+    "objectID": "Assignment-1-instructions.html#rubric",
+    "href": "Assignment-1-instructions.html#rubric",
+    "title": "Assignment 1 Instructions",
+    "section": "Rubric",
+    "text": "Rubric\nlink to the rubric",
+    "crumbs": [
+      "Home",
+      "Assignment 1 Instructions"
+    ]
   }
 ]
