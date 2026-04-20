@@ -1,14 +1,29 @@
 {
-  "index.qmd": {
-    "index.html": "1c947c71"
+  "Assignment_2.qmd": {
+    "Assignment_2.html": "a75bf65c"
   },
   "Phase 0 Pitch.qmd": {
-    "Phase 0 Pitch.html": "ed016220"
+    "Phase 0 Pitch.html": "966d3775"
+  },
+  "Phase 1 Proposal.qmd": {
+    "Phase 1 Proposal.html": "2f74731a"
+  },
+  "Phase_2_Proposal.qmd": {
+    "Phase_2_Proposal.html": "93a132ad"
+  },
+  "Phase_3_Alpha.qmd": {
+    "Phase_3_Alpha.html": "a6aacbc0"
   },
   "about.qmd": {
-    "about.html": "dface18c"
+    "about.html": "bdba8c33"
+  },
+  "index.qmd": {
+    "index.html": "300b2271"
   },
   "Assignment-1-instructions.qmd": {
-    "Assignment-1-instructions.html": "8056a875"
+    "Assignment-1-instructions.html": "4a0e0f9f"
+  },
+  "Phase_4_Beta.qmd": {
+    "Phase_4_Beta.html": "00b159a1"
   }
 }
